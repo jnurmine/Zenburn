@@ -1,0 +1,2 @@
+  * Get rid of RCS tags $Id$ and $Date$, Git doesn't support those
+  * ctags_highlighting support. Fix it, or remove it. Is anyone using it?
