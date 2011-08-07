@@ -45,6 +45,7 @@
 "    out issues with LineNr, fix directory styles, and their usage in MacVim.
 "  - Paweł Piekarski - Spotted bad FoldColumn and TabLine. Made better 
 "                      FoldColumn colors, fixed TabLine colors.
+"  - Jim - Fix for missing Include group for terminal
 "
 " CONFIGURABLE PARAMETERS:
 "
@@ -271,6 +272,7 @@ if &t_Co > 255
     hi Float           ctermfg=251
     hi Function        ctermfg=228
     hi Identifier      ctermfg=223
+    hi Include         ctermfg=180   cterm=bold
     hi IncSearch       ctermbg=228   ctermfg=238
     hi Keyword         ctermfg=223   cterm=bold
     hi Label           ctermfg=187   cterm=underline
