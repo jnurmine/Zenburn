@@ -172,25 +172,19 @@ if ! exists("g:zenburn_old_Visual")
     let g:zenburn_old_Visual = 0
 endif
 
-if ! exists("g:zenburn_disable_ctags_highlighting_support")
-    " enabled by default
-    let g:zenburn_disable_ctags_highlighting_support = 0
+if ! exists("g:zenburn_enable_TagHighlight")
+    let g:zenburn_enable_TagHighlight = 0
 endif
 
 " -----------------------------------------------
 
 set background=dark
+
 hi clear
 if exists("syntax_on")
     syntax reset
 endif
 let g:colors_name="zenburn"
-
-" check for ctags-highlighting
-if exists("g:loaded_ctags_highlighting") && g:loaded_ctags_highlighting && ! g:zenburn_disable_ctags_highlighting_support
-    " internal
-    let _zenburn_ctags = 1
-endif
 
 hi Boolean         guifg=#dca3a3
 hi Character       guifg=#dca3a3 gui=bold
@@ -540,26 +534,53 @@ endif
 " on appearance, not semantics. In later versions I might define more new colours.
 "
 " HELP NEEDED to make this work properly.
-if exists("_zenburn_ctags") && _zenburn_ctags
 
+if exists("g:zenburn_enable_TagHighlight") && g:zenburn_enable_TagHighlight
+        " CTag support may vary, but the first step is to start using it so
+        " we can fix it!
+        "
+        " Consult /plugin/TagHighlight/data/kinds.txt for info on your
+        " language and what's been defined.
+        "
+        " There is potential for language indepedent features here. (Acutally,
+        " seems it may be required for this to be useful...) This way we can
+        " implement features depending on how well CTags are currently implemented
+        " for the language. ie. Global problem for python is annoying.  Special
+        " colors are defined for special language features, etc..
+        "
+        " For now all I care about is python supported features:
+        "   c:CTagsClass
+        "   f:CTagsFunction
+        "   i:CTagsImport
+        "   m:CTagsMember
+        "   v:CTagsGlobalVariable
+        "
+        "   Note: TagHighlight defaults to setting new tags to Keyword
+        "   highlighting.
+
+        " TODO conditionally run each section
+        " BEGIN Python Section
+        hi link Class        Function
+        hi link Import       PythonInclude
+        hi link Member       Function
+        "Note: Function is already defined
+        
         " Highlighter seems to think a lot of things are global variables even
         " though they're not. Example: python method-local variable is
         " coloured as a global variable. They should not be global, since
         " they're not visible outside the method.
         " If this is some very bright colour group then things look bad.
-        hi link CTagsGlobalVariable    Identifier
-
-        hi CTagsClass             guifg=#acd0b3
-        if &t_Co > 255
-            hi CTagsClass         ctermfg=115
-        endif
-
-        hi link CTagsImport       Statement
-        hi link CTagsMember       Function
-
-        hi link CTagsGlobalConstant    Constant
-
-        " These do not yet have support, I can't get them to appear
+        " hi link GlobalVariable    Identifier
+        
+        " Because of this problem I am disabling the feature by setting it to
+        " Normal instead
+        hi link GlobalVariable Normal
+        " END Python Section
+        
+        " Starting point for other languages.
+        hi link GlobalConstant    Constant
+        " These do not yet have support, I can't get them to appear.  Support
+        " for what language? TODO Remove comment.
         hi link EnumerationValue  Float
         hi link EnumerationName   Identifier
         hi link DefinedName       WarningMsg
