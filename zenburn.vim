@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Jani Nurminen <slinky@iki.fi>
-" Last Change:  $Id: zenburn.vim,v 2.21 2011/04/26 12:13:41 slinky Exp slinky $
+" Version:      v 2.22
 " URL:          http://slinky.imukuppi.org/zenburnpage/
 " License:      GNU GPL <http://www.gnu.org/licenses/gpl.html>
 "
@@ -46,6 +46,7 @@
 "  - Paweł Piekarski - Spotted bad FoldColumn and TabLine. Made better 
 "                      FoldColumn colors, fixed TabLine colors.
 "  - Jim - Fix for missing Include group for terminal
+"  - Peter (Sakartu) - ColorColumn fixes
 "
 " CONFIGURABLE PARAMETERS:
 "
@@ -334,6 +335,8 @@ if &t_Co > 255
         else
             hi CursorColumn      ctermbg=235   cterm=none
         endif
+
+        hi ColorColumn     ctermbg=235
     else
         hi Normal ctermfg=188 ctermbg=237
         hi Cursor          ctermbg=109
@@ -359,7 +362,7 @@ if &t_Co > 255
         if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
             hi Ignore          ctermfg=240
         endif
-        
+
         " normal mode, lighter CursorLine
         hi CursorLine      ctermbg=238   cterm=none
 
@@ -368,6 +371,8 @@ if &t_Co > 255
         else
             hi CursorColumn      ctermbg=239   cterm=none
         endif
+
+        hi ColorColumn     ctermbg=238
     endif
 
     if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
@@ -406,8 +411,10 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi TabLineSel      guifg=#efefef guibg=#1c1c1b gui=bold
     hi TabLine         guifg=#b6bf98 guibg=#181818 gui=bold
     hi NonText         guifg=#404040 gui=bold
-    
+
     hi LineNr          guifg=#9fafaf guibg=#161616
+
+    hi ColorColumn     guibg=#33332f
 else
     " Original, lighter background
     hi Normal          guifg=#dcdccc guibg=#3f3f3f
@@ -427,8 +434,10 @@ else
     hi TabLineSel      guifg=#efefef guibg=#3a3a39 gui=bold
     hi TabLine         guifg=#b6bf98 guibg=#353535 gui=bold
     hi NonText         guifg=#5b605e gui=bold
-    
+
     hi LineNr          guifg=#9fafaf guibg=#262626
+
+    hi ColorColumn     guibg=#484848
 endif
 
 if exists("g:zenburn_old_Visual") && g:zenburn_old_Visual
@@ -496,9 +505,9 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi TabLine       guifg=#88b090 guibg=#313633 gui=none
     hi TabLineSel    guifg=#ccd990 guibg=#222222
     hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none
-    
+
     hi SpecialKey    guibg=#242424
-    
+
     if &t_Co > 255
         hi FoldColumn    ctermbg=233 ctermfg=109
         hi Folded        ctermbg=233 ctermfg=109
@@ -512,7 +521,7 @@ else
     hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none
     hi TabLineSel    guifg=#f0f0b0 guibg=#333333 gui=bold
     hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none
-    
+
     hi SpecialKey    guibg=#444444
 
     if &t_Co > 255
@@ -538,8 +547,8 @@ if exists("_zenburn_ctags") && _zenburn_ctags
         " coloured as a global variable. They should not be global, since
         " they're not visible outside the method.
         " If this is some very bright colour group then things look bad.
-    	hi link CTagsGlobalVariable    Identifier
-        
+        hi link CTagsGlobalVariable    Identifier
+
         hi CTagsClass             guifg=#acd0b3
         if &t_Co > 255
             hi CTagsClass         ctermfg=115
@@ -548,15 +557,15 @@ if exists("_zenburn_ctags") && _zenburn_ctags
         hi link CTagsImport       Statement
         hi link CTagsMember       Function
 
-    	hi link CTagsGlobalConstant    Constant
-  
+        hi link CTagsGlobalConstant    Constant
+
         " These do not yet have support, I can't get them to appear
         hi link EnumerationValue  Float
         hi link EnumerationName   Identifier
         hi link DefinedName       WarningMsg
-    	hi link LocalVariable     WarningMsg
-    	hi link Structure         WarningMsg
-    	hi link Union             WarningMsg
+        hi link LocalVariable     WarningMsg
+        hi link Structure         WarningMsg
+        hi link Union             WarningMsg
 endif
 
 " TODO check for more obscure syntax groups that they're ok
