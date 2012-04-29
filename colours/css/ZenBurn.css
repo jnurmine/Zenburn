@@ -1,0 +1,300 @@
+.normaldcdccc {
+	color: #dcdccc;
+}
+
+.background3f3f3f {
+	color: #3f3f3f;
+}
+
+.booleandca3a3 {
+	color: #dca3a3;
+}
+
+.characterdca3a3 {
+	color: #dca3a3;
+}
+
+.comment7f9f7f {
+	color: #7f9f7f;
+}
+
+.conditionalf0dfaf {
+	color: #f0dfaf;
+}
+
+.constantdca3a3 {
+	color: #dca3a3;
+}
+
+.cursorforeground000d18 {
+	color: #000d18;
+}
+
+.cursorbackground8faf9f {
+	color: #8faf9f;
+}
+
+.debugbca3a3 {
+	color: #bca3a3;
+}
+
+.defineffcfaf {
+	color: #ffcfaf;
+}
+
+.delimiter8f8f8f {
+	color: #8f8f8f;
+}
+
+.diffaddforeground708090 {
+	color: #709080;
+}
+
+.diffaddbackground313c36 {
+	color: #313c36;
+}
+
+.diffchangeforegrounddcdccc {
+	color: #dcdccc;
+}
+
+.diffchangebackground333333 {
+	color: #333333;
+}
+
+.diffdeleteforeground333333 {
+	color: #333333;
+}
+
+.diffdeletebackground464646 {
+	color: #464646;
+}
+
+.difftextforegroundecbcbc {
+	color: #ecbcbc;
+}
+
+.difftextbackground41363c {
+	color: #41363c;
+}
+
+.directory {
+	color: #dcdccc;
+}
+
+.errormsgforeground80d4aa {
+	color: #80d4aa;
+}
+
+.errormsgbackground2f2f2f {
+	color: #2f2f2f;
+}
+
+.exceptionc3bf9f {
+	color: #c3bf9f;
+}
+
+.floatc3bf9f {
+	color: #c0bed1;
+}
+
+.foldcolumnforeground93b3a3 {
+	color: #93b3a3;
+}
+
+.foldcolumnbackground3f4040 {
+	color: #3f4040;
+}
+
+.foldedforeground93b3a3 {
+	color: #93b3a3;
+}
+
+.foldedbackground3f4040 {
+	color: #3f4040;
+}
+
+.fuctionefef8f {
+	color: #efef8f;
+}
+
+.identifierefdcbc {
+	color: #efdcbc;
+}
+
+.incsearchforeground385f38 {
+	color: #385f38;
+}
+
+.incsearchbackgroundf8f893 {
+	color: #f8f893;
+}
+
+.keywordf0dfaf {
+	color: #f0dfaf;
+}
+
+.labeldfcfaf {
+	color: #dfcfaf;
+}
+
+.linenrforeground9fafaf {
+	color: #9fafaf;
+}
+
+.linenrbackground262626 {
+	color: #262626;
+}
+
+.macroffcfaf {
+	color: #ffcfaf;
+}
+
+.modemsgffcfaf {
+	color: #ffcfaf;
+}
+
+.moremsgffffff {
+	color: #ffffff;
+}
+
+.nontextforeground404040 {
+	color: #404040;
+}
+
+.number8cd0d3 {
+	color: #8cd0d3;
+}
+
+.operatorf0efd0 {
+	color: #f0efd0;
+}
+
+.preconduitdfaf8f {
+	color: #dfaf8f;
+}
+
+.preprocffcfaf {
+	color: #ffcfaf;
+}
+
+.questionffffff {
+	color: #ffffff;
+}
+
+.repeatffd7a7 {
+	color: #ffd7a7;
+}
+
+.searchforegroundffffe0 {
+	color: #ffffe0;
+}
+
+.searchbackground284f28 {
+	color: #284f28;
+}
+
+.specialchardca3a3 {
+	color: #dca3a3;
+}
+
+.specialcomment82a282 {
+	color: #82a282;
+}
+
+.specialcfbfaf {
+	color: #cfbfaf;
+}
+
+.specialkey9ece9e {
+	color: #9ece9e;
+}
+
+.statemente3ceab {
+	color: #e3ceab;
+}
+
+.statuslineforeground2e4340 {
+	color: #2e4340;
+}
+
+.statuslinebackgroundccdc90 {
+	color: #ccdc90;
+}
+
+.statuslinencforeground2e3330 {
+	color: #2e3330;
+}
+
+.statuslinencbackground88b090 {
+	color: #88b090;
+}
+
+.storageclassc3bf9f {
+	color: #c3bf9f;
+}
+
+.stringcc9393 {
+	color: #cc9393;
+}
+
+.structureefefaf {
+	color: #efefaf;
+}
+
+.tage89393 {
+	color: #e89393;
+}
+
+.titleefefef {
+	color: #efefef;
+}
+
+.tododfdfdf {
+	color: #dfdfdf;
+}
+
+.typedefdfe4cf {
+	color: #dfe4cf;
+}
+
+.typedfdfbf {
+	color: #dfdfbf;
+}
+
+.underlineddcdccc {
+	color: #dcdccc;
+}
+
+.vertsplitforeground303030 {
+	color: #303030;
+}
+
+.vertsplitbackground688060 {
+	color: #688060;
+}
+
+.visualnosforeground333333 {
+	color: #333333;
+}
+
+.visualnosbackgroundf18c96 {
+	color: #f18c96;
+}
+
+.warningmsgforegroundffffff {
+	color: #ffffff;
+}
+
+.warningmsgbackground333333 {
+	color: #333333;
+}
+
+.wildmenuforegrounddca3a3 {
+	color: #dca3a3;
+}
+
+.wildmenubackground2c302d {
+	color: #2c302d;
+}
+

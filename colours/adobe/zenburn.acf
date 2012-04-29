@@ -1,0 +1,165 @@
+ACF 1.0
+zenburn.acf
+LibraryVersion: 1.0
+Copyright: 
+AboutMessage: 
+Names: Partial
+Rows: 12
+Columns: 12
+Entries: 75
+Prefix: 
+Suffix: 
+Type: Process
+Models: RGB
+PreferredModel: RGB
+Data:
+56540 56540 52428
+Normal dcdccc
+16191 16191 16191
+Background 3f3f3f
+56540 41891 41891
+Boolean dca3a3
+56540 41891 41891
+Character dca3a3
+32639 40863 32639
+Comment 7f9f7f
+61680 57311 44975
+Conditional f0dfaf
+56540 41891 41891
+Constant dca3a3
+0 3341 6168
+Cursor Foreground 000d18
+36751 44975 40863
+Cursor Background 8faf9f
+48316 41891 41891
+Debug bca3a3
+65535 53199 44975
+Define ffcfaf
+36751 36751 36751
+Delimiter 8f8f8f
+28784 37008 32896
+DiffAdd Foreground 708090
+12593 15420 13878
+DiffAdd Background 313c36
+56540 56540 52428
+DiffChange Foreground dcdccc
+13107 13107 13107
+DiffChange background 333333
+13107 13107 13107
+DiffDelete Foreground 333333
+17990 17990 17990
+DiffDelete Background 464646
+60652 48316 48316
+DiffText Foreground ecbcbc
+16705 13878 15420
+DiffText Background 41363c
+56540 56540 52428
+Directory
+32896 54484 43690
+ErrorMsg Foreground 80d4aa
+12079 12079 12079
+ErrorMsg Background 2f2f2f
+50115 49087 40863
+Exception c3bf9f
+49344 48830 53713
+Float c3bf9f
+37779 46003 41891
+FoldColumn Foreground 93b3a3
+16191 16448 16448
+FoldColumn Background 3f4040
+37779 46003 41891
+Folded Foreground 93b3a3
+16191 16448 16448
+Folded Background 3f4040
+61423 61423 36751
+Fuction efef8f
+61423 56540 48316
+Identifier efdcbc
+14392 24415 14392
+IncSearch Foreground 385f38
+63736 63736 37779
+IncSearch Background f8f893
+61680 57311 44975
+Keyword f0dfaf
+57311 53199 44975
+Label dfcfaf
+40863 44975 44975
+LineNr Foreground 9fafaf
+9766 9766 9766
+LineNr Background 262626
+65535 53199 44975
+Macro ffcfaf
+65535 53199 44975
+ModeMsg ffcfaf
+65535 65535 65535
+MoreMsg ffffff
+16448 16448 16448
+NonText Foreground 404040
+35980 53456 54227
+Number 8cd0d3
+61680 61423 53456
+Operator f0efd0
+57311 44975 36751
+PreConduit DFAF8F
+65535 53199 44975
+PreProc ffcfaf
+65535 65535 65535
+Question ffffff
+65535 55255 42919
+Repeat ffd7a7
+65535 65535 57568
+Search Foreground ffffe0
+10280 20303 10280
+Search Background 284f28
+56540 41891 41891
+SpecialChar dca3a3
+33410 41634 33410
+Special Comment 82a282
+53199 49087 44975
+Special cfbfaf
+40606 52942 40606
+Special Key 9ece9e
+58339 52942 43947
+Statement e3ceab
+11822 17219 16448
+StatusLine Foreground 2e4340
+52428 56540 37008
+StatusLine Background ccdc90
+11822 13107 12336
+StatusLineNC Foreground 2e3330
+34952 45232 37008
+StatusLineNC Background 88b090
+50115 49087 40863
+StorageClass c3bf9f
+52428 37779 37779
+String cc9393
+61423 61423 44975
+Structure efefaf
+59624 37779 37779
+Tag e89393
+61423 61423 61423
+Title efefef
+57311 57311 57311
+Todo dfdfdf
+57311 58596 53199
+TypeDef dfe4cf
+57311 57311 49087
+Type dfdfbf
+56540 56540 52428
+Underlined dcdccc
+12336 12336 12336
+VertSplit Foreground 303030
+26728 32896 24672
+VertSplit Background 688060
+13107 13107 13107
+VisualNOS Foreground 333333
+61937 35980 38550
+VisualNOS Background f18c96
+65535 65535 65535
+WarningMsg Foreground ffffff
+13107 13107 13107
+WarningMsg Background 333333
+56540 41891 41891
+WildMenu Foreground dca3a3
+11308 12336 11565
+WildMenu Background 2c302d
