@@ -1,4 +1,4 @@
-ZENBURN
+h1. ZENBURN
 
 This is a fork of Jani Nurminen's excellent Zenburn colour scheme for Vim at https://github.com/jnurmine/Zenburn - Thank you Jani!
 
@@ -6,18 +6,23 @@ I am using this repo to collect all of the different variants and colourscheme f
 
 Find me at kim at [this github username] dot com.
 
-= In This Repo = 
+h2. In This Repo 
 
-- *ports* - Themes and scheme files are organised within subfolders by the parent app they're designed for
-- *colours* contains html tables, excel files, palettes for design apps etc with hex and rgb colour codes. This includes dumps of the old wikipedia tables describing the scheme, etc.
-- *zenburn-vim* - original Vim scheme. Seemed polite to keep it at the top level.
-- If good repos already exist, I have not cloned them in to this one: I don't understand submodules and so on. I'd love some *help* with this. TODO - lern git.
-- For some gists and smaller files, I've pulled down local copies
-- Files just availabile as downloads from other sites have been archived here.
-- Instructions or original blog posts are generally saved as a text file in the relevant folder.
-- Links to the original files, posts etc are archived below. I'm not interested in nicking credit, just in filing things nicely...
+**ports** - Themes and scheme files are organised within subfolders by the parent app they're designed for
+**colours** contains html tables, excel files, palettes for design apps etc with hex and rgb colour codes. This includes dumps of the old wikipedia tables describing the scheme, etc.
+**zenburn-vim** - original Vim scheme. Seemed polite to keep it at the top level.
 
-= The Original Zenburn Files = 
+If good repos already exist, I have not cloned them in to this one: I don't understand submodules and so on. I'd love some *help* with this. TODO - lern git.
+
+For some gists and smaller files, I've pulled down local copies
+
+Files just availabile as downloads from other sites have been archived here.
+
+Instructions or original blog posts are generally saved as a text file in the relevant folder.
+
+Links to the original files, posts etc are archived below. I'm not interested in nicking credit, just in filing things nicely...
+
+h2. The Original Zenburn Files 
 
   - http://slinky.imukuppi.org/zenburnpage/ *OFFICIAL ZENBURN PAGE*
   - https://github.com/jnurmine/Zenburn	VIM theme Github Repo - this repo is a fork of that one.
@@ -26,7 +31,7 @@ Find me at kim at [this github username] dot com.
   - http://deletionpedia.dbatley.com/w/index.php?title=Zenburn	Deletionpedia Reference Page
   - https://docs.google.com/Doc?id=dfpbqnc7_15c6gkg97h	Google Doc of colour reference (may break soon as Google Docs format changes)
   
-= In other repos (github, bitbucket... etc) =
+h2. In other repos (github, bitbucket... etc)
 
   - https://github.com/bergie/subethaedit-zenburn	SubEthaEdit (also Mac Terminal, and a .clr file)
   - https://gist.github.com/1422472	Gnome Terminal 	
@@ -41,7 +46,7 @@ Find me at kim at [this github username] dot com.
   - https://github.com/negativefix/zenburn	PhpStorm and WebStorm
   - https://github.com/baskerville/iTerm-2-Color-Themes	iTerm2
 
-= anrxc Adrian C collection = 
+h2. anrxc Adrian C collection 
 
 From:
 http://sysphere.org/~anrxc/j/articles/zenburn/index.html - Adrian C. (anrxc)
@@ -110,7 +115,7 @@ Most of the following are traced from the comments on the original article. I ma
   - http://www.box.com/shared/dnj42nqyow	EmEditor
   - http://tiles.mapbox.com/mapbox/map/mapbox-zenburn	mapbox
 
-= Original Zenburn Readme Follows =
+h1. Original Zenburn Readme Follows
 
 Zenburn is a low-contrast color scheme for Vim. It’s easy for your eyes and
 designed to keep you in the zone for long programming sessions.
