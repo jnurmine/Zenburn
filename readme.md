@@ -1,4 +1,4 @@
-h1. ZENBURN
+# ZENBURN
 
 This is a fork of Jani Nurminen's excellent Zenburn colour scheme for Vim at https://github.com/jnurmine/Zenburn - Thank you Jani!
 
@@ -6,7 +6,7 @@ I am using this repo to collect all of the different variants and colourscheme f
 
 Find me at kim at [this github username] dot com.
 
-h2. In This Repo 
+## In This Repo 
 
 **ports** - Themes and scheme files are organised within subfolders by the parent app they're designed for
 **colours** contains html tables, excel files, palettes for design apps etc with hex and rgb colour codes. This includes dumps of the old wikipedia tables describing the scheme, etc.
@@ -22,7 +22,7 @@ Instructions or original blog posts are generally saved as a text file in the re
 
 Links to the original files, posts etc are archived below. I'm not interested in nicking credit, just in filing things nicely...
 
-h2. The Original Zenburn Files 
+## The Original Zenburn Files 
 
   - http://slinky.imukuppi.org/zenburnpage/ *OFFICIAL ZENBURN PAGE*
   - https://github.com/jnurmine/Zenburn	VIM theme Github Repo - this repo is a fork of that one.
@@ -31,7 +31,7 @@ h2. The Original Zenburn Files
   - http://deletionpedia.dbatley.com/w/index.php?title=Zenburn	Deletionpedia Reference Page
   - https://docs.google.com/Doc?id=dfpbqnc7_15c6gkg97h	Google Doc of colour reference (may break soon as Google Docs format changes)
   
-h2. In other repos (github, bitbucket... etc)
+## In other repos (github, bitbucket... etc)
 
   - https://github.com/bergie/subethaedit-zenburn	SubEthaEdit (also Mac Terminal, and a .clr file)
   - https://gist.github.com/1422472	Gnome Terminal 	
@@ -46,7 +46,7 @@ h2. In other repos (github, bitbucket... etc)
   - https://github.com/negativefix/zenburn	PhpStorm and WebStorm
   - https://github.com/baskerville/iTerm-2-Color-Themes	iTerm2
 
-h2. anrxc Adrian C collection 
+## anrxc Adrian C collection 
 
 From:
 http://sysphere.org/~anrxc/j/articles/zenburn/index.html - Adrian C. (anrxc)
@@ -65,7 +65,7 @@ http://sysphere.org/~anrxc/j/archives/2009/03/08/zenburn_color_scheme/index.html
   - http://git.sysphere.org/dotfiles/tree/Xdefaults	Xdefaults for various apps within this file.
 
 
- = Other File Sources =
+##  Other File Sources 
 
 Most of the following are traced from the comments on the original article. I may have named some of these wrongly, let me know... 
    
@@ -115,7 +115,7 @@ Most of the following are traced from the comments on the original article. I ma
   - http://www.box.com/shared/dnj42nqyow	EmEditor
   - http://tiles.mapbox.com/mapbox/map/mapbox-zenburn	mapbox
 
-h1. Original Zenburn Readme Follows
+# Original Zenburn Readme Follows
 
 Zenburn is a low-contrast color scheme for Vim. It’s easy for your eyes and
 designed to keep you in the zone for long programming sessions.
@@ -123,14 +123,14 @@ designed to keep you in the zone for long programming sessions.
 Zenburn has been ported to many different editors and environments. For more
 information and list of derivatives, visit http://slinky.imukuppi.org/zenburnpage
 
-No:
+## No:
   - dayglo vomit
   - black, red, blue and green on screaming white background
   - headache
   - watery, squinting eyes
   - the "I wanna run away" feeling
 
-Yes:
+## Yes:
   + alien fruit salad
   + harmonious colors help with concentration
   + improved focus
@@ -143,7 +143,7 @@ Yes:
   + etc.
 
 
-INSTALLATION
+## INSTALLATION
 
 To use Zenburn in GVim, simply copy the file to colors/ subdirectory under your
 Vim configuration folder (e.g. ~/.vim/colors or C:\vim\colors).
@@ -163,23 +163,23 @@ To automatically load the colors upon startup of Vim, add this to .vimrc:
   colors zenburn
 
 
-LICENSE
+## LICENSE
 
 GNU GPL, http://www.gnu.org/licenses/gpl.html
 
 
-DEVELOPERS
+## DEVELOPERS
 
 Captain Obvious says: make a symlink from ~/.vim/colors/zenburn.vim which
 points to the real zenburn.vim. This way you don't need to copy files around
 and making the Vimball is easy!
 
-MAKING A VIMBALL
+## MAKING A VIMBALL
 
 To make a Vimball, open zb-vimball.txt and then :MkVimball zenburn.vba
 
 
-THANKS
+## THANKS
 
   * Creators of "BlackDust", "Camo" and "Desert" themes. I used those to figure out
 how the Vim color schemes work in practise.
@@ -188,7 +188,7 @@ how the Vim color schemes work in practise.
   * All zenburners worldwide!
 
 
-PARTING WORDS
+## PARTING WORDS
 
 Thank you for enjoying “Just some alien fruit salad to keep you in the zone”!
 
