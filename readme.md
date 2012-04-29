@@ -1,4 +1,4 @@
-# ZENBURN
+# ZENBURN ARCHIVE
 
 This is a fork of Jani Nurminen's excellent Zenburn colour scheme for Vim at https://github.com/jnurmine/Zenburn - Thank you Jani!
 
@@ -9,18 +9,28 @@ Find me at kim at [this github username] dot com.
 ## In This Repo 
 
 **ports** - Themes and scheme files are organised within subfolders by the parent app they're designed for
+
 **colours** contains html tables, excel files, palettes for design apps etc with hex and rgb colour codes. This includes dumps of the old wikipedia tables describing the scheme, etc.
+
 **zenburn-vim** - original Vim scheme. Seemed polite to keep it at the top level.
 
-If good repos already exist, I have not cloned them in to this one: I don't understand submodules and so on. I'd love some *help* with this. TODO - lern git.
+If good repos already exist, I have not cloned them in to this one: I don't understand submodules and so on. I'd love some *help* with this. 
 
 For some gists and smaller files, I've pulled down local copies
 
-Files just availabile as downloads from other sites have been archived here.
+Files just availabile as downloads from other sites have been archived here. 
 
 Instructions or original blog posts are generally saved as a text file in the relevant folder.
 
 Links to the original files, posts etc are archived below. I'm not interested in nicking credit, just in filing things nicely...
+
+TODO - put text files with sources in each folder.
+
+TODO - lern git.
+
+TODO - submodules for git repos and gists?
+
+TODO - pull request?
 
 ## The Original Zenburn Files 
 
