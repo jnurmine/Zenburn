@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Zenburn">
+  <style name="AddedLine" foreground="#708c80" background="#313c36" bold="true"/>
+  <style name="Comment" foreground="#7f9f7f" italic="true"/>
+  <style name="CurrentLine" foreground="#dcdccc" background="#262626"/>
+  <style name="CurrentLineNumber" foreground="#9fafaf" bold="true"/>
+  <style name="DiffFile" foreground="#ecbcbc" background="#41363c" bold="true"/>
+  <style name="DiffLocation" foreground="#80d4aa" background="#2f2f2f" bold="true"/>
+  <style name="DisabledCode" foreground="#333333" background="#f18c96" bold="true"/>
+  <style name="Doxygen.Comment" foreground="#7f9f7f"/>
+  <style name="Doxygen.Tag" foreground="#82a282" bold="true" italic="true"/>
+  <style name="Keyword" foreground="#f0dfaf" bold="true"/>
+  <style name="Label" foreground="#e89393" bold="true"/>
+  <style name="LineNumber" foreground="#9fafaf" background="#262626"/>
+  <style name="Link" foreground="#dfcfaf"/>
+  <style name="Number" foreground="#8cd0d3"/>
+  <style name="Occurrences" background="#262626" bold="true"/>
+  <style name="Occurrences.Rename" foreground="#ffaaaa" background="#553636"/>
+  <style name="Occurrences.Unused" foreground="#c0c0c0" italic="true"/>
+  <style name="Operator" foreground="#f0efd0"/>
+  <style name="Parentheses" foreground="#ff5555" background="#333333"/>
+  <style name="Preprocessor" foreground="#ffcfaf" bold="true"/>
+  <style name="RemovedLine" foreground="#333333" background="#464646"/>
+  <style name="SearchResult" foreground="#385f38" background="#f8f893"/>
+  <style name="SearchScope" foreground="#ffffe0" background="#284f28"/>
+  <style name="Selection" foreground="#000d18" background="#8faf9f" bold="true"/>
+  <style name="String" foreground="#cc9393" bold="true"/>
+  <style name="Text" foreground="#dcdccc" background="#3f3f3f"/>
+  <style name="Type" foreground="#dfdfbf" bold="true"/>
+  <style name="VisualWhitespace" foreground="#cfbfaf"/>
+</style-scheme>

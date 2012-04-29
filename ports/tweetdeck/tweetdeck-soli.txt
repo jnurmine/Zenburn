@@ -1,0 +1,6 @@
+http://twitter.com/#!/sylvain_soliman/statuses/4914803545
+I created a Zenburn TweetDeck color scheme – 
+
+BG1: 2F2F2F BG2: 3F3F3F INPUT: 284F28 TXT1: DCDCCC TXT2: F0DFAF
+
+BY SOLI ON 10.16.09 13:52

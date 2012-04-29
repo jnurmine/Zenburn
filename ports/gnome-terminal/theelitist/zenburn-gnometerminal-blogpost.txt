@@ -1,0 +1,25 @@
+http://theelitist.net/customized-zenburn-palette-for-gnome-terminal
+
+Aug
+23
+Customized Zenburn Palette For gnome-terminal
+By XerossLinux, Tech0 Comments
+I’ve recently switched to using Zenburn for Vim, and I like it a lot. Though I also wanted my terminal to match, so after some searching I found this palette setting for gnome-terminal.
+
+However the colours didn’t match with the original colours, for example what used to be green ended up being the same colour as regular text.
+
+So I’ve made some modifications and you can use the following palette setting to get a more ‘compatible’ Zenburn palette.
+
+#3F3F3F3F3F3F:#CCCC93939393:#7F7F9F9F7F7F:#E3E3CECEABAB:#DFDFAFAF8F8F:#CCCC93939393:#8C8CD0D0D3D3:#DCDCDCDCCCCC:#3F3F3F3F3F3F:#CCCC93939393:#7F7F9F9F7F7F:#E3E3CECEABAB:#DFDFAFAF8F8F:#CCCC93939393:#8C8CD0D0D3D3:#DCDCDCDCCCCC
+
+To apply it follow the instructions from the thread (Mirrored below in the case the link goes dead).
+
+1. Make sure that your menu bar is showing. If it is not, right click on the terminal window and select “Show menubar”.
+2. In the Edit menu, select “Profiles…”
+3. Create a new profile with whatever name you like.
+4. In your terminal, start the program “gconf-editor”.
+5. Navigate to “/apps/gnome-terminal/profiles/” and then to whatever you called the profile. If it does not show up with name, it might be called something like “Profile0″. If the latter is the case for you, check the “visible_name” property, which should match your chosen name.
+6. Double click on the “palette” property.
+7. Remove the current contents, and paste the above color palette string
+8. Close everything related to gconf-editor.
+9. Switch to the profile you selected via the Terminal’s Edit menu, and (if you want) change it to the default profile in Edit -> “Profiles…”.

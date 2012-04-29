@@ -1,0 +1,103 @@
+! X cursor
+Xcursor.theme: Vanilla-DMZ
+! Xcursor.size: 16
+
+
+! XFT and Font settings
+Xft*dpi:       96
+Xft*antialias: true
+Xft*hinting:   true
+Xft*hintstyle: hintfull
+Xft*rgba:      rgb
+*font: -*-terminus-medium-*-*-*-17-120-*-*-*-*-iso10646-1
+! *font: -*-proggyclean-*-*-*-*-*-80-*-*-*-*-*-*
+
+
+! General colors
+! *background: #000010
+! *foreground: #ffffff
+! *color0: #000000
+! *color1: #9e1828
+! *color2: #aece92
+! *color3: #968a38
+! *color4: #414171
+! *color5: #963c59
+! *color6: #418179
+! *color7: #bebebe
+! *color8: #666666
+! *color9: #cf6171
+! *color10: #c5f779
+! *color11: #fff796
+! *color12: #4186be
+! *color13: #cf9ebe
+! *color14: #71bebe
+! *color15: #ffffff
+! *cursorColor: magenta
+
+! XTerm
+XTerm*background: #000010
+XTerm*foreground: #ffffff
+XTerm*color0: #000000
+XTerm*color1: #9e1828
+XTerm*color2: #aece92
+XTerm*color3: #968a38
+XTerm*color4: #414171
+XTerm*color5: #963c59
+XTerm*color6: #418179
+XTerm*color7: #bebebe
+XTerm*color8: #666666
+XTerm*color9: #cf6171
+XTerm*color10: #c5f779
+XTerm*color11: #fff796
+XTerm*color12: #4186be
+XTerm*color13: #cf9ebe
+XTerm*color14: #71bebe
+XTerm*color15: #ffffff
+XTerm*cursorColor: magenta
+
+! URxvt.geometry: 80x25
+! URxvt.font: xft:DejaVu Sans Mono:pixelsize=9
+URxvt*inheritPixmap: true
+URxvt*tintColor: gray30
+URxvt.internalBorder: 0
+URxvt.jumpScroll: true
+! URxvt.loginShell: true
+URxvt.perl-ext-common: default,matcher,searchable-scrollback
+URxvt.pointerBlank: true
+URxvt.saveLines: 4000
+URxvt.secondaryScroll: true
+URxvt.scrollBar: false
+URxvt.scrollTtyKeypress: true
+URxvt.scrollWithBuffer: true
+URxvt*urlLauncher: /usr/bin/firefox
+URxvt*background: #000010
+URxvt*foreground: Wheat
+URxvt*cursorColor: magenta
+URxvt*colorUL: #c5f779
+URxvt*underlineColor: #c5f779
+URxvt*color0: #000000
+URxvt*color1: #9e1828
+URxvt*color2: #aece92
+URxvt*color3: #968a38
+URxvt*color4: #414171
+URxvt*color5: #963c59
+URxvt*color6: #418179
+URxvt*color7: #bebebe
+URxvt*color8: #666666
+URxvt*color9: #cf6171
+URxvt*color10: #c5f779
+URxvt*color11: #fff796
+URxvt*color12: #4186be
+URxvt*color13: #cf9ebe
+URxvt*color14: #71bebe
+URxvt*color15: #ffffff
+
+
+! Emacs.geometry: 80x50
+! Emacs*font: DejaVu Sans Mono-12
+Emacs.pane.menubar.shadowThickness: 1
+Emacs.pane.menubar.margin: 1
+Emacs.toolBar: off
+Emacs.menuBar: off
+Emacs.verticalScrollBars: off
+Emacs.cursorColor: magenta

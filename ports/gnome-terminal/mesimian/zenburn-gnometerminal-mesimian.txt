@@ -1,0 +1,26 @@
+http://www.mesimian.com/zenburn-color-theme-for-gnome-terminal/
+Zenburn color theme for gnome-terminal
+I am actually quoting ynef on ubuntuforums.org. I am not very confident on information availability in forums, so I’d rather mention and copy it here.
+Make sure that your menu bar is showing. If it is not, right click on the terminal window and select “Show menubar”.
+In the Edit menu, select “Profiles…“
+Create a new profile with whatever name you like.
+In your terminal, start the program “gconf-editor“.
+Navigate to “/apps/gnome-terminal/profiles/” and then to whatever you called the profile. If it does not show up with name, it might be called something like “Profile0” or something. If the latter is the case for you, check the “visible_name” property, which should match your chosen name.
+Double click on the “palette” property.
+Remove the current contents, and paste the following (without the quotes, and it should all be on one line — perhaps paste it into the Text Editor first to make sure that it will come out right): “#3F3F3F3F3F3F:#FFFF00000000:#EFEFEFEFEFEF:#E3E3CE CEABAB:#DFDFAFAF8F8F:#CCCC93939393:#7F7F9F9F7F7F:# DCDCDCDCCCCC:#3F3F3F3F3F3F:#FFFFCFCFCFCF:#EFEFEFEF EFEF:#E3E3CECEABAB:#DFDFAFAF8F8F:#CCCC93939393:#7F 7F9F9F7F7F:#DCDCDCDCCCCC”. This is the contents of the file at the web page.
+Close everything related to gconf-editor.
+Switch to the profile you selected via the Terminal’s Edit menu, and (if you want) change it to the default profile in Edit -> “Profiles…”.
+Own addition: Also set text color to #EFEFEF and Background color to #3F3F3F.
+Any other suggestions for a better experience when working with gnome-terminal?
+Post to Facebook
+Post to Twitter
+Add to LinkedIn
+Add to Google Bookmarks
+Post to StumbleUpon
+Add to Reddit
+Send via Gmail
+Send via E-mail program
+Print with PrintFriendly
+
+0
+[ posted on November 10, 2011, filed under Code and tagged linux, ubuntu | permalink | Rss for this post]

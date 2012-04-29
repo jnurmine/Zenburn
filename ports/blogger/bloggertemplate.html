@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org' name='generator'/>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/></title>
+<b:skin><![CDATA[
+/*
+  * Blogger Template Style
+  *
+  * Simple Zenburn
+  * October 2008 - elijah rutschman
+  * based on Simple II by Jason Sutter
+  * and zenburn.vim by Jani Nurminen
+  */
+
+ /* Variable definitions
+    ====================
+    <Variable name="bgcolor" description="Page Background Color"
+     type="color" default="#444" value="#3f3f3f">
+    <Variable name="textcolor" description="Text Color"
+     type="color" default="#eed" value="#dcdccc">
+    <Variable name="pagetitlecolor" description="Blog Title Color"
+     type="color" default="#eed" value="#dcdccc">
+    <Variable name="titlecolor" description="Post Title Color"
+     type="color" default="#eb9" value="#dfaf8f">
+    <Variable name="footercolor" description="Date and Footer Color"
+     type="color" default="#8A8" value="#7f9f7f">
+    <Variable name="linkcolor" description="Link Color"
+     type="color" default="#9dd" value="#8cd0d3">
+    <Variable name="visitedlinkcolor" description="Visited Link Color"
+     type="color" default="#9ee" value="#93e0e3"> Used to be #969
+    <Variable name="bordercolor" description="Border Color"
+     type="color" default="#c99" value="#cc9393">
+    <Variable name="bodyfont" description="Text Font"
+     type="font" default="normal normal 80% Trebuchet MS, Verdana, Arial, Sans-serif"
+     value="normal normal 80% Trebuchet MS, Verdana,Arial, Sans-serif">
+    <Variable name="pagetitlefont" description="Blog Title Font"
+     type="font"
+     default="normal bold 150% Trebuchet MS, Verdana, Arial, Sans-serif"
+     value="normal bold 150% Trebuchet MS, Verdana, Arial, Sans-serif">
+    <Variable name="codefont" description="Code Example Font"
+     type="font"
+     default="normal normal 90% Monaco, Bitstream Vera Sans Mono, Lucida Sans Typewriter, monospace"
+     value="normal normal 90% Monaco, Bitstream Vera Sans Mono, Lucida Sans Typewriter, monospace">
+    <Variable name="startSide" description="Start side in blog language"
+     type="automatic" default="left" value="left">
+    <Variable name="endSide" description="End side in blog language"
+     type="automatic" default="right" value="right">
+ */
+body {
+    margin:0;
+    font:$bodyfont;
+    background:$bgcolor;
+    color:$textcolor;
+}
+a:link {
+    color:$linkcolor;
+    text-decoration:none;
+}
+a:visited {
+    color:$visitedlinkcolor;
+    text-decoration:none;
+}
+a:hover {
+    color:$titlecolor;
+    text-decoration:underline;
+}
+a img {
+    border-width:0;
+}
+#outer-wrapper {
+    margin-top: 0px;
+    margin-$endSide: 3em;
+    margin-bottom: 0;
+    margin-$startSide: 3em;
+}
+h1 {
+    border-bottom:dotted 1px $bordercolor;
+    margin-bottom:0px;
+    color: $pagetitlecolor;
+    font: $pagetitlefont;
+}
+h1 a, h1 a:link, h1 a:visited {
+    color: $pagetitlecolor;
+}
+h2 {
+    margin:0px;
+    padding: 0px;
+}
+blockquote, cmd, code {
+    color: $bordercolor;
+    font: $codefont;
+}
+#main .widget {
+    padding-bottom:10px;
+    margin-bottom:20px;
+    border-bottom:dotted 1px $bordercolor;
+    clear: both;
+}
+#main .Header {
+    border-bottom-width: 0px;
+}
+h2.date-header {
+    padding-top:15px;
+    color:$footercolor;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    font-size: 90%;
+}
+h3.post-title {
+    font-size: 140%;
+    color: $titlecolor;
+}
+.post {
+    padding-$startSide:5%;
+    padding-$endSide:10%;
+}
+.post-footer {
+    color:$footercolor;
+}
+#comments {
+    padding-top:30px;
+    color:$textcolor;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    font-weight:bold;
+}
+#comments .comment-footer {
+    font-size:1em;
+    font-weight:normal;
+    color:$footercolor;
+    margin-$endSide:10px;
+    display:inline;
+}
+.comment-author {
+    margin-top: 3%;
+}
+.comment-body {
+    font-size:1em;
+    font-weight:normal;
+}
+.deleted-comment {
+    font-style:italic;
+    color:gray;
+}
+.comment-link {
+    margin-$startSide:.6em;
+}
+.feed-links {
+    clear: both;
+    line-height: 2.5em;
+}
+#blog-pager-newer-link {
+    float: $startSide;
+}
+#blog-pager-older-link {
+    float: $endSide;
+}
+#blog-pager {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.profile-img {
+    float: $startSide;
+    margin-top: 0;
+    margin-$endSide: 5px;
+    margin-bottom: 5px;
+    margin-$startSide: 0;
+}
+body#layout #outer-wrapper {
+    margin-top: 0px;
+    margin-$endSide: 50px;
+    margin-bottom: 0;
+    margin-$startSide: 50px;
+}
+]]></b:skin>
+</head>
+<body>
+  <div id='outer-wrapper'>
+ <b:section class='main' id='main' showaddelement='yes'>
+<b:widget id='Header1' locked='false' title='elijahr (Header)' type='Header'/>
+<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'/>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+<b:widget id='Profile1' locked='false' title='About Me' type='Profile'/>
+<b:widget id='Label1' locked='false' title='Labels' type='Label'/>
+<b:widget id='LinkList1' locked='false' title='links' type='LinkList'/>
+</b:section>
+</div>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shCore.js' type='text/javascript'/>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shBrushPython.js' type='text/javascript'/>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shBrushXml.js' type='text/javascript'/>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shBrushPhp.js' type='text/javascript'/>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shBrushJScript.js' type='text/javascript'/>
+<script src='http://www.weekl.net/dp.SyntaxHighlighter/Scripts/shBrushCss.js' type='text/javascript'/>
+<script type='text/javascript'>
+//<![CDATA[
+    dp.SyntaxHighlighter.BloggerMode();
+    dp.SyntaxHighlighter.HighlightAll('code');
+//]]>
+</script><style type='text/css'>
+/*<![CDATA[*/
+.dp-highlighter  {
+    background-color: #3f3f3f;
+    font-family: Monaco, Lucida Sans Typewriter, Bitstream Vera Sans Mono, monospace;
+    font-size: 12px;
+    margin: 18px 0 18px 0 !important;
+    overflow: auto;
+    padding-top: 1px;
+    width: 99%;
+}
+.dp-highlighter ol,  .dp-highlighter ol li,  .dp-highlighter ol li span  {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.dp-highlighter a,  .dp-highlighter a:hover  {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.dp-highlighter .bar  {
+    padding-left: 45px;
+}
+.dp-highlighter.collapsed .bar,  .dp-highlighter.nogutter .bar  {
+    padding-left: 0px;
+}
+.dp-highlighter ol  {
+    background-color: #3f3f3f;
+    color: #dcdccc;
+    list-style: decimal;
+    margin: 0px 0px 1px 45px !important;
+    padding: 0px;
+}
+.dp-highlighter.nogutter ol,  .dp-highlighter.nogutter ol li  {
+    list-style: none !important;
+    margin-left: 0px !important;
+}
+.dp-highlighter ol li,  .dp-highlighter .columns div  {
+    background-color: #3f3f3f;
+    border-left: 3px solid #3f3f3f;
+    color: #4c7073;
+    line-height: 14px;
+    list-style: decimal-leading-zero;
+    list-style-position: outside !important;
+    margin: 0 !important;
+    padding: 0 3px 0 10px !important;
+}
+.dp-highlighter.nogutter ol li,  .dp-highlighter.nogutter .columns div  {
+    border: 0;
+}
+.dp-highlighter .columns  {
+    background-color: #3f3f3f;
+    color: gray;
+    overflow: hidden;
+    width: 100%;
+}
+.dp-highlighter .columns div  {
+    padding-bottom: 5px;
+}
+.dp-highlighter ol li span  {
+    color: #dcdccc;
+}
+.dp-highlighter.collapsed ol  {
+    margin: 0px;
+}
+.dp-highlighter.collapsed ol li  {
+    display: none;
+}
+.dp-highlighter.printing  {
+    border: none;
+}
+.dp-highlighter.printing .tools  {
+    display: none !important;
+}
+.dp-highlighter.printing li  {
+    display: list-item !important;
+}
+.dp-highlighter .tools  {
+    background-color: #3f3f3f;
+    border-left: 3px solid #3f3f3f;
+    color: silver;
+    font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 3px 8px 3px 10px;
+    padding-bottom: 10px;
+}
+.dp-highlighter.nogutter .tools  {
+    border-left: 0;
+}
+.dp-highlighter.collapsed .tools  {
+    border-bottom: 0;
+}
+.dp-highlighter .tools a  {
+    color: #dcdccc;
+    font-size: 9px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.dp-highlighter .tools a:hover  {
+    text-decoration: underline;
+}
+.dp-about  {
+    background-color: #3f3f3f;
+    color: #dcdccc;
+    margin: 0px;
+    padding: 0px;
+}
+.dp-about table  {
+    font-family: Tahoma, Verdana, Arial, sans-serif !important;
+    font-size: 11px;
+    height: 100%;
+    width: 100%;
+}
+.dp-about td  {
+    padding: 10px;
+    vertical-align: top;
+}
+.dp-about .copy  {
+    border-bottom: 1px solid #3f3f3f;
+    height: 95%;
+}
+.dp-about .title  {
+    color: #93e0e3;
+    font-weight: bold;
+}
+.dp-about .para  {
+    margin: 0 0 4px 0;
+}
+.dp-about .footer  {
+    background-color: #3f3f3f;
+    border-top: 1px solid #3f3f3f;
+    color: #dcdccc;
+    text-align: right;
+}
+.dp-about a  {
+    color: #93e0e3;
+}
+.dp-about .close  {
+    background-color: #3f3f3f;
+    color: #dcdccc;
+    font-family: Tahoma, Verdana, Arial, sans-serif !important;
+    font-size: 11px;
+    height: 22px;
+    width: 60px;
+}
+.dp-highlighter .plain, .dp-xml .cdata, .dp-xml .attribute  {
+    color: #dcdccc;
+}
+.dp-highlighter .comment, .dp-highlighter .comments  {
+    color: #7f9f7f;
+}
+.dp-highlighter .string, .dp-xml .attribute-value  {
+    color: #cc9393;
+}
+.dp-highlighter .keyword, .dp-xml .tag, .dp-xml .tag-name  {
+    color: #f0dfaf;
+    font-weight: bold
+}
+.dp-highlighter .preprocessor {
+    color: #dcdccc;
+} 
+/*]]>*/
+</style>
+</body>
+</html>

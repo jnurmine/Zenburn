@@ -1,0 +1,181 @@
+WEDNESDAY, JANUARY 13, 2010
+Color Scheme for Visual Studio - ZENBURN
+I use Microsoft Visual Studio for my development work. It is a great tool which helps me a lot during development. But really I don’t like the default font and color setting of this IDE. But we can override these fonts and color from Tools => Options => Environment => Fonts and Colors menu. But it’s really very difficult find and replaces fonts and colors for each section which we heavily used in our development.
+
+To overcome this problem I used “ZenBurn” color scheme for Microsoft Visual Studio. This color scheme is intended to be pleasant for the eyes when working in low light conditions. The low contract will reduce eyestrain. Also I used new font called “ProFont” which is actually small but readable programming screen font originally developed for Macintosh. Now there is windows version available for this font.
+
+“ProFont” font can be downloaded from below mentioned URL
+
+http://www.tobiasjung.net/download.php?file=MProFont.zip
+
+Installation of ZenBurn Color Scheme
+
+1) Create file with any name with extension “vssettings”. Copy below mentioned text to that file.
+
+<usersettings>
+<applicationidentity version="9.0">
+<toolsoptions>
+<toolsoptionscategory name="Environment" registeredname="Environment">
+</toolsoptions>
+<category name="Database Tools" registeredname="Database Tools">
+<category name="T-SQL Editor" registeredname="T-SQL Editor">
+</category>
+<category name="Environment_Group" registeredname="Environment_Group">
+<category name="Environment_FontsAndColors" category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" registeredname="Environment_FontsAndColors" packagename="Visual Studio Environment Package">
+<propertyvalue name="Version">2</propertyvalue>
+<fontsandcolors version="2.0">
+<categories>
+<category guid="{358463D0-D084-400F-997E-A34FC570BC72}" fontisdefault="Yes">
+<items>
+<item name="Text" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="SelectedText" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="ChangedText" foreground="0x000000FF" background="0x02000000" boldfont="No">
+</items>
+</category>
+<category guid="{40660F54-80FA-4375-89A3-8D06AA954EBA}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+</items>
+</category>
+<category guid="{5C48B2CB-0366-4FBF-9786-0BB37E945687}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+<item name="Current list location" foreground="0x00A3DBFF" background="0x01000007" boldfont="No">
+</items>
+</category>
+<category guid="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+</items>
+</category>
+<category guid="{8259ACED-490A-41B3-A0FB-64C842CCDC80}" fontisdefault="Yes">
+<items>
+<item name="Text" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="SelectedText" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="ChangedText" foreground="0x000000FF" background="0x02000000" boldfont="No">
+</items>
+</category>
+<category guid="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+<item name="Current list location" foreground="0x00A3DBFF" background="0x01000007" boldfont="No">
+</items>
+</category>
+<category guid="{9E632E6E-D786-4F9A-8D3E-B9398836C784}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+</items>
+</category>
+<category guid="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" fontname="ProFontWindows" fontsize="12" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x00CCDCDC" background="0x003F3F3F" boldfont="No">
+<item name="Selected Text" foreground="0x0090DCCC" background="0x0040432E" boldfont="No">
+<item name="Line Numbers" foreground="0x008DAC85" background="0x02000000" boldfont="No">
+<item name="Brace Matching (Highlight)" foreground="0x02000000" background="0x02000000" boldfont="Yes">
+<item name="Brace Matching (Rectangle)" foreground="0x02000000" background="0x00008000" boldfont="Yes">
+<item name="Comment" foreground="0x007F9F7F" background="0x02000000" boldfont="No">
+<item name="CSS Comment" foreground="0x007F9F7F" background="0x02000000" boldfont="No">
+<item name="CSS Keyword" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="CSS Property Name" foreground="0x009FBFC3" background="0x02000000" boldfont="No">
+<item name="CSS Property Value" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="CSS Selector" foreground="0x00ABCEE3" background="0x02000000" boldfont="No">
+<item name="CSS String Value" foreground="0x009393CC" background="0x02000000" boldfont="No">
+<item name="HTML Attribute" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="HTML Attribute Value" foreground="0x009393CC" background="0x02000000" boldfont="No">
+<item name="HTML Comment" foreground="0x007F9F7F" background="0x02000000" boldfont="No">
+<item name="HTML Element Name" foreground="0x00ABCEE3" background="0x02000000" boldfont="No">
+<item name="HTML Entity" foreground="0x00AFBFCF" background="0x02000000" boldfont="No">
+<item name="HTML Operator" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="HTML Tag Delimiter" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="Identifier" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="Keyword" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="Number" foreground="0x00CFCC8A" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Bracket" foreground="0x00CCDCDC" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Comment" foreground="0x007F9F7F" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Directive" foreground="0x00FFE1FF" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Identifier" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Keyword" foreground="0x00ACF5EA" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Number" foreground="0x00CFCC8A" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Operator" foreground="0x00CCDCDC" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ String" foreground="0x009191C8" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ Text" foreground="0x00CCDCDC" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Attribute Name" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Attribute Value" foreground="0x009393CC" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Comment" foreground="0x007A987A" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Operator" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Tag Delimiter" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Tag Name" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="NVelocity â€“ XML Text" foreground="0x00CCDCDC" background="0x02000000" boldfont="No">
+<item name="Preprocessor Keyword" foreground="0x008FAFDF" background="0x02000000" boldfont="No">
+<item name="String" foreground="0x009191C8" background="0x02000000" boldfont="No">
+<item name="String(C# @ Verbatim)" foreground="0x009191C8" background="0x02000000" boldfont="No">
+<item name="User Types" foreground="0x00AFDFF0" background="0x02000000" boldfont="No">
+<item name="User Types(Delegates)" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="User Types(Enums)" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="User Types(Interfaces)" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="User Types(Value types)" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="Warning" foreground="0x000080FF" background="0x02000000" boldfont="No">
+<item name="XML Attribute" foreground="0x00BFDFDF" background="0x02000000" boldfont="No">
+<item name="XML Attribute Quotes" foreground="0x009393CC" background="0x02000000" boldfont="No">
+<item name="XML Attribute Value" foreground="0x009393CC" background="0x02000000" boldfont="No">
+<item name="XML Comment" foreground="0x007A987A" background="0x02000000" boldfont="No">
+<item name="XML Delimiter" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="XML Doc Comment" foreground="0x007A987A" background="0x02000000" boldfont="No">
+<item name="XML Keyword" foreground="0x00ACEAEA" background="0x02000000" boldfont="No">
+<item name="XML Name" foreground="0x008FEFEF" background="0x02000000" boldfont="No">
+<item name="XML Text" foreground="0x00CCDCDC" background="0x02000000" boldfont="No">
+</items>
+</category>
+<category guid="{A7EE6BEE-D0AA-4B2F-AD9D-748276A725F6}" fontisdefault="Yes">
+<items>
+<item name="Text" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="SelectedText" foreground="0x02000000" background="0x02000000" boldfont="No">
+<item name="ChangedText" foreground="0x000000FF" background="0x02000000" boldfont="No">
+</items>
+</category>
+<category guid="{A9A5637F-B2A8-422E-8FB5-DFB4625F0111}" fontname="Tahoma" fontsize="8" charset="0" fontisdefault="No">
+<items/>
+</category>
+<category guid="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}" fontname="Tahoma" fontsize="8" charset="0" fontisdefault="No">
+<items/>
+</category>
+<category guid="{CE2ECED5-C21C-464C-9B45-15E10E9F9EF9}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+</items>
+</category>
+<category guid="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" fontname="ProggyTiny" fontsize="8" charset="0" fontisdefault="No">
+<items>
+<item name="Plain Text" foreground="0x0000FF00" background="0x00003700" boldfont="No">
+<item name="Selected Text" foreground="0x00003700" background="0x0000FF00" boldfont="No">
+<item name="Inactive Selected Text" foreground="0x00003700" background="0x00009100" boldfont="No">
+</items>
+</category>
+<category guid="{F7B7B222-E186-48DF-A5EE-174E8129891B}" fontname="Tahoma" fontsize="8" charset="0" fontisdefault="No">
+<items/>
+</category>
+</categories>
+</fontsandcolors>
+</category>
+</category>
+</usersettings>
+
+2) Open Microsoft Visual Studio; Go to following menu Tools => Import & Export Settings => Import Selected Environment Settings => No, Just Import new settings, overwriting my current settings => Browse => Select newly created “vssettings” extension file and next. It will ask “Which setting do you want to import.” Refer my below mentioned screen shot to select the setting and finish, all done.
+
+After importing zenburn.vssettings file, your Microsoft Visual Studio will look differently.
+
+All done.
+Posted by Kalpesh at 3:14 AM
+Labels: Color Scheme, visual studio color scheme, zenburn color, zenburn color scheme, zenburn microsoft visual studio, zenburn visual studio

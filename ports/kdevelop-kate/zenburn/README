@@ -1,0 +1,24 @@
+VIA http://kde-look.org/content/show.php/zenburn+-+eye-gentle+Kate+color+scheme?content=66209
+
+zenburn v 0.1
+
+Zenburn is color scheme for kdevelop/kate, heavy inspired by Jani Nurminen's  (eye-gentle) color-scheme for vim.  Primarily it's intended for PHP/HTML, SQL, C  and some *nix script languages (e.g. bash) and config files (e.g. fstab). Other may need tuning.
+PS Change font to you favourite.
+
+Installation:
+1) Either run install.sh script or _append_ the content of files kateschemarc.zenburn and katesyntaxhighlightingrc.zenburn to ~/.kde/share/config/kateschemarc and ~/.kde/share/config/katesyntaxhighlightingrc respectively.
+2) Change 'Default schema' to 'zenburn' (kate/kwrite/quanta/kdevelop/etc.)
+
+To do:
+- make it more compatible with original zenburn.
+- complete syntax highlighting for other languages (if you make some syntax schemes and would like me to incl. it - please let me know and send it). 
+
+Author:
+Lukasz Purgal (aka lookanio)) <lookanio@gmail.com>
+
+License:
+BSD (or GPL if you're GPL purist and only install GPL software)
+
+Credits:
+1. Jani Nurminen - http://slinky.imukuppi.org/zenburn/ - here you can find links to zenburn schemes for other apps, incl. konsole
+2. Jan Dvorak - http://kde-look.org/content/show.php/Coolate+color+scheme+for+KDevelop+Kate?content=34243 - the install script and this README was "borrowed" from him.

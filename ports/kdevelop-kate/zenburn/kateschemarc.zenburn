@@ -1,0 +1,17 @@
+[zenburn]
+Color Background=63,63,63
+Color Highlighted Bracket=154,109,111
+Color Highlighted Line=46,67,64
+Color Icon Bar=118,102,102
+Color Line Number=159,175,175
+Color MarkType1=238,222,189
+Color MarkType2=222,165,164
+Color MarkType3=213,238,213
+Color MarkType4=197,194,213
+Color MarkType5=160,160,164
+Color MarkType6=139,210,213
+Color MarkType7=239,159,159
+Color Selection=106,109,106
+Color Tab Marker=143,175,159
+Color Word Wrap Marker=119,121,112
+Font=DejaVu Sans Mono,14,-1,5,50,0,0,0,0,0

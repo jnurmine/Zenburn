@@ -1,0 +1,252 @@
+<!-- from http://deletionpedia.dbatley.com/w/index.php?title=Zenburn_%28deleted_28_Apr_2008_at_16:13%29&action=edit -->
+{{deletionpedia
+| wiki            = en.wiki
+| countminorpct   = 25
+| editedmostmonth = 09
+| uploaddatesec   = 23
+| rating          = 
+| lastrevday      = 24
+| lastrevyear     = 2008
+| countrevert     = 0
+| uploaddateday   = 29
+| uploadutc       = y
+| lastrevsec      = 53
+| daysonwiki      = 214
+| deleteddateday  = 28
+| lastrevmin      = 03
+| deleteddate     = 2008-04-28T16:13:45
+| lastrevhour     = 00
+| deleteddatehour = 16
+| firstrevmin     = 20
+| countmajor      = 18
+| deleteddateyear = 2008
+| editeddates     = 200711:1;200803:1;200804:16;200710:5;200709:1
+| firstrevday     = 26
+| version         = 3.03
+| uniqueeditors   = 17
+| pagetype        = 
+| uploaddate      = 2008-04-29T23:45:23.334860
+| uploaddatemonth = 04
+| firstrevyear    = 2007
+| firstrevmonth   = 09
+| countipedits    = 13
+| counttotal      = 24
+| reason          = [[Wikipedia:Articles for deletion/Zenburn]]
+| deleteddatemonth = 04
+| uploaddatehour  = 23
+| pagename        = Zenburn
+| editedmostyear  = 2007
+| deletedby       = Veinor
+| lastrevdate     = 2008-04-24T00:03:53
+| lastrevid       = 207734049
+| countrevertpct  = 0
+| deleteddatemin  = 13
+| uploaddatemin   = 45
+| bestauthor      = 142.33.84.21
+| countminor      = 6
+| firstrevhour    = 20
+| uploaddateyear  = 2008
+| lastrevmonth    = 04
+| deleteddatesec  = 45
+| firstrevdate    = 2007-09-26T20:20:49
+| countipeditspct = 54
+| error           = 
+| firstrevsec     = 49
+}}
+<!-- Please do not remove or change this AfD message until the issue is settled -->
+{{AfDM|page=Zenburn|date=2008 April 22|substed=yes}}
+<!-- For administrator use only: {{oldafdfull|page=Zenburn|date=22 April 2008|result='''keep'''}} -->
+<!-- End of AfD message, feel free to edit beyond this point -->
+{{Notability|date=April 2008}}
+{{orphan|date=April 2008}}
+'''Zenburn''' is a programming [[syntax highlighting]] [[color scheme]] created by Jani Nurminen in [[2002]]. Zenburn was originally created for [[Vim]] but has since been adapted to many different [[Integrated development environment|Integrated Development Environments]], including Visual Studio 2005, KDevelop and Emacs, and other programs, such as SubEthaEdit, Notepad++, KDE and Putty.
+
+{| class="wikitable" style="text-align:center"
+|+Zenburn color definitions (originally defined for [[Vim]])
+! Category || Example Text || colspan="2" | Foreground || colspan="2"| Background || Extra
+|-
+! || || Hex || RGB || Hex || RGB ||
+|-
+! Normal
+|style="color:#dcdccc; background-color:#3f3f3f" | Normal || DCDCCC ||220,220,204|| 3F3F3F ||63,63,63||
+|-
+! Boolean
+|style="color:#dca3a3; background-color:#3f3f3f" | Boolean || DCA3A3 ||220,163,163||||||
+|-
+! Character
+|style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold"  | Character || DCA3A3 ||220,163,163|||||| bold
+|-
+! Comment
+|style="color:#7f9f7f; background-color:#3f3f3f; font-style:italic"  | Comment || 7F9F7F ||127,159,127|||||| italic
+|-
+! Conditional
+|style="color:#f0dfaf; background-color:#3f3f3f; font-weight:bold"  | Conditional || F0DFAF ||240,223,175|||||| bold
+|-
+! Constant
+|style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold"  | Constant || DCA3A3 ||220,163,163|||||| bold
+|-
+! Cursor
+|style="color:#000d18; background-color:#8faf9f; font-weight:bold"  | Cursor || 000D18 ||0,13,24|| 8FAF9F ||143,175,159|| bold
+|-
+! Debug
+|style="color:#bca3a3; background-color:#3f3f3f; font-weight:bold"  | Debug || BCA3A3 ||188,163,163|||||| bold
+|-
+! Define
+|style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold"  | Define || FFCFAF ||255,207,175|||||| bold
+|-
+! Delimiter
+|style="color:#8f8f8f; background-color:#3f3f3f" | Delimiter || 8F8F8F ||143,143,143||||||
+|-
+! DiffAdd
+|style="color:#709080; background-color:#313c36; font-weight:bold"  | DiffAdd || 709080 ||112,144,128|| 313C36 ||49,60,54|| bold
+|-
+! DiffChange
+|style="color:#dcdccc; background-color:#333333" | DiffChange || DCDCCC ||220,220,204|| 333333 ||51,51,51||
+|-
+! DiffDelete
+|style="color:#333333; background-color:#464646" | DiffDelete || 333333 ||51,51,51|| 464646 ||70,70,70||
+|-
+! DiffText
+|style="color:#ecbcbc; background-color:#41363c; font-weight:bold"  | DiffText || ECBCBC ||236,188,188|| 41363C ||65,54,60|| bold
+|-
+! Directory
+|style="color:#dcdccc; background-color:#3f3f3f; font-weight:bold"  | Directory || DCDCCC ||220,220,204|| |||| bold
+|-
+! ErrorMsg
+|style="color:#80d4aa; background-color:#2f2f2f; font-weight:bold"  | ErrorMsg || 80D4AA ||128.212,170|| 2F2F2F ||47,47,47|| bold
+|-
+! Exception
+|style="color:#c3bf9f; background-color:#3f3f3f; font-weight:bold"  | Exception || C3BF9F ||195,191,159|||||| bold
+|-
+! Float
+|style="color:#c0bed1; background-color:#3f3f3f" | Float || C0BED1 ||192,190,209||||||
+|-
+! FoldColumn
+|style="color:#93b3a3; background-color:#3f4040" | FoldColumn || 93B3A3 ||147,179,163|| 3F4040 ||63,64,64||
+|-
+! Folded
+|style="color:#93b3a3; background-color:#3f4040" | Folded || 93B3A3 ||147,179,163|| 3F4040 ||63,64,64||
+|-
+! Function
+|style="color:#efef8f; background-color:#3f3f3f" | Function || EFEF8F ||239,239,143||||||
+|-
+! Identifier
+|style="color:#efdcbc; background-color:#3f3f3f" | Identifier || EFDCBC ||239,220,188||||||
+|-
+! IncSearch
+|style="color:#385f38; background-color:#f8f893" | IncSearch || 385F38 ||56,95,56|| F8F893 ||248,248,147||
+|-
+! Keyword
+|style="color:#f0dfaf; background-color:#3f3f3f; font-weight:bold"  | Keyword || F0DFAF ||240,223,175|||||| bold
+|-
+! Label
+|style="color:#dfcfaf; background-color:#3f3f3f; text-decoration:underline"  | Label || DFCFAF ||223,207,175|||||| underline
+|-
+! LineNr
+|style="color:#9fafaf; background-color:#262626" | LineNr || 9FAFAF ||159,175,175|| 262626 ||38,38,38||
+|-
+! Macro
+|style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold"  | Macro || FFCFAF ||255,207,175|||||| bold
+|-
+! ModeMsg
+|style="color:#ffcfaf; background-color:#3f3f3f" | ModeMsg || FFCFAF ||255,207,175||||||
+|-
+! MoreMsg
+|style="color:#ffffff; background-color:#3f3f3f; font-weight:bold"  | MoreMsg || FFFFFF ||255,255,255|||||| bold
+|-
+! NonText
+|style="color:#404040; background-color:#3f3f3f" | NonText || 404040 ||64,64,64||||||
+|-
+! Number
+|style="color:#8cd0d3; background-color:#3f3f3f" | Number || 8CD0D3 ||140,208,211||||||
+|-
+! Operator
+|style="color:#f0efd0; background-color:#3f3f3f" | Operator || F0EFD0 ||240,239,208||||||
+|-
+! PreCondit
+|style="color:#dfaf8f; background-color:#3f3f3f; font-weight:bold"  | PreCondit || DFAF8F ||223,175,143|||||| bold
+|-
+! PreProc
+|style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold"  | PreProc || FFCFAF ||255,207,175|||||| bold
+|-
+! Question
+|style="color:#ffffff; background-color:#3f3f3f; font-weight:bold"  | Question || FFFFFF ||255,255,255|||||| bold
+|-
+! Repeat
+|style="color:#ffd7a7; background-color:#3f3f3f; font-weight:bold"  | Repeat || FFD7A7 ||255,215,167|||||| bold
+|-
+! Search
+|style="color:#ffffe0; background-color:#284f28" | Search || FFFFE0 ||255,255,224|| 284F28 ||40,79,40||
+|-
+! SpecialChar
+|style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold" | SpecialChar || DCA3A3 ||220,163,163|||||| bold
+|-
+! SpecialComment
+|style="color:#82a282; background-color:#3f3f3f; font-weight:bold" | SpecialComment || 82A282 ||130,162,130|||||| bold
+|-
+! Special
+|style="color:#cfbfaf; background-color:#3f3f3f" | Special || CFBFAF ||207,191,175||||||
+|-
+! SpecialKey
+|style="color:#9ece9e; background-color:#3f3f3f" | SpecialKey || 9ECE9E ||158,206,158||||||
+|-
+! Statement
+|style="color:#e3ceab; background-color:#3f3f3f" | Statement || E3CEAB ||227,206,171||||||
+|-
+! StatusLine
+|style="color:#2e4340; background-color:#ccdc90" | StatusLine || 2E4340 ||46,67,64|| CCDC90 ||204,220,144||
+|-
+! StatusLineNC
+|style="color:#2e3330; background-color:#88b090" | StatusLineNC || 2E3330 ||46,51,48|| 88B090 ||136,176,144||
+|-
+! StorageClass
+|style="color:#c3bf9f; background-color:#3f3f3f; font-weight:bold"  | StorageClass || C3BF9F ||195,191,159|||||| bold
+|-
+! String
+|style="color:#cc9393; background-color:#3f3f3f" | String || CC9393 ||204,147,147||||||
+|-
+! Structure
+|style="color:#efefaf; background-color:#3f3f3f; font-weight:bold"  | Structure || EFEFAF ||239,239,175|||||| bold
+|-
+! Tag
+|style="color:#e89393; background-color:#3f3f3f; font-weight:bold"  | Tag || E89393 ||232,147,147|||||| bold
+|-
+! Title
+|style="color:#efefef; background-color:#3f3f3f; font-weight:bold"  | Title || EFEFEF ||239,239,239|||||| bold
+|-
+! Todo
+|style="color:#dfdfdf; background-color:#3f3f3f; font-weight:bold"  | Todo || DFDFDF ||223,223,223|||||| bold
+|-
+! Typedef
+|style="color:#dfe4cf; background-color:#3f3f3f; font-weight:bold"  | Typedef || DFE4CF ||223,228,207|||||| bold
+|-
+! Type
+|style="color:#dfdfbf; background-color:#3f3f3f; font-weight:bold"  | Type || DFDFBF ||223,223,191|||||| bold
+|-
+! Underlined
+|style="color:#dcdccc; background-color:#3f3f3f; text-decoration:underline"  | Underlined || DCDCCC ||220,220,204|||||| underline
+|-
+! VertSplit
+|style="color:#303030; background-color:#688060" | VertSplit || 303030 ||48,48,48|| 688060 ||104,128,96||
+|-
+! VisualNOS
+|style="color:#333333; background-color:#f18c96; font-weight:bold; text-decoration: underline" | VisualNOS || 333333 ||51,51,51|| F18C96 ||241,140,150|| bold, underline
+|-
+! WarningMsg
+|style="color:#ffffff; background-color:#333333; font-weight:bold"  | WarningMsg || FFFFFF ||255,255,255|| 333333 ||51,51,51|| bold
+|-
+! WildMenu
+|style="color:#cbecd0; background-color:#2c302d; text-decoration:underline"  | WildMenu || DCA3A3 ||220,163,163||2C302D||44,48,45|| underline
+|}
+
+== External links ==
+*[http://slinky.imukuppi.org/zenburn/ Official website]
+*[http://slinky.imukuppi.org/2006/10/31/just-some-alien-fruit-salad-to-keep-you-in-the-zone/ Jani Nurminen blogs on Zenburn]
+*[http://vim.sourceforge.net/scripts/script.php?script_id=415 Zenburn Vim script file]
+*[http://www.brockman.se/software/zenburn/zenburn.el Zenburn for Emacs]
+*[http://termos.vemod.net/zenburn-for-konsole Zenburn for KDE Konsole]
+*[http://www.codinghorror.com/blog/archives/000682.html Zenburn for Visual Studio 2005]
+*[http://www.darkrune.org/blog/?p=213 ZenBurn for Putty]
+
+
+[[Category:Colour schemes]]

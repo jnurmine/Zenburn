@@ -1,0 +1,11 @@
+http://itlivewire.com/devblog/2010/02/04/zenburn-dreamweaver/
+zenburn dreamweaver
+Filed Under (Others) by admin on 04-02-2010
+
+A code view theme for dreamweaver based on zenburn low contrast console theme more info on zenburn official site.
+To use in dreamweaver here are the Instructions:
+1. Download file here
+2. Go to C:\Documents and Settings\\Application Data\Adobe\Dreamweaver CS3\Configuration\CodeColoring
+3. Backup first the original Colors.xml rename it as Colors-back.xml
+4. Then paste our downloaded Colors.xml file
+5. In your dreamweaver go to edit->preferences->code coloring then change your background color to #3f3f3f
