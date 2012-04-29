@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.C#">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#000000" />
+  <style id="/C#/Keywords"
+    color="#0000cc" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/C#/Numbers"
+    color="#004ccc" inverted-color="#8cd0d3"  font-style="normal" font-weight="normal" />
+  <style id="/C#/AutodocComment"
+    color="#216d23" inverted-color="#7f9f7f"  font-style="italic" font-weight="bold" />
+  <style id="/C#/Comment"
+    color="#216d23" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/C#/SingleComment"
+    color="#216d23" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/C#/Region"
+    color="#a0a014" inverted-color="#8f8f8f"  font-style="italic" font-weight="normal" />
+  <style id="/C#/String"
+    color="#88134f" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

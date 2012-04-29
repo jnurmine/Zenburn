@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.ActionScript">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/Actionscript/Classes"
+    color="#d8d8c8" inverted-color="#ff7f33"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Functions"
+    color="#efef8e" inverted-color="#9043e6"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Application API and Central API"
+    color="#f0efd0" inverted-color="#0000b2"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Constants"
+    color="#8cd0d3" inverted-color="#ffb266"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Properties"
+    color="#cc9393" inverted-color="#43b9ff"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Keywords"
+    color="#f0dfaf" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Numbers"
+    color="#7cc7c9" inverted-color="#66ff7f"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Operators"
+    color="#f0efd0" inverted-color="#ff0000"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Preprocessor"
+    color="#fece97" inverted-color="#ff6500"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/JavadocComment"
+    color="#82a282" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Actionscript/Comment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Actionscript/SingleComment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Actionscript/Double Quoted String"
+    color="#cc9393" inverted-color="#8d8d8d"  font-style="normal" font-weight="normal" />
+  <style id="/Actionscript/Single Quoted String"
+    color="#cc9393" inverted-color="#8d8d8d"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

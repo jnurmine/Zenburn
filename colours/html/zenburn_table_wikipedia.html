@@ -1,0 +1,538 @@
+<html>
+<head>
+</head>
+<body>
+<table class="wikitable" style="text-align:center">
+<caption>Zenburn color definitions (originally defined for <a href="/w/index.php?title=Vim&amp;action=edit" class="new" title="Vim">Vim</a>)</caption>
+<tr>
+<th>Category</th>
+<th>Example Text</th>
+<th colspan="2">Foreground</th>
+<th colspan="2">Background</th>
+<th>Extra</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th>Hex</th>
+<th>RGB</th>
+<th>Hex</th>
+<th>RGB</th>
+<th></th>
+</tr>
+<tr>
+<th>Normal</th>
+<td style="color:#dcdccc; background-color:#3f3f3f">Normal</td>
+<td>DCDCCC</td>
+<td>220,220,204</td>
+<td>3F3F3F</td>
+<td>63,63,63</td>
+<td></td>
+</tr>
+<tr>
+<th>Boolean</th>
+<td style="color:#dca3a3; background-color:#3f3f3f">Boolean</td>
+<td>DCA3A3</td>
+<td>220,163,163</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Character</th>
+<td style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold">Character</td>
+<td>DCA3A3</td>
+<td>220,163,163</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Comment</th>
+<td style="color:#7f9f7f; background-color:#3f3f3f; font-style:italic">Comment</td>
+<td>7F9F7F</td>
+<td>127,159,127</td>
+<td></td>
+<td></td>
+<td>italic</td>
+</tr>
+<tr>
+<th>Conditional</th>
+<td style="color:#f0dfaf; background-color:#3f3f3f; font-weight:bold">Conditional</td>
+<td>F0DFAF</td>
+<td>240,223,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Constant</th>
+<td style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold">Constant</td>
+<td>DCA3A3</td>
+<td>220,163,163</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Cursor</th>
+<td style="color:#000d18; background-color:#8faf9f; font-weight:bold">Cursor</td>
+<td>000D18</td>
+<td>0,13,24</td>
+<td>8FAF9F</td>
+<td>143,175,159</td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Debug</th>
+<td style="color:#bca3a3; background-color:#3f3f3f; font-weight:bold">Debug</td>
+<td>BCA3A3</td>
+<td>188,163,163</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Define</th>
+<td style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold">Define</td>
+<td>FFCFAF</td>
+<td>255,207,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Delimiter</th>
+<td style="color:#8f8f8f; background-color:#3f3f3f">Delimiter</td>
+<td>8F8F8F</td>
+<td>143,143,143</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>DiffAdd</th>
+<td style="color:#709080; background-color:#313c36; font-weight:bold">DiffAdd</td>
+<td>709080</td>
+<td>112,144,128</td>
+<td>313C36</td>
+<td>49,60,54</td>
+<td>bold</td>
+</tr>
+<tr>
+<th>DiffChange</th>
+<td style="color:#dcdccc; background-color:#333333">DiffChange</td>
+<td>DCDCCC</td>
+<td>220,220,204</td>
+<td>333333</td>
+<td>51,51,51</td>
+<td></td>
+</tr>
+<tr>
+<th>DiffDelete</th>
+<td style="color:#333333; background-color:#464646">DiffDelete</td>
+<td>333333</td>
+<td>51,51,51</td>
+<td>464646</td>
+<td>70,70,70</td>
+<td></td>
+</tr>
+<tr>
+<th>DiffText</th>
+<td style="color:#ecbcbc; background-color:#41363c; font-weight:bold">DiffText</td>
+<td>ECBCBC</td>
+<td>236,188,188</td>
+<td>41363C</td>
+<td>65,54,60</td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Directory</th>
+<td style="color:#dcdccc; background-color:#3f3f3f; font-weight:bold">Directory</td>
+<td>DCDCCC</td>
+<td>220,220,204</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>ErrorMsg</th>
+<td style="color:#80d4aa; background-color:#2f2f2f; font-weight:bold">ErrorMsg</td>
+<td>80D4AA</td>
+<td>128.212,170</td>
+<td>2F2F2F</td>
+<td>47,47,47</td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Exception</th>
+<td style="color:#c3bf9f; background-color:#3f3f3f; font-weight:bold">Exception</td>
+<td>C3BF9F</td>
+<td>195,191,159</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Float</th>
+<td style="color:#c0bed1; background-color:#3f3f3f">Float</td>
+<td>C0BED1</td>
+<td>192,190,209</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>FoldColumn</th>
+<td style="color:#93b3a3; background-color:#3f4040">FoldColumn</td>
+<td>93B3A3</td>
+<td>147,179,163</td>
+<td>3F4040</td>
+<td>63,64,64</td>
+<td></td>
+</tr>
+<tr>
+<th>Folded</th>
+<td style="color:#93b3a3; background-color:#3f4040">Folded</td>
+<td>93B3A3</td>
+<td>147,179,163</td>
+<td>3F4040</td>
+<td>63,64,64</td>
+<td></td>
+</tr>
+<tr>
+<th>Function</th>
+<td style="color:#efef8f; background-color:#3f3f3f">Function</td>
+<td>EFEF8F</td>
+<td>239,239,143</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Identifier</th>
+<td style="color:#efdcbc; background-color:#3f3f3f">Identifier</td>
+<td>EFDCBC</td>
+<td>239,220,188</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>IncSearch</th>
+<td style="color:#385f38; background-color:#f8f893">IncSearch</td>
+<td>385F38</td>
+<td>56,95,56</td>
+<td>F8F893</td>
+<td>248,248,147</td>
+<td></td>
+</tr>
+<tr>
+<th>Keyword</th>
+<td style="color:#f0dfaf; background-color:#3f3f3f; font-weight:bold">Keyword</td>
+<td>F0DFAF</td>
+<td>240,223,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Label</th>
+<td style="color:#dfcfaf; background-color:#3f3f3f; text-decoration:underline">Label</td>
+<td>DFCFAF</td>
+<td>223,207,175</td>
+<td></td>
+<td></td>
+<td>underline</td>
+</tr>
+<tr>
+<th>LineNr</th>
+<td style="color:#9fafaf; background-color:#262626">LineNr</td>
+<td>9FAFAF</td>
+<td>159,175,175</td>
+<td>262626</td>
+<td>38,38,38</td>
+<td></td>
+</tr>
+<tr>
+<th>Macro</th>
+<td style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold">Macro</td>
+<td>FFCFAF</td>
+<td>255,207,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>ModeMsg</th>
+<td style="color:#ffcfaf; background-color:#3f3f3f">ModeMsg</td>
+<td>FFCFAF</td>
+<td>255,207,175</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>MoreMsg</th>
+<td style="color:#ffffff; background-color:#3f3f3f; font-weight:bold">MoreMsg</td>
+<td>FFFFFF</td>
+<td>255,255,255</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>NonText</th>
+<td style="color:#404040; background-color:#3f3f3f">NonText</td>
+<td>404040</td>
+<td>64,64,64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Number</th>
+<td style="color:#8cd0d3; background-color:#3f3f3f">Number</td>
+<td>8CD0D3</td>
+<td>140,208,211</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Operator</th>
+<td style="color:#f0efd0; background-color:#3f3f3f">Operator</td>
+<td>F0EFD0</td>
+<td>240,239,208</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>PreCondit</th>
+<td style="color:#dfaf8f; background-color:#3f3f3f; font-weight:bold">PreCondit</td>
+<td>DFAF8F</td>
+<td>223,175,143</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>PreProc</th>
+<td style="color:#ffcfaf; background-color:#3f3f3f; font-weight:bold">PreProc</td>
+<td>FFCFAF</td>
+<td>255,207,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Question</th>
+<td style="color:#ffffff; background-color:#3f3f3f; font-weight:bold">Question</td>
+<td>FFFFFF</td>
+<td>255,255,255</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Repeat</th>
+<td style="color:#ffd7a7; background-color:#3f3f3f; font-weight:bold">Repeat</td>
+<td>FFD7A7</td>
+<td>255,215,167</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Search</th>
+<td style="color:#ffffe0; background-color:#284f28">Search</td>
+<td>FFFFE0</td>
+<td>255,255,224</td>
+<td>284F28</td>
+<td>40,79,40</td>
+<td></td>
+</tr>
+<tr>
+<th>SpecialChar</th>
+<td style="color:#dca3a3; background-color:#3f3f3f; font-weight:bold">SpecialChar</td>
+<td>DCA3A3</td>
+<td>220,163,163</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>SpecialComment</th>
+<td style="color:#82a282; background-color:#3f3f3f; font-weight:bold">SpecialComment</td>
+<td>82A282</td>
+<td>130,162,130</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Special</th>
+<td style="color:#cfbfaf; background-color:#3f3f3f">Special</td>
+<td>CFBFAF</td>
+<td>207,191,175</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>SpecialKey</th>
+<td style="color:#9ece9e; background-color:#3f3f3f">SpecialKey</td>
+<td>9ECE9E</td>
+<td>158,206,158</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Statement</th>
+<td style="color:#e3ceab; background-color:#3f3f3f">Statement</td>
+<td>E3CEAB</td>
+<td>227,206,171</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>StatusLine</th>
+<td style="color:#2e4340; background-color:#ccdc90">StatusLine</td>
+<td>2E4340</td>
+<td>46,67,64</td>
+<td>CCDC90</td>
+<td>204,220,144</td>
+<td></td>
+</tr>
+<tr>
+<th>StatusLineNC</th>
+<td style="color:#2e3330; background-color:#88b090">StatusLineNC</td>
+<td>2E3330</td>
+<td>46,51,48</td>
+<td>88B090</td>
+<td>136,176,144</td>
+<td></td>
+</tr>
+<tr>
+<th>StorageClass</th>
+<td style="color:#c3bf9f; background-color:#3f3f3f; font-weight:bold">StorageClass</td>
+<td>C3BF9F</td>
+<td>195,191,159</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>String</th>
+<td style="color:#cc9393; background-color:#3f3f3f">String</td>
+<td>CC9393</td>
+<td>204,147,147</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Structure</th>
+<td style="color:#efefaf; background-color:#3f3f3f; font-weight:bold">Structure</td>
+<td>EFEFAF</td>
+<td>239,239,175</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Tag</th>
+<td style="color:#e89393; background-color:#3f3f3f; font-weight:bold">Tag</td>
+<td>E89393</td>
+<td>232,147,147</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Title</th>
+<td style="color:#efefef; background-color:#3f3f3f; font-weight:bold">Title</td>
+<td>EFEFEF</td>
+<td>239,239,239</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Todo</th>
+<td style="color:#dfdfdf; background-color:#3f3f3f; font-weight:bold">Todo</td>
+<td>DFDFDF</td>
+<td>223,223,223</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Typedef</th>
+<td style="color:#dfe4cf; background-color:#3f3f3f; font-weight:bold">Typedef</td>
+<td>DFE4CF</td>
+<td>223,228,207</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Type</th>
+<td style="color:#dfdfbf; background-color:#3f3f3f; font-weight:bold">Type</td>
+<td>DFDFBF</td>
+<td>223,223,191</td>
+<td></td>
+<td></td>
+<td>bold</td>
+</tr>
+<tr>
+<th>Underlined</th>
+<td style="color:#dcdccc; background-color:#3f3f3f; text-decoration:underline">Underlined</td>
+<td>DCDCCC</td>
+<td>220,220,204</td>
+<td></td>
+<td></td>
+<td>underline</td>
+</tr>
+<tr>
+<th>VertSplit</th>
+<td style="color:#303030; background-color:#688060">VertSplit</td>
+<td>303030</td>
+<td>48,48,48</td>
+<td>688060</td>
+<td>104,128,96</td>
+<td></td>
+</tr>
+<tr>
+<th>VisualNOS</th>
+<td style="color:#333333; background-color:#f18c96; font-weight:bold; text-decoration: underline">VisualNOS</td>
+<td>333333</td>
+<td>51,51,51</td>
+<td>F18C96</td>
+<td>241,140,150</td>
+<td>bold, underline</td>
+</tr>
+<tr>
+<th>WarningMsg</th>
+<td style="color:#ffffff; background-color:#333333; font-weight:bold">WarningMsg</td>
+<td>FFFFFF</td>
+<td>255,255,255</td>
+<td>333333</td>
+<td>51,51,51</td>
+<td>bold</td>
+</tr>
+<tr>
+<th>WildMenu</th>
+<td style="color:#cbecd0; background-color:#2c302d; text-decoration:underline">WildMenu</td>
+<td>DCA3A3</td>
+<td>220,163,163</td>
+<td>2C302D</td>
+<td>44,48,45</td>
+<td>underline</td>
+</tr>
+</table>
+</body>
+</html>

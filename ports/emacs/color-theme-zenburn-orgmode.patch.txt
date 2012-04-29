@@ -1,0 +1,92 @@
+--- color-theme-zenburn.el.orig	2006-11-22 03:21:18.000000000 +0100
++++ color-theme-zenburn.el	2009-06-11 16:51:02.000000000 +0200
+@@ -5,6 +5,9 @@
+ ;; URL: http://www.brockman.se/software/zenburn/zenburn.el
+ ;; Updated: 2006-11-22 03:20
+ 
++;; This copy was modified by Adrian C. <anrxc_sysphere_org>
++;;   -- org-mode mode faces themed with zenburn colors
++
+ ;; This file is free software; you can redistribute it and/or
+ ;; modify it under the terms of the GNU General Public License as
+ ;; published by the Free Software Foundation; either version 2 of
+@@ -784,6 +787,41 @@
+      '(nxml-namespace-attribute-colon
+        ((t (:inherit nxml-attribute-colon))))
+ 
++     ;; Zenburn colors for org-mode
++     '(org-agenda-date-today ((t (:foreground "white" 
++                               :slant italic :weight bold))) t)       ;; white
++     '(org-agenda-structure ((t (:inherit font-lock-comment-face))))  ;; zenburn-green
++     '(org-archived ((t (:foreground "#8f8f8f"))))                    ;; zenburn-bg slight lighter
++     '(org-column ((t (:height 98 :family "DejaVu Sans Mono"))))      ;; n/a
++     '(org-checkbox ((t (:background "#5f5f5f" :foreground "white"    ;; zenburn-fg on zenburn-bg+2
++                      :box (:line-width 1 :style released-button))))) ;;   - turn checkboxes into buttons
++     '(org-date ((t (:foreground "#8cd0d3" :underline t))))           ;; zenburn-blue
++     '(org-deadline-announce ((t (:foreground "#bc8383"))))           ;; zenburn-red-1
++     '(org-done ((t (:bold t :weight bold :foreground "#afd8af"))))   ;; zenburn-green+3
++     '(org-formula ((t (:foreground "#d0bf8f"))))                     ;; zenburn-yellow-2
++     '(org-headline-done ((t (:foreground "#afd8af"))))               ;; zenburn-green+3
++     '(org-hide ((t (:foreground "#282828"))))                        ;; zenburn-bg slight darker
++     '(org-level-1 ((t (:foreground "#dfaf8f"))))                     ;; zenburn-orange
++     '(org-level-2 ((t (:foreground "#f0dfaf"))))                     ;; zenburn-yellow
++     '(org-level-3 ((t (:foreground "#8cd0d3"))))                     ;; zenburn-blue
++     '(org-level-4 ((t (:foreground "#93e0e3"))))                     ;; zenburn-cyan
++     '(org-level-5 ((t (:foreground "#7cb8bb"))))                     ;; zenburn-blue-1
++     '(org-level-6 ((t (:foreground "#6ca0a3"))))                     ;; zenburn-blue-2
++     '(org-level-7 ((t (:foreground "#5c888b"))))                     ;; zenburn-blue-3
++     '(org-level-8 ((t (:foreground "#4c7073"))))                     ;; zenburn-blue-4
++     '(org-link ((t (:foreground "#d0bf8f" :underline t))))           ;; zenburn-yellow-2
++     ;'(org-priority faces                                            TODO
++     '(org-scheduled ((t (:foreground "#bfebbf"))))                   ;; zenburn-green+4
++     '(org-scheduled-previously ((t (:foreground "#8c5353"))))        ;; zenburn-red-4
++     '(org-scheduled-today ((t (:foreground "#94bff3"))))             ;; zenburn-blue+1
++     '(org-special-keyword ((t (:foreground "#e0cf9f"))))             ;; zenburn-yellow-1
++     '(org-table ((t (:foreground "#9fc59f"))))                       ;; zenburn-green+2
++     '(org-tag ((t (:bold t :weight bold))))                          ;; n/a
++     '(org-time-grid ((t (:foreground "#ffc9a4"))))                   ;; zenburn-orange slight lighter
++     '(org-todo ((t (:bold t :foreground "#cc9393" :weight bold))))   ;; zenburn-red
++     '(org-upcoming-deadline ((t (:inherit font-lock-keyword-face)))) ;; zenburn-fg
++     '(org-warning ((t (:bold t :foreground "#cc9393" :weight bold))));; zenburn-red
++
+      ;; TODO
+      '(outline-8 ((t (:inherit default))))
+      '(outline-7 ((t (:inherit outline-8 :height 1.0))))
+@@ -1053,6 +1091,37 @@
+        nxml-tag-delimiter-face
+        nxml-tag-slash-face
+        nxml-text-face
++       org-agenda-date-today-face
++       org-agenda-structure-face
++       org-archived-face
++       org-column-face
++       ;org-checkbox-face
++       org-date-face
++       org-deadline-announce-face
++       org-done-face
++       org-formula-face
++       org-headline-done-face
++       org-hide-face
++       org-level-1-face
++       org-level-2-face
++       org-level-3-face
++       org-level-4-face
++       org-level-5-face
++       org-level-6-face
++       org-level-7-face
++       org-level-8-face
++       org-link-face
++       ;org-priority-face
++       org-scheduled-face
++       org-scheduled-previously-face
++       org-scheduled-today-face
++       org-special-keyword-face
++       org-table-face
++       org-tag-face
++       org-time-grid-face
++       org-todo-face
++       org-upcoming-deadline-face
++       org-warning-face
+        paren-face
+        plain-widget-button-face
+        plain-widget-button-pressed-face

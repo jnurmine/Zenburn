@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Zenburn
+activeBackground=#b5d2a9
+activeBlend=#b5d2a9
+activeForeground=#6a756e
+activeTitleBtnBg=#313633
+alternateBackground=#3c3c3c
+background=#6a756e
+buttonBackground=#8b9990
+buttonForeground=#dcdccc
+contrast=10
+foreground=#b5d2a9
+frame=#4b614b
+handle=#8f8f8f
+inactiveBackground=#6a756e
+inactiveBlend=#6a756e
+inactiveForeground=#8b9990
+inactiveFrame=#8f8f8f
+inactiveHandle=#8f8f8f
+inactiveTitleBtnBg=#3f3f3f
+linkColor=#8cd0d3
+selectBackground=#4b614b
+selectForeground=#dcdccc
+shadeSortColumn=true
+visitedLinkColor=#dca3a3
+windowBackground=#3f3f3f
+windowForeground=#dcdccc

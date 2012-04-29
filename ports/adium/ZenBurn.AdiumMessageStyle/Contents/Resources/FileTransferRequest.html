@@ -1,0 +1,14 @@
+<div class="msg transfer status %messageClasses%">
+	<div class="node">
+		<div class="text">
+			<div class="actions">
+				<div class="info">%message%</div>
+				<div class="wrap">
+					<div class="cancel"><button onclick="%cancelRequestHandler%">Cancel</button></div>
+					<div class="save"><button onclick="(event.shiftKey)?%saveFileAsHandler%:%saveFileHandler%" title="Click to save %fileName%, Shift + Click to save %fileName% under a new name.">Save</button></div>
+				</div>
+			</div>
+		</div>
+		<div class="time" title="%time{dd MMM yyyy}%">%time%</div>
+	</div>
+</div>

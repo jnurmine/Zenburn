@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.XML">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/XML/Entities"
+    color="#f0dfaf" inverted-color="#ed77e5"  font-style="normal" font-weight="bold" />
+  <style id="/XML/Comment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/SGML Double Dash"
+    color="#80d4aa" inverted-color="#ff0000"  font-style="normal" font-weight="normal" />
+  <style id="/XML/CDATA"
+    color="#efef8e" inverted-color="#ff0000"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Doctype"
+    color="#f0efd0" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Escape"
+    color="#dcdccc" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Tags"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Attributes in Tags"
+    color="#c0bed1" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Strings in Tags"
+    color="#cc9393" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Single Strings in Tags"
+    color="#cc9393" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

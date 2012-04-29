@@ -1,0 +1,31 @@
+# INFO: http://mintty.googlecode.com/svn/trunk/docs/mintty.1.html#HEAD
+Transparency=2
+OpaqueWhenFocused=1
+FontHeight=11
+BoldAsColour=1
+Columns=100
+Rows=40
+# Note: you need xterm-256color
+Term=xterm-256color
+CursorType=1
+
+# Zenburn scheme - Source: http://slinky.imukuppi.org/zenburnpage/
+CursorColour=191,191,191
+ForegroundColour=220,220,204
+BackgroundColour=63,63,63
+Black=63,63,63
+Red=112,80,80
+Green=96,180,138
+Yellow=223,175,143
+Blue=80,96,112
+Magenta=220,140,195
+Cyan=140,208,211
+White=220,220,204
+BoldBlack=112,144,128
+BoldRed=220,163,163
+BoldGreen=195,191,159
+BoldYellow=240,223,175
+BoldBlue=148,191,243
+BoldMagenta=236,147,211
+BoldCyan=147,224,227
+BoldWhite=255,255,255

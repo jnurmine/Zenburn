@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Active Emoticon Packs_BGTheme_Emoticons</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>Alternating Grid_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Away Color</key>
+	<string>179,179,179</string>
+	<key>Away Color_BGTheme_Contact Status Coloring</key>
+	<string>189,189,189</string>
+	<key>Away Enabled</key>
+	<true/>
+	<key>Away Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Away Label Color</key>
+	<string>234,234,214</string>
+	<key>Away Label Color_BGTheme_Contact Status Coloring</key>
+	<string>229,33,39</string>
+	<key>Background As Events</key>
+	<true/>
+	<key>Background As Status</key>
+	<false/>
+	<key>Background Color</key>
+	<string>51,51,51</string>
+	<key>Background Color_BGTheme_Contact List Display</key>
+	<string>59,69,59</string>
+	<key>Bold Groups_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Borderless_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Contact Bubble Draw With Gradient</key>
+	<false/>
+	<key>Contact Cell Style</key>
+	<integer>0</integer>
+	<key>Contact Color_BGTheme_Contact List Display</key>
+	<string>0,255,48</string>
+	<key>Contact Font</key>
+	<string>LucidaGrande,11</string>
+	<key>Contact Left Indent</key>
+	<integer>5</integer>
+	<key>Contact Outline Bubble</key>
+	<true/>
+	<key>Contact Right Indent</key>
+	<integer>4</integer>
+	<key>Contact Spacing</key>
+	<integer>1</integer>
+	<key>Contact Status Text Color</key>
+	<string>128,128,128</string>
+	<key>Contact Text Alignment</key>
+	<integer>0</integer>
+	<key>Custom Group Color_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Display Idle Time_BGTheme_Idle Display</key>
+	<true/>
+	<key>Extended Status Position</key>
+	<integer>0</integer>
+	<key>Extended Status Style</key>
+	<integer>2</integer>
+	<key>Fade Offline Images</key>
+	<true/>
+	<key>Font_BGTheme_Contact List Display</key>
+	<string>EurostileBold,14</string>
+	<key>Grid Color</key>
+	<string>245,245,245</string>
+	<key>Grid Color_BGTheme_Contact List Display</key>
+	<string>245,255,251</string>
+	<key>Grid Enabled</key>
+	<true/>
+	<key>Group Background</key>
+	<string>255,255,255</string>
+	<key>Group Background Gradient</key>
+	<string>76,76,76</string>
+	<key>Group Bottom Spacing</key>
+	<integer>0</integer>
+	<key>Group Cell Style</key>
+	<integer>1</integer>
+	<key>Group Color_BGTheme_Contact List Display</key>
+	<string>0,0,0</string>
+	<key>Group Font</key>
+	<string>LucidaGrande-Bold,11</string>
+	<key>Group Gradient</key>
+	<true/>
+	<key>Group Hide Bubble</key>
+	<false/>
+	<key>Group Inverted Text Color</key>
+	<string>255,255,255</string>
+	<key>Group Outline Bubble</key>
+	<false/>
+	<key>Group Shadow</key>
+	<true/>
+	<key>Group Shadow Color</key>
+	<string>128,128,128</string>
+	<key>Group Text Alignment</key>
+	<integer>0</integer>
+	<key>Group Text Color</key>
+	<string>0,0,0</string>
+	<key>Group Top Spacing</key>
+	<integer>2</integer>
+	<key>Horizontal Autosizing</key>
+	<true/>
+	<key>Horizontal Width</key>
+	<integer>175</integer>
+	<key>Idle And Away Color</key>
+	<string>179,179,179</string>
+	<key>Idle And Away Color_BGTheme_Contact Status Coloring</key>
+	<string>49,49,49</string>
+	<key>Idle And Away Enabled</key>
+	<true/>
+	<key>Idle And Away Enabled_BGTheme_Contact Status Coloring</key>
+	<false/>
+	<key>Idle And Away Label Color</key>
+	<string>233,233,214</string>
+	<key>Idle And Away Label Color_BGTheme_Contact Status Coloring</key>
+	<string>233,233,214</string>
+	<key>Idle Color</key>
+	<string>179,179,179</string>
+	<key>Idle Color_BGTheme_Contact Status Coloring</key>
+	<string>234,28,31</string>
+	<key>Idle Enabled</key>
+	<true/>
+	<key>Idle Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Idle Label Color</key>
+	<string>234,234,234</string>
+	<key>Idle Label Color_BGTheme_Contact Status Coloring</key>
+	<string>132,137,130</string>
+	<key>Idle Time Text Color_BGTheme_Idle Display</key>
+	<string>0,0,0</string>
+	<key>Label Around Contact_BGTheme_Contact List Display</key>
+	<false/>
+	<key>Label Groups Color_BGTheme_Contact List Display</key>
+	<string>0,255,19</string>
+	<key>Label Groups_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Label Opacity_BGTheme_Contact List Display</key>
+	<real>1</real>
+	<key>Offline Color</key>
+	<string>50,50,50</string>
+	<key>Offline Color_BGTheme_Contact Status Coloring</key>
+	<string>50,50,50</string>
+	<key>Offline Enabled</key>
+	<false/>
+	<key>Offline Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Offline Label Color</key>
+	<string>240,240,240</string>
+	<key>Offline Label Color_BGTheme_Contact Status Coloring</key>
+	<string>240,240,240</string>
+	<key>Online Color</key>
+	<string>179,179,179</string>
+	<key>Online Color_BGTheme_Contact Status Coloring</key>
+	<string>0,208,1</string>
+	<key>Online Enabled</key>
+	<true/>
+	<key>Online Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Online Label Color</key>
+	<string>209,234,220</string>
+	<key>Online Label Color_BGTheme_Contact Status Coloring</key>
+	<string>38,42,40</string>
+	<key>Opacity_BGTheme_Contact List Display</key>
+	<real>0.0</real>
+	<key>Outline Bubble</key>
+	<false/>
+	<key>Outline Bubble Line Width</key>
+	<integer>1</integer>
+	<key>Outline Groups Color_BGTheme_Contact List Display</key>
+	<string>104,121,108</string>
+	<key>Outline Groups_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Outline Labels_BGTheme_Contact List Display</key>
+	<false/>
+	<key>Row Spacing_BGTheme_Contact List Display</key>
+	<real>3</real>
+	<key>Service Icon Position</key>
+	<integer>2</integer>
+	<key>Shadows_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Show Extended Status</key>
+	<true/>
+	<key>Show Labels_BGTheme_Contact List Display</key>
+	<true/>
+	<key>Show Service Icons</key>
+	<true/>
+	<key>Show Status Icons</key>
+	<true/>
+	<key>Show User Icon</key>
+	<true/>
+	<key>Signed Off Color</key>
+	<string>255,255,255</string>
+	<key>Signed Off Color_BGTheme_Contact Status Coloring</key>
+	<string>255,255,255</string>
+	<key>Signed Off Enabled</key>
+	<true/>
+	<key>Signed Off Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Signed Off Label Color</key>
+	<string>128,0,0</string>
+	<key>Signed Off Label Color_BGTheme_Contact Status Coloring</key>
+	<string>198,55,43</string>
+	<key>Signed On Color</key>
+	<string>255,255,255</string>
+	<key>Signed On Color_BGTheme_Contact Status Coloring</key>
+	<string>255,255,255</string>
+	<key>Signed On Enabled</key>
+	<true/>
+	<key>Signed On Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Signed On Label Color</key>
+	<string>128,128,128</string>
+	<key>Signed On Label Color_BGTheme_Contact Status Coloring</key>
+	<string>43,198,56</string>
+	<key>Status Font</key>
+	<string>LucidaGrande,10</string>
+	<key>Status Icon Position</key>
+	<integer>0</integer>
+	<key>Status Label Opacity</key>
+	<real>1</real>
+	<key>Status Label Opacity_BGTheme_Contact Status Coloring</key>
+	<real>1</real>
+	<key>Typing Color</key>
+	<string>255,255,255</string>
+	<key>Typing Color_BGTheme_Contact Status Coloring</key>
+	<string>255,255,255</string>
+	<key>Typing Enabled</key>
+	<true/>
+	<key>Typing Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Typing Label Color</key>
+	<string>0,128,128</string>
+	<key>Typing Label Color_BGTheme_Contact Status Coloring</key>
+	<string>43,157,198</string>
+	<key>Unviewed Content Color</key>
+	<string>255,255,255</string>
+	<key>Unviewed Content Color_BGTheme_Contact Status Coloring</key>
+	<string>255,255,255</string>
+	<key>Unviewed Content Enabled</key>
+	<true/>
+	<key>Unviewed Content Enabled_BGTheme_Contact Status Coloring</key>
+	<true/>
+	<key>Unviewed Content Label Color</key>
+	<string>163,152,246</string>
+	<key>Unviewed Content Label Color_BGTheme_Contact Status Coloring</key>
+	<string>43,69,198</string>
+	<key>Use Gradient_BGTheme_Contact List Display</key>
+	<true/>
+	<key>User Icon Position</key>
+	<integer>2</integer>
+	<key>User Icon Size</key>
+	<integer>16</integer>
+	<key>Vertical Autosizing</key>
+	<true/>
+	<key>Window Shadowed</key>
+	<true/>
+	<key>Window Style</key>
+	<integer>2</integer>
+	<key>Window Transparency</key>
+	<real>1</real>
+	<key>themeAuthor</key>
+	<string>Dylan Hull</string>
+	<key>themeName</key>
+	<string>Midnight Lime</string>
+	<key>themeVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.ASP-HTML">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/XML/Entities"
+    color="#dcdccc" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Inline ASP"
+    color="#8f8f8f" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/ASP/VBScript Functions"
+    color="#dcdccc" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Keywords"
+    color="#f0dfaf" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/ASP Delimiter"
+    color="#8f8f8f" inverted-color="#ff2222"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Numbers"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/FunctionRegex"
+    color="#efef8e" inverted-color="#96c9ff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Comment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/SingleComment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/SingleComment2"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/String"
+    color="#cc9393" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Inline Javascript"
+    color="#dcdccc" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Script Tags"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Keywords"
+    color="#f0dfaf" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Numbers"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Characters"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/FunctionRegex"
+    color="#efef8e" inverted-color="#96c9ff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Opening Script Tag"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Attributes in Tags"
+    color="#ecd9a0" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Strings in Tags"
+    color="#cc9393" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Single Strings in Tags"
+    color="#cc9393" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/AutodocComment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Comment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/SingleComment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Regular Expressions"
+    color="#c0bed1" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Escaped Characters"
+    color="#ffffff" inverted-color="#4d028c"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/String"
+    color="#cc9393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/SingleString"
+    color="#cc9393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Inline VBScript"
+    color="#dcdccc" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/HTML Comment Tag"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/Inline CSS"
+    color="#dcdccc" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Style Tags"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Opening Style Tag"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Inside curly brackets"
+    color="#dcdccc" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Keywords"
+    color="#f0dfaf" inverted-color="#ec77b3"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Attribute state"
+    color="#dcdccc" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Attributes"
+    color="#f0efd0" inverted-color="#ffa864"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Digits"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Colors"
+    color="#dcdccc" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/AutodocComment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CSS/Comment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CSS/String"
+    color="#cc9393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/SingleString"
+    color="#cc9393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/URL"
+    color="#f0efd0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/HTMLComment"
+    color="#82a282" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/ASP Include"
+    color="#ffcfaf" inverted-color="#deae97"  font-style="normal" font-weight="normal" />
+  <style id="/XML/SGML Double Dash"
+    color="#ffffff" inverted-color="#ff0000"  font-style="normal" font-weight="normal" />
+  <style id="/XML/CDATA"
+    color="#c3bf9f" inverted-color="#ff0000"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Doctype"
+    color="#236e25" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Escape"
+    color="#236e25" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/ASP-HTML/ASP Tags"
+    color="#ad9192" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Attributes in HTML Tags"
+    color="#7c7c7c" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/ASP in Tags"
+    color="#ad9192" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Strings in HTML Tags"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/ASP in Strings"
+    color="#ebeda0" inverted-color="#003ad3"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/Strings in HTML Tags 2"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/HTML Tags"
+    color="#e89393" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/ASP-HTML/ASP/VBScript Code"
+    color="#f0efd0" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

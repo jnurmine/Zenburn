@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="2" name="Zenburn" modified="2011-02-09 14:16:09" author="Janni Nurminen" website="http://slinky.imukuppi.org/2006/10/31/just-some-alien-fruit-salad-to-keep-you-in-the-zone/">
+    <searchResultIndication color="#464467" />
+    <filteredSearchResultIndication color="#3F3F6A" />
+    <occurrenceIndication color="#616161" />
+    <writeOccurrenceIndication color="#948567" />
+    <findScope color="#BCADAD" />
+    <sourceHoverBackground color="#A19879" />
+    <singleLineComment color="#7F9F7F" bold="false" />
+    <multiLineComment color="#7F9F7F" />
+    <commentTaskTag color="#ACC1AC" bold="false" />
+    <javadoc color="#B3B5AF" />
+    <javadocLink color="#A893CC" />
+    <javadocTag color="#9393CC" />
+    <javadocKeyword color="#CC9393" />
+    <class color="#CAE682" />
+    <interface color="#CAE682" />
+    <method color="#DFBE95" />
+    <methodDeclaration color="#DFBE95" />
+    <bracket color="#FFFFFF" />
+    <number color="#8ACCCF" />
+    <string color="#CC9393" />
+    <operator color="#F0EFD0" />
+    <keyword color="#EFEFAF" />
+    <annotation color="#808080" />
+    <staticMethod color="#C4C4B7" />
+    <localVariable color="#D4C4A9" />
+    <localVariableDeclaration color="#D4C4A9" bold="false" />
+    <field color="#B3B784" bold="false" />
+    <staticField color="#93A2CC" bold="false" />
+    <staticFinalField color="#53DCCD" bold="false" />
+    <deprecatedMember color="#FFFFFF" bold="false" />
+    <background color="#404040" />
+    <currentLine color="#505050" />
+    <foreground color="#F6F3E8" />
+    <lineNumber color="#C0C0C0" />
+    <selectionBackground color="#898941" />
+    <selectionForeground color="#000000" />
+</colorTheme>

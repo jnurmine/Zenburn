@@ -1,0 +1,286 @@
+/* CSS styles for the styles listed in the original wikipedia / google doc reference sheet for Zenburn */
+
+body {
+	color: #dcdccc;
+	background-color: #3f3f3f;
+}
+
+.normal {
+	color: #dcdccc;
+	background-color: #3f3f3f;
+}
+
+.boolean {
+	color: #dca3a3;
+}
+
+.character {
+	color: #dca3a3;
+	font-weight: bold;
+}
+
+.comment {
+	color: #7f9f7f;
+	font-style: italic;
+}
+
+.conditional {
+	color: #f0dfaf;
+	font-weight: bold;
+}
+
+.constant {
+	color: #dca3a3;
+	font-weight: bold;
+}
+
+.cursor {
+	color: #000d18;
+	background-color: #8faf9f;
+	font-weight: bold;
+}
+
+.debug {
+	color: #bca3a3;
+	font-weight: bold;
+}
+
+.define {
+	color: #ffcfaf;
+	font-weight: bold;
+}
+
+.delimiter {
+	color: #8f8f8f;
+}
+
+.diffadd {
+	color: #709080;
+	background-color: #313c36;
+	font-weight: bold;
+}
+
+.diffchange {
+	color: #dcdccc;
+	background-color: #333333;
+}
+
+.diffdelete {
+	color: #333333;
+	background-color: #464646;
+}
+
+.difftext {
+	color: #ecbcbc;
+	background-color: #41363c;
+	font-weight: bold;
+}
+
+.directory {
+	color: #dcdccc;
+	font-weight: bold;
+}
+
+.errormsg {
+	color: #80d4aa;
+	background-color: #2f2f2f;
+	font-weight: bold;
+}
+
+.exception {
+	color: #c3bf9f;
+	font-weight: bold;
+}
+
+.float {
+	color: #c0bed1;
+}
+
+.foldcolumn {
+	color: #93b3a3;
+	background-color: #3f4040;
+}
+
+.folded {
+	color: #93b3a3;
+	background-color: #3f4040;
+}
+
+.function {
+	color: #efef8f;
+}
+
+.identifier {
+	color: #efdcbc;
+}
+
+.incsearch {
+	color: #385f38;
+	background-color: #f8f893;
+}
+
+.keyword {
+	color: #f0dfaf;
+	font-weight: bold;
+}
+
+.label {
+	color: #dfcfaf;
+}
+
+.linenr {
+	color: #9fafaf;
+	background-color: #262626;
+}
+
+.macro {
+	color: #ffcfaf;
+	font-weight: bold;
+}
+
+.modemsg {
+	color: #ffcfaf;
+}
+
+.moremsg {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.nontext {
+	color: #404040;
+}
+
+.number {
+	color: #8cd0d3;
+}
+
+.operator {
+	color: #f0efd0;
+}
+
+.precondit {
+	color: #dfaf8f;
+	font-weight: bold;
+}
+
+.preproc {
+	color: #ffcfaf;
+	font-weight: bold;
+}
+
+.question {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.repeat {
+	color: #ffd7a7;
+	font-weight: bold;
+}
+
+.search {
+	color: #ffffe0;
+	background-color: #284f28;
+}
+
+.specialchar {
+	color: #dca3a3;
+	font-weight: bold;
+}
+
+.specialcomment {
+	color: #82a282;
+	font-weight: bold;
+}
+
+.special {
+	color: #cfbfaf;
+}
+
+.specialkey {
+	color: #9ece9e;
+}
+
+.statement {
+	color: #e3ceab;
+}
+
+.statusline {
+	color: #2e4340;
+	background-color: #ccdc90;
+}
+
+.statuslinenc {
+	color: #2e3330;
+	background-color: #88b090;
+}
+
+.storageclass {
+	color: #c3bf9f;
+	font-weight: bold;
+}
+
+.string {
+	color: #cc9393;
+	font-weight: bold;
+}
+
+.structure {
+	color: #efefaf;
+	font-weight: bold;
+}
+
+.tag {
+	color: #e89393;
+	font-weight: bold;
+}
+
+.title {
+	color: #efefef;
+	font-weight: bold;
+}
+
+.todo {
+	color: #dfdfdf;
+	font-weight: bold;
+}
+
+.typedef {
+	color: #dfe4cf;
+	font-weight: bold;
+}
+
+.type {
+	color: #dfdfbf;
+	font-weight: bold;
+}
+
+.underlined {
+	color: #dcdccc;
+	text-decoration: underline;
+}
+
+.vertsplit {
+	color: #303030;
+	background-color: #688060;
+}
+
+.visualnos {
+	color: #333333;
+	background-color: #f18c96;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.warningmsg {
+	color: #ffffff;
+	background-color: #333333;
+}
+
+.wildmenu {
+	color: #dca3a3;
+	background-color: #2c302d;
+	text-decoration: underline;
+}
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.Base">
+  <style id="_Default"
+    color="#000000" inverted-color="#dcdccc"  font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#3f3f3f" />
+</mode>
+</seestyle>

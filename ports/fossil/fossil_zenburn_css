@@ -1,0 +1,206 @@
+/* Zenburn theme for fossil                     */
+/* http://slinky.imukuppi.org/zenburnpage/      */
+/* http://fossil-scm.org                        */
+/* Some tables have their styles hardcoded. :(  */
+/* Any feedback and contribution is welcome     */
+
+
+/* General settings for the entire page */
+body {
+  margin: 0ex 0ex;
+  padding: 0px;
+  background-color: #585858;
+  color: #F2E4BE;
+  font-family: sans-serif;
+}
+
+/* The project logo in the upper left-hand corner of each page */
+div.logo {
+  display: inline;
+  text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* The page title centered at the top of each page */
+div.title {
+  display: table-cell;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 5px;
+}
+
+/* The login status message in the top right-hand corner */
+div.status {
+  display: table-cell;
+  text-align: right;
+  vertical-align: bottom;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+/* The header across the top of the page */
+div.header {
+  display: table;
+  width: 100%;
+  color: #BCDFBE;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* The main menu bar that appears at the top of the page beneath
+** the header */
+div.mainmenu {
+  padding: 5px 10px 5px 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #424242;
+  color: #E5BCA1;
+}
+
+/* The submenu bar that *sometimes* appears below the main menu */
+div.submenu {
+  padding: 3px 5px 3px 0px;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #4D4D4D;
+  color: #E5BCA1;
+}
+div.mainmenu a, div.mainmenu a:visited, div.submenu a, div.submenu a:visited{
+  padding: 3px 5px 3px 5px;
+  color: #E5BCA1;
+  text-decoration: none;
+}
+div.mainmenu a:hover, div.submenu a:hover {
+  color: #E9C3A5;
+}
+
+/* All page content from the bottom of the menu or submenu down to
+** the footer */
+div.content {
+  padding: 0px;
+}
+div.content a {  padding: 2px }
+div.content a:link { color: #9DD9D8; }
+div.content a:active { color: #D6A4A4; }
+div.content a:visited { color: #86D1D0; }
+div.content a:hover { color: #82DAC2; }
+
+h1, h2, h3, p, a {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #E5BCA1;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #E5BCA1;
+}
+
+h3 {
+  font-size: 1em;
+  color: #E5BCA1;
+}
+
+/* Some pages have section dividers */
+div.section {
+  margin-bottom: 0px;
+  margin-top: 1em;
+  padding: 3px 3px 0 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #a09048;
+  color: white;
+}
+
+/* The "Date" that occurs on the left hand side of timelines */
+div.divider {
+  color: #82DAC2;
+  background: #2E422F;
+  font-size: 1em; font-weight: normal;
+  padding: .25em;
+  margin: .2em 0 .2em 0;
+  float: left;
+  clear: left;
+}
+
+/* The footer at the very bottom of the page */
+div.footer {
+  font-size: 0.8em;
+  margin-top: 12px;
+  padding: 5px 10px 5px 10px;
+  text-align: right;
+  background-color: #282F2B;
+  color: #B9C7A3;
+}
+
+
+/* Hyperlink colors */
+div.footer a { color: #F2E4BE; }
+div.footer a:link { color: #F2E4BE; }
+div.footer a:visited { color: #F2E4BE; }
+div.footer a:hover { background-color: white; color: #558195; }
+
+/* selected text */
+/* Safari */
+::selection {
+  background: #282F2B;
+  color: #B9C7A3;
+}
+/* Firefox */
+  ::-moz-selection {
+  background: #282F2B;
+  color: #B9C7A3;
+}
+::-webkit-selection {
+  background:#cc0000;
+  color:#B9C7A3;
+}
+
+/* <verbatim> blocks */
+pre.verbatim {
+  background-color: #282F2B; 
+  color: #82DAC2;
+}
+
+pre {
+  padding: 10px;
+}
+
+/* The label/value pairs on (for example) the ci page */
+table.label-value th {
+  vertical-align: top;
+  text-align: right;
+  padding: 0.2ex 2ex;
+}
+
+/* Ticket colors */
+table.report {
+  border: 0;
+  color: #505050;
+}
+td.tktDspValue {
+   background-color: #424242; 
+
+}
+
+/* The nomenclature sidebox for branches,.. */
+div.sidebox {
+  float: right;
+  padding: 3px;
+  background-color: #424242;
+}
+
+textarea, input{
+  background-color: #dddddd;
+}
