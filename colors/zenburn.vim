@@ -136,6 +136,10 @@
 "   or 
 "      let g:zenburn_alternate_Include = 0
 "
+" * To remove the backgroind color or to use with terminal 
+"   with transparent background, use
+"
+"      let g:zenburn_terminal_Background = 1
 "
 " That's it, enjoy!
 "
