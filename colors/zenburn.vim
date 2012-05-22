@@ -405,9 +405,6 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi PMenuThumb      guibg=#a0afa0 guifg=#040404
     hi MatchParen      guifg=#f0f0c0 guibg=#383838 gui=bold
     hi SignColumn      guifg=#9fafaf guibg=#181818 gui=bold
-    hi TabLineFill     guifg=#cfcfaf guibg=#181818 gui=bold
-    hi TabLineSel      guifg=#efefef guibg=#1c1c1b gui=bold
-    hi TabLine         guifg=#b6bf98 guibg=#181818 gui=bold
     hi NonText         guifg=#404040 gui=bold
 
     hi LineNr          guifg=#9fafaf guibg=#161616
@@ -428,9 +425,6 @@ else
     hi PMenuThumb      guibg=#a0afa0 guifg=#040404
     hi MatchParen      guifg=#b2b2a0 guibg=#2e2e2e gui=bold
     hi SignColumn      guifg=#9fafaf guibg=#343434 gui=bold
-    hi TabLineFill     guifg=#cfcfaf guibg=#353535 gui=bold
-    hi TabLineSel      guifg=#efefef guibg=#3a3a39 gui=bold
-    hi TabLine         guifg=#b6bf98 guibg=#353535 gui=bold
     hi NonText         guifg=#5b605e gui=bold
 
     hi LineNr          guifg=#9fafaf guibg=#262626
@@ -511,7 +505,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
         hi Folded        ctermbg=233 ctermfg=109
         hi TabLine       ctermbg=236 ctermfg=108 cterm=none
         hi TabLineSel    ctermbg=235 ctermfg=186 cterm=bold
-        hi TabLineFill   ctermbg=236 ctermfg=236
+        hi TabLineFill   ctermbg=236 ctermfg=236 cterm=bold
     endif
 else
     hi FoldColumn    guibg=#333333
@@ -527,7 +521,7 @@ else
         hi Folded        ctermbg=236 ctermfg=109
         hi TabLine       ctermbg=235 ctermfg=187 cterm=none
         hi TabLineSel    ctermbg=236 ctermfg=229 cterm=bold
-        hi TabLineFill   ctermbg=233 ctermfg=233
+        hi TabLineFill   ctermbg=233 ctermfg=233 cterm=bold
     endif
 endif
 
