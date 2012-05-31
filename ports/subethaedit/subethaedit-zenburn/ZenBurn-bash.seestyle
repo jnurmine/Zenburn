@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.bash">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#000000" />
+  <style id="/bash/Keywords"
+    color="#881350" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Keywords for Variables"
+    color="#881350" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Builtin functions"
+    color="#440088" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Unix commands"
+    color="#880088" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Numbers"
+    color="#0000ff" inverted-color="#8cd0d3"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Characters"
+    color="#0000ff" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/bash/FunctionRegex"
+    color="#003369" inverted-color="#efef8e"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Preprocessor"
+    color="#683821" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Variables"
+    color="#c4620a" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/SingleComment"
+    color="#236e25" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/bash/String with double quotes"
+    color="#760f15" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Variables in double quoted Strings"
+    color="#c4620a" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/String with single quotes"
+    color="#760f15" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Variables in single quoted Strings"
+    color="#c4620a" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/bash/Backticks"
+    color="#660088" inverted-color="#e89393"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

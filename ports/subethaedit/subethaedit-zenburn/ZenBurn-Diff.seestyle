@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.Diff">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#ffffff" inverted-background-color="#000000" />
+  <style id="/Diff/Index"
+    color="#8f6d00" inverted-color="#f0dfaf"  font-style="normal" font-weight="bold" />
+  <style id="/Diff/+++"
+    color="#2b9d00" inverted-color="#7f9f7f"  font-style="normal" font-weight="bold" />
+  <style id="/Diff/---"
+    color="#a61a1a" inverted-color="#cc9393"  font-style="normal" font-weight="bold" />
+  <style id="/Diff/=================="
+    color="#666666" inverted-color="#8f8f8f"  font-style="normal" font-weight="normal" />
+  <style id="/Diff/@@"
+    color="#8f6d00" inverted-color="#8cd0d3"  font-style="normal" font-weight="bold" />
+</mode>
+</seestyle>
