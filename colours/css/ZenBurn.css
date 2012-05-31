@@ -1,300 +1,286 @@
-.normaldcdccc {
+/* CSS styles for the styles listed in the original wikipedia / google doc reference sheet for Zenburn TEST SCM TEST2 */
+
+body {
 	color: #dcdccc;
+	background-color: #3f3f3f;
 }
 
-.background3f3f3f {
-	color: #3f3f3f;
+.normal {
+	color: #dcdccc;
+	background-color: #3f3f3f;
 }
 
-.booleandca3a3 {
+.boolean {
 	color: #dca3a3;
 }
 
-.characterdca3a3 {
+.character {
 	color: #dca3a3;
+	font-weight: bold;
 }
 
-.comment7f9f7f {
+.comment {
 	color: #7f9f7f;
+	font-style: italic;
 }
 
-.conditionalf0dfaf {
+.conditional {
 	color: #f0dfaf;
+	font-weight: bold;
 }
 
-.constantdca3a3 {
+.constant {
 	color: #dca3a3;
+	font-weight: bold;
 }
 
-.cursorforeground000d18 {
+.cursor {
 	color: #000d18;
+	background-color: #8faf9f;
+	font-weight: bold;
 }
 
-.cursorbackground8faf9f {
-	color: #8faf9f;
-}
-
-.debugbca3a3 {
+.debug {
 	color: #bca3a3;
+	font-weight: bold;
 }
 
-.defineffcfaf {
+.define {
 	color: #ffcfaf;
+	font-weight: bold;
 }
 
-.delimiter8f8f8f {
+.delimiter {
 	color: #8f8f8f;
 }
 
-.diffaddforeground708090 {
+.diffadd {
 	color: #709080;
+	background-color: #313c36;
+	font-weight: bold;
 }
 
-.diffaddbackground313c36 {
-	color: #313c36;
-}
-
-.diffchangeforegrounddcdccc {
+.diffchange {
 	color: #dcdccc;
+	background-color: #333333;
 }
 
-.diffchangebackground333333 {
+.diffdelete {
 	color: #333333;
+	background-color: #464646;
 }
 
-.diffdeleteforeground333333 {
-	color: #333333;
-}
-
-.diffdeletebackground464646 {
-	color: #464646;
-}
-
-.difftextforegroundecbcbc {
+.difftext {
 	color: #ecbcbc;
-}
-
-.difftextbackground41363c {
-	color: #41363c;
+	background-color: #41363c;
+	font-weight: bold;
 }
 
 .directory {
 	color: #dcdccc;
+	font-weight: bold;
 }
 
-.errormsgforeground80d4aa {
+.errormsg {
 	color: #80d4aa;
+	background-color: #2f2f2f;
+	font-weight: bold;
 }
 
-.errormsgbackground2f2f2f {
-	color: #2f2f2f;
-}
-
-.exceptionc3bf9f {
+.exception {
 	color: #c3bf9f;
+	font-weight: bold;
 }
 
-.floatc3bf9f {
+.float {
 	color: #c0bed1;
 }
 
-.foldcolumnforeground93b3a3 {
+.foldcolumn {
 	color: #93b3a3;
+	background-color: #3f4040;
 }
 
-.foldcolumnbackground3f4040 {
-	color: #3f4040;
-}
-
-.foldedforeground93b3a3 {
+.folded {
 	color: #93b3a3;
+	background-color: #3f4040;
 }
 
-.foldedbackground3f4040 {
-	color: #3f4040;
-}
-
-.fuctionefef8f {
+.fuction {
 	color: #efef8f;
 }
 
-.identifierefdcbc {
+.identifier {
 	color: #efdcbc;
 }
 
-.incsearchforeground385f38 {
+.incsearch {
 	color: #385f38;
+	background-color: #f8f893;
 }
 
-.incsearchbackgroundf8f893 {
-	color: #f8f893;
-}
-
-.keywordf0dfaf {
+.keyword {
 	color: #f0dfaf;
+	font-weight: bold;
 }
 
-.labeldfcfaf {
+.label {
 	color: #dfcfaf;
 }
 
-.linenrforeground9fafaf {
+.linenr {
 	color: #9fafaf;
+	background-color: #262626;
 }
 
-.linenrbackground262626 {
-	color: #262626;
+.macro {
+	color: #ffcfaf;
+	font-weight: bold;
 }
 
-.macroffcfaf {
+.modemsg {
 	color: #ffcfaf;
 }
 
-.modemsgffcfaf {
-	color: #ffcfaf;
-}
-
-.moremsgffffff {
+.moremsg {
 	color: #ffffff;
+	font-weight: bold;
 }
 
-.nontextforeground404040 {
+.nontext {
 	color: #404040;
 }
 
-.number8cd0d3 {
+.number {
 	color: #8cd0d3;
 }
 
-.operatorf0efd0 {
+.operator {
 	color: #f0efd0;
 }
 
-.preconduitdfaf8f {
+.precondit {
 	color: #dfaf8f;
+	font-weight: bold;
 }
 
-.preprocffcfaf {
+.preproc {
 	color: #ffcfaf;
+	font-weight: bold;
 }
 
-.questionffffff {
+.question {
 	color: #ffffff;
+	font-weight: bold;
 }
 
-.repeatffd7a7 {
+.repeat {
 	color: #ffd7a7;
+	font-weight: bold;
 }
 
-.searchforegroundffffe0 {
+.search {
 	color: #ffffe0;
+	background-color: #284f28;
 }
 
-.searchbackground284f28 {
-	color: #284f28;
-}
-
-.specialchardca3a3 {
+.specialchar {
 	color: #dca3a3;
+	font-weight: bold;
 }
 
-.specialcomment82a282 {
+.specialcomment {
 	color: #82a282;
+	font-weight: bold;
 }
 
-.specialcfbfaf {
+.special {
 	color: #cfbfaf;
 }
 
-.specialkey9ece9e {
+.specialkey {
 	color: #9ece9e;
 }
 
-.statemente3ceab {
+.statement {
 	color: #e3ceab;
 }
 
-.statuslineforeground2e4340 {
+.statusline {
 	color: #2e4340;
+	background-color: #ccdc90;
 }
 
-.statuslinebackgroundccdc90 {
-	color: #ccdc90;
-}
-
-.statuslinencforeground2e3330 {
+.statuslinenc {
 	color: #2e3330;
+	background-color: #88b090;
 }
 
-.statuslinencbackground88b090 {
-	color: #88b090;
-}
-
-.storageclassc3bf9f {
+.storageclass {
 	color: #c3bf9f;
+	font-weight: bold;
 }
 
-.stringcc9393 {
+.string {
 	color: #cc9393;
+	font-weight: bold;
 }
 
-.structureefefaf {
+.structure {
 	color: #efefaf;
+	font-weight: bold;
 }
 
-.tage89393 {
+.tag {
 	color: #e89393;
+	font-weight: bold;
 }
 
-.titleefefef {
+.title {
 	color: #efefef;
+	font-weight: bold;
 }
 
-.tododfdfdf {
+.todo {
 	color: #dfdfdf;
+	font-weight: bold;
 }
 
-.typedefdfe4cf {
+.typedef {
 	color: #dfe4cf;
+	font-weight: bold;
 }
 
-.typedfdfbf {
+.type{
 	color: #dfdfbf;
+	font-weight: bold;
 }
 
-.underlineddcdccc {
+.underlined {
 	color: #dcdccc;
+	text-decoration: underline;
 }
 
-.vertsplitforeground303030 {
+.vertsplit {
 	color: #303030;
+	background-color: #688060;
 }
 
-.vertsplitbackground688060 {
-	color: #688060;
-}
-
-.visualnosforeground333333 {
+.visualnos {
 	color: #333333;
+	background-color: #f18c96;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
-.visualnosbackgroundf18c96 {
-	color: #f18c96;
-}
-
-.warningmsgforegroundffffff {
+.warningmsg {
 	color: #ffffff;
+	background-color: #333333;
 }
 
-.warningmsgbackground333333 {
-	color: #333333;
-}
-
-.wildmenuforegrounddca3a3 {
+.wildmenu {
 	color: #dca3a3;
-}
-
-.wildmenubackground2c302d {
-	color: #2c302d;
+	background-color: #2c302d;
+	text-decoration: underline;
 }
 
