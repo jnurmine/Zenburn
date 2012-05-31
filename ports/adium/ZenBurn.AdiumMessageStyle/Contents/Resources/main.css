@@ -1,0 +1,281 @@
+/*
+
+	----------------------------------------
+	| Mnmlsm is made by Florian Pichler    |
+	----------------------------------------
+	| (c) 2010, All rights reserved, es&es |
+	----------------------------------------
+	| somewhatcreative.com                 |
+	----------------------------------------
+
+    (this version hacked about by @mildlydiverting)
+
+*/
+
+/* Useful general */
+
+html,body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #3f3f3f;
+}
+
+body{
+	color: #e2e2d5;
+	margin: 0;
+	line-height: 1.5em;
+	word-wrap: break-word;
+	word-break: break-word;
+	-webkit-text-rendering: optimizeLegibility;}
+
+#Chat{
+	overflow: hidden;}
+
+img:not(.icn){
+	position: relative;
+	vertical-align: middle;}
+
+img.emoticon{
+	background: transparent;
+	border: 0;}
+
+img.scaledToFitImage{
+	width: auto;}
+
+/* Links */
+
+a:link{
+	color: #90ad91;
+	text-decoration: none;}
+
+a:visited{
+	color: #f3f1d8;}
+
+a:focus,
+a:hover{
+	outline: 0;
+	color: #93b094;
+	text-decoration: underline;}
+
+a:active{
+	color: #9cb79c;}
+
+/* Header */
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.5em 1em;
+	background: rgba(0.149,0.149,0.149,0.25);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0.129,0.129,0.129,0.1)), to(rgba(0.247,0.247,0.247,0.5))) 0 0 no-repeat;
+	color: #a0a0a0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+	z-index: 1000;}
+
+/* Messages */
+
+.msg{
+	position: relative;
+	overflow: hidden;}
+
+.history{
+	opacity: 0.45;
+	background: rgba(0.247,0.247,0.247,0.01);
+	color: #cec9ae;
+}
+	
+.outgoing{
+	background: rgba(0.306,0.306,0.306.015);}
+	
+.history.outgoing{
+	background: rgba(0.247,0.247,0.247,0.025);}
+
+.msg .icn{
+	position: absolute;
+	z-index: 10;
+	display: block;
+	width: 2.18em;
+	height: 2.18em;
+	left: 1em;
+	top: 0.3em;
+	background: #232323;
+	-webkit-border-radius: 0.4em;}
+
+.msg .icn[src*="buddy_icon"]{
+	display: none;}
+
+.msg .msg{
+	border-top: 1px solid rgba(0,0,0,0.06);
+	padding: 0.55em 1em 0.5em 4.18em;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.04)), color-stop(0.35, rgba(0,0,0,0))) 0 0 no-repeat;}
+
+.showIcons .sender{
+	display: none;}
+
+.hideIcons .msg{
+	padding-right: 1.5em;
+	padding-left: 1.5em;}
+
+.hideIcons .sender{
+	margin: 0 -0.6em 3px;
+	padding: 0 0.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	letter-spacing: 1px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	color: #cec9ae;
+}
+
+.node{
+	display: -webkit-box;}
+
+.text, .msg time{
+	-webkit-box-pack: left;}
+
+.text{
+	-webkit-box-flex: 1;}
+
+.node + .node{
+	margin-top: 0.46em;}
+
+.time{
+	-webkit-box-flex: 0;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-transition: opacity 150ms ease-in-out;
+	opacity: 0;
+	text-align: right;
+	color: #a0a0a0;
+	font-size: 0.85em;}
+
+.node:hover .time, .sender+.node .time{
+	opacity: 1;}
+
+/* Status */
+
+.status{
+	padding: 0.25em 1em 0.25em 4.18em;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.10)), to(rgba(0,0,0,0.03))) 0 0 no-repeat;
+	color: #a0a0a0;
+	border-top: 1px solid rgba(0,0,0,0.15);}
+
+.status.hideIcons{
+	padding-right: 1.5em;
+	padding-left: 1.5em;}
+
+.status .text{
+	font-size: 0.9em;
+	text-shadow: #2c2c2c 0 1px 1px;}
+
+.status .time{
+	opacity: 1;
+	color: #858585;
+}
+
+.status + .msg .msg{
+	border-color: rgba(0,0,0,0.07);}
+
+.status + .status{
+	border-top: 0;
+	background: rgba(0,0,0,0.03);}
+
+/* Transfers */
+
+.transfer{
+	padding: 0.5em 1em 0.5em 4.18em;}
+
+.transfer .text{
+	font-size: 1em;
+	font-weight: bold;}
+
+.transfer + .status{
+	display: none;}
+
+.actions{
+	display: -webkit-box;
+	margin: 0 0.9em 0 -1.1em;
+	padding: 0em 1em;
+	white-space: nowrap;
+	overflow: hidden;}
+
+.actions button, 
+div.actions div.clicked button:active,
+div.actions div.clicked button:hover{
+	z-index: 4;
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0.1em 1.5em;
+	height: 2em;
+	line-height: 1.5em;
+	border: 0px solid rgba(190,190,190,1);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(220,220,220,1)), color-stop(0.2, rgba(240,240,240,1))) 0 0 no-repeat;
+	-webkit-box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.15), inset 0 0 0.1em 1px rgba(190,190,190,1);
+	text-shadow: 0 1px 2px #fff;
+	color: #535353;
+	-webkit-border-radius: 0.5em;}
+
+.actions button:hover{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(220,220,220,1))) 0 0 no-repeat;
+	border-color: rgba(74,138,250,1);}
+
+div.actions button:active{
+	-webkit-box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.15), inset 0 0.1em 0.3em 0 rgba(0,0,0,0.4);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(210,210,210,1)), to(rgba(160,160,160,1))) 0 0 no-repeat;}
+
+.actions div{
+	display: -webkit-box;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0.4em 0 0;
+	padding: 0.5em 1px 0.5em 0;
+	-webkit-box-align: start;
+	-webkit-box-orient: horizontal;}
+
+.actions .wrap{
+	margin: 0;
+	padding: 0;}
+
+.wrap.clicked{
+	opacity: 0.3;
+	-webkit-animation-name: hide;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: linear;}
+
+@-webkit-keyframes hide{
+	0% { opacity: 1.0;}
+	99%{ opacity: 0.3;}
+	100%{ opacity: 0.3;}
+}
+
+@media all and (max-width: 24em){
+	.actions{
+		overflow: hidden;
+		display: block;}
+
+	.actions .info{
+		padding-bottom: 0;}
+	
+	.actions .wrap{
+		float: right;
+		padding-top: 0;}
+	
+	.actions div{
+		display: block;}
+	
+	.actions div.save, .actions div.cancel{
+		float: left;}
+}
+
+.actions .info{
+	-webkit-box-flex: 1;
+	white-space: normal;
+	text-align: left;}

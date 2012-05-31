@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Away Color</key>
+	<string>89,89,89</string>
+	<key>Away Enabled</key>
+	<false/>
+	<key>Away Label Color</key>
+	<string>234,234,214</string>
+	<key>Background As Events</key>
+	<true/>
+	<key>Background As Status</key>
+	<false/>
+	<key>Background Color</key>
+	<string>63,63,63</string>
+	<key>Background Fade</key>
+	<real>1</real>
+	<key>Background Image Path</key>
+	<string>/</string>
+	<key>Background Image Style</key>
+	<integer>0</integer>
+	<key>Contact Font</key>
+	<string>Copperplate,12</string>
+	<key>Contact Left Indent</key>
+	<integer>12</integer>
+	<key>Contact Right Indent</key>
+	<integer>5</integer>
+	<key>Contact Spacing</key>
+	<integer>1</integer>
+	<key>Contact Status Text Color</key>
+	<string>153,153,153</string>
+	<key>Contact Text Alignment</key>
+	<integer>0</integer>
+	<key>Custom Highlight Enabled</key>
+	<false/>
+	<key>Fade Offline Images</key>
+	<true/>
+	<key>Grid Color</key>
+	<string>72,72,72</string>
+	<key>Grid Enabled</key>
+	<true/>
+	<key>Group Background</key>
+	<string>46,46,46</string>
+	<key>Group Background Gradient</key>
+	<string>53,53,53</string>
+	<key>Group Font</key>
+	<string>Copperplate,12</string>
+	<key>Group Gradient</key>
+	<true/>
+	<key>Group Inverted Text Color</key>
+	<string>255,255,255</string>
+	<key>Group Shadow</key>
+	<false/>
+	<key>Group Shadow Color</key>
+	<string>195,191,159</string>
+	<key>Group Text Alignment</key>
+	<integer>0</integer>
+	<key>Group Text Color</key>
+	<string>220,220,204</string>
+	<key>Highlight Color</key>
+	<string>252,246,237</string>
+	<key>Horizontal Autosizing</key>
+	<true/>
+	<key>Horizontal Width</key>
+	<integer>640</integer>
+	<key>Idle And Away Color</key>
+	<string>49,49,49</string>
+	<key>Idle And Away Enabled</key>
+	<false/>
+	<key>Idle And Away Label Color</key>
+	<string>233,233,214</string>
+	<key>Idle Color</key>
+	<string>89,89,89</string>
+	<key>Idle Enabled</key>
+	<false/>
+	<key>Idle Label Color</key>
+	<string>234,234,234</string>
+	<key>Offline Color</key>
+	<string>143,143,143</string>
+	<key>Offline Enabled</key>
+	<true/>
+	<key>Offline Image Opacity</key>
+	<real>0.5</real>
+	<key>Offline Label Color</key>
+	<string>143,143,143</string>
+	<key>Online Color</key>
+	<string>220,220,204</string>
+	<key>Online Enabled</key>
+	<true/>
+	<key>Online Label Color</key>
+	<string>63,63,63</string>
+	<key>Show Status Icons</key>
+	<true/>
+	<key>Signed Off Color</key>
+	<string>143,143,143</string>
+	<key>Signed Off Enabled</key>
+	<true/>
+	<key>Signed Off Label Color</key>
+	<string>50,43,49</string>
+	<key>Signed On Color</key>
+	<string>240,239,208</string>
+	<key>Signed On Enabled</key>
+	<true/>
+	<key>Signed On Label Color</key>
+	<string>73,90,60</string>
+	<key>Status Icon Position</key>
+	<integer>3</integer>
+	<key>Status Label Opacity</key>
+	<real>1</real>
+	<key>Typing Color</key>
+	<string>220,220,204</string>
+	<key>Typing Enabled</key>
+	<true/>
+	<key>Typing Label Color</key>
+	<string>91,98,79</string>
+	<key>Unviewed Content Color</key>
+	<string>220,220,204</string>
+	<key>Unviewed Content Enabled</key>
+	<true/>
+	<key>Unviewed Content Label Color</key>
+	<string>31,54,63</string>
+	<key>Use Background Image</key>
+	<false/>
+	<key>Vertical Autosizing</key>
+	<true/>
+	<key>Window Shadowed</key>
+	<true/>
+	<key>Window Transparency</key>
+	<real>1</real>
+</dict>
+</plist>
