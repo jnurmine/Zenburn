@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.HTML">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/XML/Entities"
+    color="#f0efd0" inverted-color="#e89393"  font-style="italic" font-weight="normal" />
+  <style id="/HTML/Inline CSS"
+    color="#dcdccc" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/HTML/Style Tags"
+    color="#e89393" inverted-color="#e89393"  font-style="normal" font-weight="normal" />
+  <style id="/HTML/Opening Style Tag"
+    color="#e89393" inverted-color="#e89393"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Attributes in Tags"
+    color="#c3bf9f" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Strings in Tags"
+    color="#cc9393" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Single Strings in Tags"
+    color="#cc9393" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Inside curly brackets"
+    color="#dcdccc" inverted-color="#dcdccc"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Keywords"
+    color="#f0dfaf" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Attribute state"
+    color="#c3bf9f" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Attributes"
+    color="#cc9393" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Digits"
+    color="#8cd0d3" inverted-color="#8cd0d3"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Colors"
+    color="#f0efd0" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/AutodocComment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="bold" />
+  <style id="/CSS/Comment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/CSS/String"
+    color="#cfbfaf" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/SingleString"
+    color="#cfbfaf" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/URL"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/HTML/Inline Javascript"
+    color="#dcdccc" inverted-color="#efef8e"  font-style="normal" font-weight="normal" />
+  <style id="/HTML/Script Tags"
+    color="#9fafaf" inverted-color="#e89393"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Keywords"
+    color="#f0dfaf" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Numbers"
+    color="#8cd0d3" inverted-color="#8cd0d3"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Characters"
+    color="#cfbfaf" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/FunctionRegex"
+    color="#efef8e" inverted-color="#efef8e"  font-style="normal" font-weight="normal" />
+  <style id="/HTML/Opening Script Tag"
+    color="#9fafaf" inverted-color="#e89393"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/AutodocComment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="bold" />
+  <style id="/Javascript/Comment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/SingleComment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Regular Expressions"
+    color="#f0efd0" inverted-color="#f0efd0"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Escaped Characters"
+    color="#cfbfaf" inverted-color="#4d028c"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/String"
+    color="#cc9393" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/SingleString"
+    color="#cc9393" inverted-color="#cc9393"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Comment"
+    color="#7f9f7f" inverted-color="#7f9f7f"  font-style="italic" font-weight="normal" />
+  <style id="/XML/SGML Double Dash"
+    color="#ffffff" inverted-color="#ffffff"  font-style="normal" font-weight="bold" />
+  <style id="/XML/CDATA"
+    color="#ffffff" inverted-color="#cc9393"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Doctype"
+    color="#d8d8c8" inverted-color="#f0dfaf"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Escape"
+    color="#82a282" inverted-color="#f0dfaf"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Tags"
+    color="#c3bf9f" inverted-color="#f0dfaf"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

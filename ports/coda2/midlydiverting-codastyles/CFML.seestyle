@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.CFML">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/CFML/Output Variables"
+    color="#ececc6" inverted-color="#ffd67d"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Entities"
+    color="#b6b38e" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Inline CFML Script"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Script Tags"
+    color="#e07e81" inverted-color="#f0474d"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Generic Functions"
+    color="#ebee7d" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Output Variables in CFML Code"
+    color="#d7d9b2" inverted-color="#ffd67d"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Scope and Tag Variables"
+    color="#e07e81" inverted-color="#dfb098"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Numbers"
+    color="#7cc7c9" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Keywords"
+    color="#ecd9a0" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Functions"
+    color="#ebee7d" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Opening CFML Script Tag"
+    color="#e07e81" inverted-color="#f0474d"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Attributes in Tags"
+    color="#b6b38e" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Strings in Tags"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/XML/Single Strings in Tags"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Single Line Comment"
+    color="#70936f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CFML/Multi Line Comment"
+    color="#70936f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CFML/CFML Strings"
+    color="#bf7f81" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Output Variables in Strings"
+    color="#b6b38e" inverted-color="#e96b36"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Strings 2"
+    color="#bf7f81" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Inline CSS"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Style Tags"
+    color="#e07e81" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Opening Style Tag"
+    color="#e07e81" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Inside curly brackets"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Keywords"
+    color="#ecd9a0" inverted-color="#ec77b3"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/Attribute state"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Attributes"
+    color="#ecd9a0" inverted-color="#ffa864"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Digits"
+    color="#7cc7c9" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/CSS Colors"
+    color="#ecd9a0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/AutodocComment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CSS/Comment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CSS/String"
+    color="#bf7f81" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/SingleString"
+    color="#bf7f81" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CSS/URL"
+    color="#e07e81" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Inline Javascript"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Script Tags"
+    color="#e07e81" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Keywords"
+    color="#ecd9a0" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Numbers"
+    color="#7cc7c9" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Characters"
+    color="#d29092" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/FunctionRegex"
+    color="#ebee7d" inverted-color="#96c9ff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Opening Script Tag"
+    color="#e07e81" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/AutodocComment"
+    color="#70936f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Comment"
+    color="#70936f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/SingleComment"
+    color="#70936f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Javascript/Regular Expressions"
+    color="#ebebeb" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/Escaped Characters"
+    color="#d8dec4" inverted-color="#4d028c"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/String"
+    color="#bf7f81" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Javascript/SingleString"
+    color="#bf7f81" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Comment"
+    color="#6d8f6c" inverted-color="#8d8d8d"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Comment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/SGML Double Dash"
+    color="#ffffff" inverted-color="#ff0000"  font-style="normal" font-weight="normal" />
+  <style id="/XML/CDATA"
+    color="#ffffff" inverted-color="#ff0000"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Doctype"
+    color="#fdc4a0" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/XML/Escape"
+    color="#fdc4a0" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CFML/CFML Query"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Query Tags"
+    color="#e07e81" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/SQL/Types"
+    color="#d7d9b2" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/SQL/Functions"
+    color="#ebee7d" inverted-color="#bb77ff"  font-style="normal" font-weight="normal" />
+  <style id="/SQL/Keywords"
+    color="#ecd9a0" inverted-color="#dfb098"  font-style="normal" font-weight="normal" />
+  <style id="/SQL/Numbers"
+    color="#7cc7c9" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/SQL/FunctionRegex"
+    color="#ebee7d" inverted-color="#96c9ff"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Query Comment"
+    color="#6d8f6c" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/CFML/Opening Query Tag"
+    color="#e07e81" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Attributes in Tags"
+    color="#d8dec4" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML self-closing Tags in Query"
+    color="#e07e81" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Tags"
+    color="#ebebeb" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/HTML Tags"
+    color="#ebeda0" inverted-color="#ed77e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Output Variables in HTML Tags"
+    color="#d7d7d7" inverted-color="#ffd67d"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Attributes in HTML Tags"
+    color="#d8dec4" inverted-color="#ffab66"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Strings in HTML Tags"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Output Variables in HTML Strings"
+    color="#8ea09f" inverted-color="#003ad3"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/Strings in HTML Tags 2"
+    color="#bf7f81" inverted-color="#5959e5"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Tags in HTML Tags"
+    color="#e07e81" inverted-color="#eb666a"  font-style="normal" font-weight="normal" />
+  <style id="/CFML/CFML Code"
+    color="#d4d4c1" inverted-color="#ffffff"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>

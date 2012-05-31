@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seestyle>
+<mode id="SEEMode.Perl">
+  <style id="_Default"
+    color="#000000" inverted-color="#ffffff"  font-style="normal" font-weight="normal" background-color="#3f3f3f" inverted-background-color="#000000" />
+  <style id="/Perl/Keywords"
+    color="#f0dfaf" inverted-color="#ec77b4"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Pragmas"
+    color="#dcdccc" inverted-color="#43b9ff"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Perl Functions"
+    color="#dcdccc" inverted-color="#a256e5"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Numbers"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Hexadecimal Characters"
+    color="#8cd0d3" inverted-color="#0000ff"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/FunctionRegex"
+    color="#efef8e" inverted-color="#96c9ff"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Perl Variables"
+    color="#cc9393" inverted-color="#ffd67d"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/q Operators with Parenthesis"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/q Operators with Brackets"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/q Operators with Slashes"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/qr Operator with Slashes"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/m Operator with Slashes"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/s Operator with Slashes"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/s Operator with Parenthesis"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/s Operator with Curlies"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/tr, y Operator with Slashes"
+    color="#e89393" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Backticks"
+    color="#f0efd0" inverted-color="#dd77ff"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/POD style comments"
+    color="#82a282" inverted-color="#91dc93"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Singleline Comment"
+    color="#7f9f7f" inverted-color="#91dc93"  font-style="italic" font-weight="normal" />
+  <style id="/Perl/String with double quotes"
+    color="#cc9393" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Variables in strings"
+    color="#bca3a3" inverted-color="#e96b36"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/String with single quotes"
+    color="#cc9393" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Heredoc"
+    color="#cc9393" inverted-color="#ff8714"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Regular Expressions"
+    color="#f0efd0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Regular Expressions 2"
+    color="#f0efd0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Regular Expressions 3"
+    color="#f0efd0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+  <style id="/Perl/Regular Expressions 4"
+    color="#f0efd0" inverted-color="#f0898f"  font-style="normal" font-weight="normal" />
+</mode>
+</seestyle>
