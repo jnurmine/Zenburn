@@ -91,6 +91,10 @@
 "
 "      let g:zenburn_alternate_Include = 1
 "
+" * To disable underlining for Labels, use
+"
+"      let g:zenburn_disable_Label_underline = 1
+"
 " * Work-around to a Vim bug, it seems to misinterpret ctermfg and 234 and 237
 "   as light values, and sets background to light for some people. If you have
 "   this problem, use:
@@ -168,6 +172,10 @@ if ! exists("g:zenburn_alternate_Include")
     let g:zenburn_alternate_Include = 0
 endif
 
+if ! exists("g:zenburn_disable_Label_underline")
+    let g:zenburn_disable_Label_underline = 0
+endif
+
 if ! exists("g:zenburn_unified_CursorColumn")
     let g:zenburn_unified_CursorColumn = 0
 endif
@@ -213,7 +221,6 @@ hi Function        guifg=#efef8f
 hi Identifier      guifg=#efdcbc
 hi IncSearch       guibg=#f8f893 guifg=#385f38
 hi Keyword         guifg=#f0dfaf gui=bold
-hi Label           guifg=#dfcfaf gui=underline
 hi Macro           guifg=#ffcfaf gui=bold
 hi ModeMsg         guifg=#ffcfaf gui=none
 hi MoreMsg         guifg=#ffffff gui=bold
@@ -274,7 +281,6 @@ if &t_Co > 255
     hi Include         ctermfg=180   cterm=bold
     hi IncSearch       ctermbg=228   ctermfg=238
     hi Keyword         ctermfg=223   cterm=bold
-    hi Label           ctermfg=187   cterm=underline
     hi LineNr          ctermfg=248   ctermbg=233
     hi Macro           ctermfg=223   cterm=bold
     hi ModeMsg         ctermfg=223   cterm=none
@@ -388,6 +394,12 @@ if &t_Co > 255
         " new, less contrasted one
         hi Include      ctermfg=180   cterm=bold
     endif
+
+    if exists("g:zenburn_disable_Label_underline") && g:zenburn_disable_Label_underline
+        hi Label       ctermfg=187
+    else
+        hi Label       ctermfg=187   cterm=underline
+    endif
 endif
 
 if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
@@ -490,6 +502,12 @@ if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
 else
     " new, less contrasted one
     hi Include      guifg=#dfaf8f gui=bold
+endif
+
+if exists("g:zenburn_disable_Label_underline") && g:zenburn_disable_Label_underline
+    hi Label       guifg=#dfcfaf
+else
+    hi Label       guifg=#dfcfaf gui=underline
 endif
 
 if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
