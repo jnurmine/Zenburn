@@ -380,6 +380,14 @@ if &t_Co > 255
         " default is something more zenburn-compatible
         hi Error ctermfg=228 ctermbg=95 gui=bold
     endif
+
+    if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
+        " original setting
+        hi Include      ctermfg=223   cterm=bold
+    else
+        " new, less contrasted one
+        hi Include      ctermfg=180   cterm=bold
+    endif
 endif
 
 if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
