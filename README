@@ -1,5 +1,9 @@
 ZENBURN
 
+This is a fork of Zenburn with a solid black background for transparent terminals.
+
+
+
 Zenburn is a low-contrast color scheme for Vim. It’s easy for your eyes and
 designed to keep you in the zone for long programming sessions.
 
