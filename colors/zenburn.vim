@@ -63,9 +63,10 @@
 " list of configurable parameters.
 "
 " * You can now set a darker background for bright environments. To activate, use:
-"   contrast Zenburn, use:
-"
 "      let g:zenburn_high_Contrast = 1
+"
+" * For transparent terminals set the background to black with:
+"      let g:zenburn_transparent = 1
 "
 " * For example, Vim help files uses the Ignore-group for the pipes in tags
 "   like "|somelink.txt|". By default, the pipes are not visible, as they
@@ -150,6 +151,10 @@
 " Set defaults, but keep any parameters already set by the user
 if ! exists("g:zenburn_high_Contrast")
     let g:zenburn_high_Contrast = 0
+endif
+
+if ! exists("g:zenburn_transparent")
+    let g:zenburn_transparent = 0
 endif
 
 if ! exists("g:zenburn_color_also_Ignore")
@@ -378,6 +383,18 @@ if &t_Co > 255
 
         hi ColorColumn     ctermbg=238
     endif
+    
+    if exists("g:zenburn_transparent") && g:zenburn_transparent
+        hi Normal             ctermbg=0
+        hi Statement          ctermbg=NONE
+        hi Title              ctermbg=NONE
+        hi Todo               ctermbg=NONE
+        hi Underlined         ctermbg=NONE
+        hi DiffAdd            ctermbg=NONE
+        hi DiffText           ctermbg=NONE
+        hi ErrorMsg           ctermbg=NONE
+        hi LineNr             ctermbg=NONE
+    endif
 
     if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
         " use more jumpy Error
@@ -474,7 +491,11 @@ else
         hi Visual        guibg=#0f0f0f
         hi VisualNos     guibg=#0f0f0f
         if &t_Co > 255
-            hi Visual ctermbg=0
+            if exists("g:zenburn_transparent") && g:zenburn_transparent
+                hi Visual ctermbg=235
+            else
+                hi Visual ctermbg=0
+            endif
         endif
     else
         " low contrast
