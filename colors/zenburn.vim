@@ -384,18 +384,6 @@ if &t_Co > 255
         hi ColorColumn     ctermbg=238
     endif
     
-    if exists("g:zenburn_transparent") && g:zenburn_transparent
-        hi Normal             ctermbg=0
-        hi Statement          ctermbg=NONE
-        hi Title              ctermbg=NONE
-        hi Todo               ctermbg=NONE
-        hi Underlined         ctermbg=NONE
-        hi DiffAdd            ctermbg=NONE
-        hi DiffText           ctermbg=NONE
-        hi ErrorMsg           ctermbg=NONE
-        hi LineNr             ctermbg=NONE
-    endif
-
     if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
         " use more jumpy Error
         hi Error ctermfg=210 ctermbg=52 gui=bold
@@ -467,6 +455,18 @@ else
     hi LineNr          guifg=#9fafaf guibg=#262626
 
     hi ColorColumn     guibg=#484848
+endif
+
+if exists("g:zenburn_transparent") && g:zenburn_transparent
+    hi Normal             ctermbg=0     guibg=#000000
+    hi Statement          ctermbg=NONE
+    hi Title              ctermbg=NONE
+    hi Todo               ctermbg=NONE
+    hi Underlined         ctermbg=NONE
+    hi DiffAdd            ctermbg=NONE
+    hi DiffText           ctermbg=NONE
+    hi ErrorMsg           ctermbg=NONE
+    hi LineNr             ctermbg=NONE
 endif
 
 if exists("g:zenburn_old_Visual") && g:zenburn_old_Visual
