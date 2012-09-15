@@ -383,7 +383,7 @@ if &t_Co > 255
 
         hi ColorColumn     ctermbg=238
     endif
-
+    
     if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
         " use more jumpy Error
         hi Error ctermfg=210 ctermbg=52 gui=bold
