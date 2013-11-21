@@ -224,7 +224,7 @@ hi FoldColumn      guifg=#93b3a3 guibg=#3f4040
 hi Folded          guifg=#93b3a3 guibg=#3f4040
 hi Function        guifg=#efef8f
 hi Identifier      guifg=#efdcbc
-hi IncSearch       guibg=#f8f893 guifg=#385f38
+hi IncSearch       guifg=#f8f893 guibg=#385f38
 hi Keyword         guifg=#f0dfaf gui=bold
 hi Macro           guifg=#ffcfaf gui=bold
 hi ModeMsg         guifg=#ffcfaf gui=none
@@ -248,14 +248,14 @@ hi String          guifg=#cc9393
 hi Structure       guifg=#efefaf gui=bold
 hi Tag             guifg=#e89393 gui=bold
 hi Title           guifg=#efefef gui=bold
-hi Todo            guifg=#dfdfdf guibg=bg gui=bold
+hi Todo            guifg=#dfdfdf guibg=NONE    gui=bold
 hi Typedef         guifg=#dfe4cf gui=bold
 hi Type            guifg=#dfdfbf gui=bold
 hi Underlined      guifg=#dcdccc gui=underline
 hi VertSplit       guifg=#2e3330 guibg=#688060
 hi VisualNOS       guifg=#333333 guibg=#f18c96 gui=bold,underline
 hi WarningMsg      guifg=#ffffff guibg=#333333 gui=bold
-hi WildMenu        guibg=#2c302d guifg=#cbecd0 gui=underline
+hi WildMenu        guifg=#cbecd0 guibg=#2c302d gui=underline
 
 hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c
 hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc
@@ -284,10 +284,11 @@ if &t_Co > 255
     hi Function        ctermfg=228
     hi Identifier      ctermfg=223
     hi Include         ctermfg=180   cterm=bold
-    hi IncSearch       ctermbg=228   ctermfg=238
+    hi IncSearch       ctermfg=228   ctermbg=23
     hi Keyword         ctermfg=223   cterm=bold
     hi LineNr          ctermfg=248   ctermbg=233
     hi Macro           ctermfg=223   cterm=bold
+    hi MatchParen      ctermfg=229   ctermbg=237     cterm=bold
     hi ModeMsg         ctermfg=223   cterm=none
     hi MoreMsg         ctermfg=15    cterm=bold
     hi Number          ctermfg=116
@@ -296,27 +297,27 @@ if &t_Co > 255
     hi PreProc         ctermfg=223   cterm=bold
     hi Question        ctermfg=15    cterm=bold
     hi Repeat          ctermfg=223   cterm=bold
-    hi Search          ctermfg=230   ctermbg=236
+    hi Search          ctermfg=230   ctermbg=22
     hi SpecialChar     ctermfg=181   cterm=bold
     hi SpecialComment  ctermfg=108   cterm=bold
     hi Special         ctermfg=181
     hi SpecialKey      ctermfg=151
-    hi Statement       ctermfg=187   ctermbg=234     cterm=none
+    hi Statement       ctermfg=187   cterm=none
     hi StatusLine      ctermfg=236   ctermbg=186
     hi StatusLineNC    ctermfg=235   ctermbg=108
     hi StorageClass    ctermfg=249   cterm=bold
     hi String          ctermfg=174
     hi Structure       ctermfg=229   cterm=bold
     hi Tag             ctermfg=181   cterm=bold
-    hi Title           ctermfg=7     ctermbg=234     cterm=bold
-    hi Todo            ctermfg=108   ctermbg=234     cterm=bold
+    hi Title           ctermfg=7     ctermbg=NONE    cterm=bold
+    hi Todo            ctermfg=254   ctermbg=NONE    cterm=bold
     hi Typedef         ctermfg=253   cterm=bold
     hi Type            ctermfg=187   cterm=bold
-    hi Underlined      ctermfg=188   ctermbg=234     cterm=bold
+    hi Underlined      ctermfg=188   cterm=underline
     hi VertSplit       ctermfg=236   ctermbg=65
     hi VisualNOS       ctermfg=236   ctermbg=210     cterm=bold
-    hi WarningMsg      ctermfg=15    ctermbg=236     cterm=bold
-    hi WildMenu        ctermbg=236   ctermfg=194     cterm=bold
+    hi WarningMsg      ctermfg=231   ctermbg=236     cterm=bold
+    hi WildMenu        ctermfg=194   ctermbg=236     cterm=underline
 
     " spellchecking, always "bright" background
     hi SpellLocal ctermfg=14  ctermbg=237
@@ -353,10 +354,7 @@ if &t_Co > 255
         hi diffdelete      ctermbg=238
         hi difftext        ctermbg=237
         hi errormsg        ctermbg=237
-        hi incsearch       ctermbg=228
         hi linenr          ctermbg=235
-        hi search          ctermbg=238
-        hi statement       ctermbg=237
         hi statusline      ctermbg=144
         hi statuslinenc    ctermbg=108
         hi title           ctermbg=237
@@ -386,10 +384,10 @@ if &t_Co > 255
 
     if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
         " use more jumpy Error
-        hi Error ctermfg=210 ctermbg=52 gui=bold
+        hi Error ctermfg=210 ctermbg=52 cterm=bold
     else
         " default is something more zenburn-compatible
-        hi Error ctermfg=228 ctermbg=95 gui=bold
+        hi Error ctermfg=167 ctermbg=236 cterm=bold
     endif
 
     if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
