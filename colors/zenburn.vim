@@ -270,62 +270,54 @@ hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=14  ctermbg=237
 
 if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     " use new darker background
-    hi Normal          guifg=#dcdccc guibg=#1f1f1f           ctermfg=188 ctermbg=234
-    hi CursorLine      guibg=#121212 gui=bold                ctermbg=233 cterm=none
+    hi Normal        guifg=#dcdccc guibg=#1f1f1f           ctermfg=188 ctermbg=234
+    hi ColorColumn   guibg=#33332f                         ctermbg=235
+    hi CursorLine    guibg=#121212 gui=bold                ctermbg=233 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-        hi CursorColumn    guibg=#121212 gui=bold            ctermbg=233 cterm=none
+        hi CursorColumn  guibg=#121212 gui=bold            ctermbg=233 cterm=none
     else
-        hi CursorColumn    guibg=#2b2b2b                     ctermbg=235 cterm=none
+        hi CursorColumn  guibg=#2b2b2b                     ctermbg=235 cterm=none
     endif
-    hi Pmenu           guibg=#242424 guifg=#ccccbc
-    hi PMenuSel        guibg=#353a37 guifg=#ccdc90 gui=bold
-    hi PmenuSbar       guibg=#2e3330 guifg=#000000
-    hi PMenuThumb      guibg=#a0afa0 guifg=#040404
-    hi MatchParen      guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
-    hi SignColumn      guifg=#9fafaf guibg=#181818 gui=bold
-    hi NonText         guifg=#404040 gui=bold                ctermfg=238
-
-    hi LineNr          guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
-
-    hi ColorColumn     guibg=#33332f                         ctermbg=235
-
     hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
     hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
+    hi LineNr        guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
+    hi NonText       guifg=#404040 gui=bold                ctermfg=238
+    hi Pmenu         guibg=#242424 guifg=#ccccbc
+    hi PMenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold
+    hi PmenuSbar     guibg=#2e3330 guifg=#000000
+    hi PMenuThumb    guibg=#a0afa0 guifg=#040404
+    hi MatchParen    guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
+    hi SignColumn    guifg=#9fafaf guibg=#181818 gui=bold
+    hi SpecialKey    guibg=#242424
     hi TabLine       guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
     hi TabLineSel    guifg=#ccd990 guibg=#222222           ctermbg=235 ctermfg=186 cterm=bold
     hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=236 cterm=bold
-
-    hi SpecialKey    guibg=#242424
 else
     " Original, lighter background
-    hi Normal          guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
-    hi CursorLine      guibg=#434443                         ctermbg=238 cterm=none
+    hi Normal        guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
+    hi ColorColumn   guibg=#484848                         ctermbg=238
+    hi CursorLine    guibg=#434443                         ctermbg=238 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-        hi CursorColumn    guibg=#434343                     ctermbg=238 cterm=none
+        hi CursorColumn  guibg=#434343                     ctermbg=238 cterm=none
     else
-        hi CursorColumn    guibg=#4f4f4f                     ctermbg=239 cterm=none
+        hi CursorColumn  guibg=#4f4f4f                     ctermbg=239 cterm=none
     endif
-    hi Pmenu           guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=0
-    hi PMenuSel        guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=223 ctermbg=235
-    hi PmenuSbar       guibg=#2e3330 guifg=#000000
-    hi PMenuThumb      guibg=#a0afa0 guifg=#040404
-    hi MatchParen      guifg=#b2b2a0 guibg=#2e2e2e gui=bold
-    hi SignColumn      guifg=#9fafaf guibg=#343434 gui=bold
-    hi NonText         guifg=#5b605e gui=bold                ctermfg=240
-
-    hi LineNr          guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
-
-    hi ColorColumn     guibg=#484848                         ctermbg=238
-
-    hi StatusLine      ctermbg=144
-
     hi FoldColumn    guibg=#333333                         ctermbg=236 ctermfg=109
     hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
+    hi LineNr        guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
+    hi NonText       guifg=#5b605e gui=bold                ctermfg=240
+    hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=0
+    hi PMenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=223 ctermbg=235
+    hi PmenuSbar     guibg=#2e3330 guifg=#000000
+    hi PMenuThumb    guibg=#a0afa0 guifg=#040404
+    hi MatchParen    guifg=#b2b2a0 guibg=#2e2e2e gui=bold
+    hi SignColumn    guifg=#9fafaf guibg=#343434 gui=bold
+    hi SpecialKey    guibg=#444444
     hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none  ctermbg=235 ctermfg=187 cterm=none
     hi TabLineSel    guifg=#f0f0b0 guibg=#333333 gui=bold  ctermbg=236 ctermfg=229 cterm=bold
     hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none  ctermbg=233 ctermfg=233 cterm=bold
 
-    hi SpecialKey    guibg=#444444
+    hi StatusLine    ctermbg=144
 endif
 
 if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
