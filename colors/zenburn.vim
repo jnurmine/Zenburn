@@ -148,6 +148,11 @@
 "   - Visual alternate color is broken? Try GVim >= 7.0.66 if you have trouble
 "   - IME colouring (CursorIM)
 
+" Finish if we are in a term lacking 256 color support
+if ! has("gui_running") && &t_Co <= 255
+    finish
+endif
+
 " Set defaults, but keep any parameters already set by the user
 if ! exists("g:zenburn_high_Contrast")
     let g:zenburn_high_Contrast = 0
