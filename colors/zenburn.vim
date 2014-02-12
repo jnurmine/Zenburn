@@ -269,7 +269,6 @@ hi SpellLocal guisp=#7cac7c guifg=#9ccc9c
 
 " Entering Kurt zone
 if &t_Co > 255
-    hi Include         ctermfg=180   cterm=bold
     hi LineNr          ctermfg=248   ctermbg=233
     hi MatchParen      ctermfg=229   ctermbg=237     cterm=bold
 
@@ -334,28 +333,6 @@ if &t_Co > 255
         endif
 
         hi ColorColumn     ctermbg=238
-    endif
-
-    if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
-        " use more jumpy Error
-        hi Error ctermfg=210 ctermbg=52 cterm=bold
-    else
-        " default is something more zenburn-compatible
-        hi Error ctermfg=167 ctermbg=236 cterm=bold
-    endif
-
-    if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
-        " original setting
-        hi Include      ctermfg=223   cterm=bold
-    else
-        " new, less contrasted one
-        hi Include      ctermfg=180   cterm=bold
-    endif
-
-    if exists("g:zenburn_disable_Label_underline") && g:zenburn_disable_Label_underline
-        hi Label       ctermfg=187
-    else
-        hi Label       ctermfg=187   cterm=underline
     endif
 endif
 
@@ -454,24 +431,24 @@ endif
 
 if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
     " use more jumpy Error
-    hi Error        guifg=#e37170 guibg=#664040 gui=bold
+    hi Error    guifg=#e37170 guibg=#664040 gui=bold  ctermfg=210 ctermbg=52 cterm=bold
 else
     " default is something more zenburn-compatible
-    hi Error        guifg=#e37170 guibg=#3d3535 gui=none
+    hi Error    guifg=#e37170 guibg=#3d3535 gui=none  ctermfg=167 ctermbg=236 cterm=bold
 endif
 
 if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
     " original setting
-    hi Include      guifg=#ffcfaf gui=bold
+    hi Include  guifg=#ffcfaf gui=bold                ctermfg=223 cterm=bold
 else
     " new, less contrasted one
-    hi Include      guifg=#dfaf8f gui=bold
+    hi Include  guifg=#dfaf8f gui=bold                ctermfg=180 cterm=bold
 endif
 
 if exists("g:zenburn_disable_Label_underline") && g:zenburn_disable_Label_underline
-    hi Label       guifg=#dfcfaf
+    hi Label    guifg=#dfcfaf                         ctermfg=187
 else
-    hi Label       guifg=#dfcfaf gui=underline
+    hi Label    guifg=#dfcfaf gui=underline           ctermfg=187 cterm=underline
 endif
 
 if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
