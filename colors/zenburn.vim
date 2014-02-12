@@ -268,24 +268,6 @@ hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc  ctermfg=12  ctermbg=237
 hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc  ctermfg=13  ctermbg=237
 hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=14  ctermbg=237
 
-" Entering Kurt zone
-if &t_Co > 255
-    if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
-    else
-        hi errormsg        ctermbg=237
-        hi linenr          ctermbg=235
-        hi statusline      ctermbg=144
-    endif
-endif
-
-if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
-    " Force dark background, because of a bug in VIM:  VIM sets background
-    " automatically during "hi Normal ctermfg=X"; it misinterprets the high
-    " value (234 or 237 above) as a light color, and wrongly sets background to
-    " light.  See ":help highlight" for details.
-    set background=dark
-endif
-
 if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     " use new darker background
     hi Normal          guifg=#dcdccc guibg=#1f1f1f           ctermfg=188 ctermbg=234
@@ -306,6 +288,14 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi LineNr          guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
 
     hi ColorColumn     guibg=#33332f                         ctermbg=235
+
+    hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
+    hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
+    hi TabLine       guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
+    hi TabLineSel    guifg=#ccd990 guibg=#222222           ctermbg=235 ctermfg=186 cterm=bold
+    hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=236 cterm=bold
+
+    hi SpecialKey    guibg=#242424
 else
     " Original, lighter background
     hi Normal          guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
@@ -323,9 +313,27 @@ else
     hi SignColumn      guifg=#9fafaf guibg=#343434 gui=bold
     hi NonText         guifg=#5b605e gui=bold                ctermfg=240
 
-    hi LineNr          guifg=#9fafaf guibg=#262626
+    hi LineNr          guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
 
     hi ColorColumn     guibg=#484848                         ctermbg=238
+
+    hi StatusLine      ctermbg=144
+
+    hi FoldColumn    guibg=#333333                         ctermbg=236 ctermfg=109
+    hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
+    hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none  ctermbg=235 ctermfg=187 cterm=none
+    hi TabLineSel    guifg=#f0f0b0 guibg=#333333 gui=bold  ctermbg=236 ctermfg=229 cterm=bold
+    hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none  ctermbg=233 ctermfg=233 cterm=bold
+
+    hi SpecialKey    guibg=#444444
+endif
+
+if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
+    " Force dark background, because of a bug in VIM:  VIM sets background
+    " automatically during "hi Normal ctermfg=X"; it misinterprets the high
+    " value (234 or 237 above) as a light color, and wrongly sets background to
+    " light.  See ":help highlight" for details.
+    set background=dark
 endif
 
 if exists("g:zenburn_transparent") && g:zenburn_transparent
@@ -401,25 +409,6 @@ if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
     else
         hi Ignore guifg=#545a4f  ctermfg=240
     endif
-endif
-
-" new tabline and fold column
-if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
-    hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
-    hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
-    hi TabLine       guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
-    hi TabLineSel    guifg=#ccd990 guibg=#222222           ctermbg=235 ctermfg=186 cterm=bold
-    hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=236 cterm=bold
-
-    hi SpecialKey    guibg=#242424
-else
-    hi FoldColumn    guibg=#333333                         ctermbg=236 ctermfg=109
-    hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
-    hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none  ctermbg=235 ctermfg=187 cterm=none
-    hi TabLineSel    guifg=#f0f0b0 guibg=#333333 gui=bold  ctermbg=236 ctermfg=229 cterm=bold
-    hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none  ctermbg=233 ctermfg=233 cterm=bold
-
-    hi SpecialKey    guibg=#444444
 endif
 
 " EXPERIMENTAL TagHighlight support
