@@ -233,14 +233,14 @@ hi IncSearch       guifg=#f8f893 guibg=#385f38                ctermfg=228 ctermb
 hi Keyword         guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Macro           guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
 hi ModeMsg         guifg=#ffcfaf gui=none                     ctermfg=223 cterm=none
-hi MoreMsg         guifg=#ffffff gui=bold                     ctermfg=15  cterm=bold
+hi MoreMsg         guifg=#ffffff gui=bold                     ctermfg=231 cterm=bold
 hi Number          guifg=#8cd0d3                              ctermfg=116
 hi Operator        guifg=#f0efd0                              ctermfg=230
 hi PmenuSbar       guibg=#2e3330 guifg=#000000                ctermfg=16  ctermbg=236
 hi PmenuThumb      guibg=#a0afa0 guifg=#040404                ctermfg=232 ctermbg=151
 hi PreCondit       guifg=#dfaf8f gui=bold                     ctermfg=180 cterm=bold
 hi PreProc         guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
-hi Question        guifg=#ffffff gui=bold                     ctermfg=15  cterm=bold
+hi Question        guifg=#ffffff gui=bold                     ctermfg=231 cterm=bold
 hi Repeat          guifg=#ffd7a7 gui=bold                     ctermfg=223 cterm=bold
 hi Search          guifg=#ffffe0 guibg=#284f28                ctermfg=230 ctermbg=22
 hi SignColumn      guifg=#9fafaf gui=bold                     ctermfg=109 cterm=bold
@@ -255,7 +255,7 @@ hi StorageClass    guifg=#c3bf9f gui=bold                     ctermfg=249 cterm=
 hi String          guifg=#cc9393                              ctermfg=174
 hi Structure       guifg=#efefaf gui=bold                     ctermfg=229 cterm=bold
 hi Tag             guifg=#e89393 gui=bold                     ctermfg=181 cterm=bold
-hi Title           guifg=#efefef gui=bold                     ctermfg=7   ctermbg=NONE cterm=bold
+hi Title           guifg=#efefef gui=bold                     ctermfg=255 ctermbg=NONE cterm=bold
 hi Todo            guifg=#dfdfdf guibg=NONE    gui=bold       ctermfg=254 ctermbg=NONE cterm=bold
 hi Typedef         guifg=#dfe4cf gui=bold                     ctermfg=253 cterm=bold
 hi Type            guifg=#dfdfbf gui=bold                     ctermfg=187 cterm=bold
@@ -266,10 +266,10 @@ hi WarningMsg      guifg=#ffffff guibg=#333333 gui=bold       ctermfg=231 ctermb
 hi WildMenu        guifg=#cbecd0 guibg=#2c302d gui=underline  ctermfg=194 ctermbg=236 cterm=underline
 
 " spellchecking, always "bright" term background
-hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c  ctermfg=9   ctermbg=237
-hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc  ctermfg=12  ctermbg=237
-hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc  ctermfg=13  ctermbg=237
-hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=14  ctermbg=237
+hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c  ctermfg=209 ctermbg=237
+hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc  ctermfg=103 ctermbg=237
+hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc  ctermfg=139 ctermbg=237
+hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=151 ctermbg=237
 
 if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     " use new darker background
