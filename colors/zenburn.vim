@@ -236,11 +236,14 @@ hi ModeMsg         guifg=#ffcfaf gui=none                     ctermfg=223 cterm=
 hi MoreMsg         guifg=#ffffff gui=bold                     ctermfg=15  cterm=bold
 hi Number          guifg=#8cd0d3                              ctermfg=116
 hi Operator        guifg=#f0efd0                              ctermfg=230
+hi PmenuSbar       guibg=#2e3330 guifg=#000000                ctermfg=16  ctermbg=236
+hi PmenuThumb      guibg=#a0afa0 guifg=#040404                ctermfg=232 ctermbg=151
 hi PreCondit       guifg=#dfaf8f gui=bold                     ctermfg=180 cterm=bold
 hi PreProc         guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
 hi Question        guifg=#ffffff gui=bold                     ctermfg=15  cterm=bold
 hi Repeat          guifg=#ffd7a7 gui=bold                     ctermfg=223 cterm=bold
 hi Search          guifg=#ffffe0 guibg=#284f28                ctermfg=230 ctermbg=22
+hi SignColumn      guifg=#9fafaf gui=bold                     ctermfg=109 cterm=bold
 hi SpecialChar     guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi SpecialComment  guifg=#82a282 gui=bold                     ctermfg=108 cterm=bold
 hi Special         guifg=#cfbfaf                              ctermfg=181
@@ -282,16 +285,14 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
     hi LineNr        guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
     hi NonText       guifg=#404040 gui=bold                ctermfg=238
-    hi Pmenu         guibg=#242424 guifg=#ccccbc
-    hi PMenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold
-    hi PmenuSbar     guibg=#2e3330 guifg=#000000
-    hi PMenuThumb    guibg=#a0afa0 guifg=#040404
+    hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
+    hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
     hi MatchParen    guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
-    hi SignColumn    guifg=#9fafaf guibg=#181818 gui=bold
+    hi SignColumn    guibg=#181818                         ctermbg=233
     hi SpecialKey    guibg=#242424
     hi TabLine       guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
     hi TabLineSel    guifg=#ccd990 guibg=#222222           ctermbg=235 ctermfg=186 cterm=bold
-    hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=236 cterm=bold
+    hi TabLineFill   guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
 else
     " Original, lighter background
     hi Normal        guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
@@ -306,16 +307,14 @@ else
     hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
     hi LineNr        guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
     hi NonText       guifg=#5b605e gui=bold                ctermfg=240
-    hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=0
-    hi PMenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=223 ctermbg=235
-    hi PmenuSbar     guibg=#2e3330 guifg=#000000
-    hi PMenuThumb    guibg=#a0afa0 guifg=#040404
-    hi MatchParen    guifg=#b2b2a0 guibg=#2e2e2e gui=bold
-    hi SignColumn    guifg=#9fafaf guibg=#343434 gui=bold
+    hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=235
+    hi PmenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=187 ctermbg=235 cterm=bold
+    hi MatchParen    guifg=#b2b2a0 guibg=#2e2e2e gui=bold  ctermfg=145 ctermbg=236 cterm=bold
+    hi SignColumn    guibg=#343434                         ctermbg=236
     hi SpecialKey    guibg=#444444
     hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none  ctermbg=235 ctermfg=187 cterm=none
     hi TabLineSel    guifg=#f0f0b0 guibg=#333333 gui=bold  ctermbg=236 ctermfg=229 cterm=bold
-    hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none  ctermbg=233 ctermfg=233 cterm=bold
+    hi TabLineFill   guifg=#dccdcc guibg=#101010 gui=none  ctermbg=233 ctermfg=188 cterm=none
 
     hi StatusLine    ctermbg=144
 endif
