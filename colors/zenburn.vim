@@ -262,77 +262,19 @@ hi VisualNOS       guifg=#333333 guibg=#f18c96 gui=bold,underline ctermfg=236 ct
 hi WarningMsg      guifg=#ffffff guibg=#333333 gui=bold       ctermfg=231 ctermbg=236 cterm=bold
 hi WildMenu        guifg=#cbecd0 guibg=#2c302d gui=underline  ctermfg=194 ctermbg=236 cterm=underline
 
-hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c
-hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc
-hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc
-hi SpellLocal guisp=#7cac7c guifg=#9ccc9c
+" spellchecking, always "bright" term background
+hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c  ctermfg=9   ctermbg=237
+hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc  ctermfg=12  ctermbg=237
+hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc  ctermfg=13  ctermbg=237
+hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=14  ctermbg=237
 
 " Entering Kurt zone
 if &t_Co > 255
-    hi LineNr          ctermfg=248   ctermbg=233
-    hi MatchParen      ctermfg=229   ctermbg=237     cterm=bold
-
-    " spellchecking, always "bright" background
-    hi SpellLocal ctermfg=14  ctermbg=237
-    hi SpellBad   ctermfg=9   ctermbg=237
-    hi SpellCap   ctermfg=12  ctermbg=237
-    hi SpellRare  ctermfg=13  ctermbg=237
-
-    " pmenu
-    hi PMenu      ctermfg=248  ctermbg=0
-    hi PMenuSel   ctermfg=223 ctermbg=235
-
     if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
-        hi Normal ctermfg=188 ctermbg=234
-        hi NonText         ctermfg=238
-
-        if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
-            hi Ignore          ctermfg=238
-        endif
-
-        " hc mode, darker CursorLine, default 236
-        hi CursorLine      ctermbg=233   cterm=none
-
-        if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-            hi CursorColumn      ctermbg=233   cterm=none
-        else
-            hi CursorColumn      ctermbg=235   cterm=none
-        endif
-
-        hi ColorColumn     ctermbg=235
     else
-        hi Normal ctermfg=188 ctermbg=237
-        hi Cursor          ctermbg=109
-        hi diffadd         ctermbg=237
-        hi diffdelete      ctermbg=238
-        hi difftext        ctermbg=237
         hi errormsg        ctermbg=237
         hi linenr          ctermbg=235
         hi statusline      ctermbg=144
-        hi statuslinenc    ctermbg=108
-        hi title           ctermbg=237
-        hi todo            ctermbg=237
-        hi underlined      ctermbg=237
-        hi vertsplit       ctermbg=65
-        hi visualnos       ctermbg=210
-        hi warningmsg      ctermbg=236
-        hi wildmenu        ctermbg=236
-        hi NonText         ctermfg=240
-
-        if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
-            hi Ignore          ctermfg=240
-        endif
-
-        " normal mode, lighter CursorLine
-        hi CursorLine      ctermbg=238   cterm=none
-
-        if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-            hi CursorColumn      ctermbg=238   cterm=none
-        else
-            hi CursorColumn      ctermbg=239   cterm=none
-        endif
-
-        hi ColorColumn     ctermbg=238
     endif
 endif
 
@@ -346,44 +288,44 @@ endif
 
 if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     " use new darker background
-    hi Normal          guifg=#dcdccc guibg=#1f1f1f
-    hi CursorLine      guibg=#121212 gui=bold
+    hi Normal          guifg=#dcdccc guibg=#1f1f1f           ctermfg=188 ctermbg=234
+    hi CursorLine      guibg=#121212 gui=bold                ctermbg=233 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-        hi CursorColumn    guibg=#121212 gui=bold
+        hi CursorColumn    guibg=#121212 gui=bold            ctermbg=233 cterm=none
     else
-        hi CursorColumn    guibg=#2b2b2b
+        hi CursorColumn    guibg=#2b2b2b                     ctermbg=235 cterm=none
     endif
     hi Pmenu           guibg=#242424 guifg=#ccccbc
     hi PMenuSel        guibg=#353a37 guifg=#ccdc90 gui=bold
     hi PmenuSbar       guibg=#2e3330 guifg=#000000
     hi PMenuThumb      guibg=#a0afa0 guifg=#040404
-    hi MatchParen      guifg=#f0f0c0 guibg=#383838 gui=bold
+    hi MatchParen      guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
     hi SignColumn      guifg=#9fafaf guibg=#181818 gui=bold
-    hi NonText         guifg=#404040 gui=bold
+    hi NonText         guifg=#404040 gui=bold                ctermfg=238
 
-    hi LineNr          guifg=#9fafaf guibg=#161616
+    hi LineNr          guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
 
-    hi ColorColumn     guibg=#33332f
+    hi ColorColumn     guibg=#33332f                         ctermbg=235
 else
     " Original, lighter background
-    hi Normal          guifg=#dcdccc guibg=#3f3f3f
-    hi CursorLine      guibg=#434443
+    hi Normal          guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
+    hi CursorLine      guibg=#434443                         ctermbg=238 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
-        hi CursorColumn    guibg=#434343
+        hi CursorColumn    guibg=#434343                     ctermbg=238 cterm=none
     else
-        hi CursorColumn    guibg=#4f4f4f
+        hi CursorColumn    guibg=#4f4f4f                     ctermbg=239 cterm=none
     endif
-    hi Pmenu           guibg=#2c2e2e guifg=#9f9f9f
-    hi PMenuSel        guibg=#242424 guifg=#d0d0a0 gui=bold
+    hi Pmenu           guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=0
+    hi PMenuSel        guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=223 ctermbg=235
     hi PmenuSbar       guibg=#2e3330 guifg=#000000
     hi PMenuThumb      guibg=#a0afa0 guifg=#040404
     hi MatchParen      guifg=#b2b2a0 guibg=#2e2e2e gui=bold
     hi SignColumn      guifg=#9fafaf guibg=#343434 gui=bold
-    hi NonText         guifg=#5b605e gui=bold
+    hi NonText         guifg=#5b605e gui=bold                ctermfg=240
 
     hi LineNr          guifg=#9fafaf guibg=#262626
 
-    hi ColorColumn     guibg=#484848
+    hi ColorColumn     guibg=#484848                         ctermbg=238
 endif
 
 if exists("g:zenburn_transparent") && g:zenburn_transparent
@@ -454,7 +396,11 @@ endif
 if exists("g:zenburn_color_also_Ignore") && g:zenburn_color_also_Ignore
     " color the Ignore groups
     " note: if you get strange coloring for your files, turn this off (unlet)
-    hi Ignore guifg=#545a4f
+    if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
+        hi Ignore                ctermfg=238
+    else
+        hi Ignore guifg=#545a4f  ctermfg=240
+    endif
 endif
 
 " new tabline and fold column
