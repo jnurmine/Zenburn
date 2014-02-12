@@ -276,6 +276,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi Normal        guifg=#dcdccc guibg=#1f1f1f           ctermfg=188 ctermbg=234
     hi ColorColumn   guibg=#33332f                         ctermbg=235
     hi CursorLine    guibg=#121212 gui=bold                ctermbg=233 cterm=none
+    hi CursorLineNr  guifg=#404040 guibg=#161616           ctermfg=238 ctermbg=233
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn  guibg=#121212 gui=bold            ctermbg=233 cterm=none
     else
@@ -298,6 +299,7 @@ else
     hi Normal        guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
     hi ColorColumn   guibg=#484848                         ctermbg=238
     hi CursorLine    guibg=#434443                         ctermbg=238 cterm=none
+    hi CursorLineNr  guifg=#5b605e guibg=#262626           ctermfg=240 ctermbg=235
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn  guibg=#434343                     ctermbg=238 cterm=none
     else
@@ -358,7 +360,7 @@ else
         "hi VisualNos     guibg=#304a3d
         "TODO no nice greenish in console, 65 is closest. use full black instead,
         "although i like the green..!
-        hi Visual        guibg=#0f0f0f  ctermbg=0
+        hi Visual        guibg=#0f0f0f  ctermbg=232
         hi VisualNos     guibg=#0f0f0f
         if exists("g:zenburn_transparent") && g:zenburn_transparent
             hi Visual ctermbg=235
