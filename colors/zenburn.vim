@@ -345,12 +345,12 @@ if exists("g:zenburn_old_Visual") && g:zenburn_old_Visual
     if exists("g:zenburn_alternate_Visual") && g:zenburn_alternate_Visual
         " Visual with more contrast, thanks to Steve Hall & Cream posse
         " gui=none fixes weird highlight problem in at least GVim 7.0.66, thanks to Kurt Maier
-        hi Visual          guifg=#000000 guibg=#71d3b4 gui=none
-        hi VisualNOS       guifg=#000000 guibg=#71d3b4 gui=none
+        hi Visual          guifg=#000000 guibg=#71d3b4 gui=none  ctermfg=16  ctermbg=79  cterm=none
+        hi VisualNOS       guifg=#000000 guibg=#71d3b4 gui=none  ctermfg=16  ctermbg=79  cterm=none
     else
         " use default visual
-        hi Visual          guifg=#233323 guibg=#71d3b4 gui=none
-        hi VisualNOS       guifg=#233323 guibg=#71d3b4 gui=none
+        hi Visual          guifg=#233323 guibg=#71d3b4 gui=none  ctermfg=235 ctermbg=79  cterm=none
+        hi VisualNOS       guifg=#233323 guibg=#71d3b4 gui=none  ctermfg=235 ctermbg=79  cterm=none
     endif
 else
     " new Visual style
@@ -361,7 +361,7 @@ else
         "TODO no nice greenish in console, 65 is closest. use full black instead,
         "although i like the green..!
         hi Visual        guibg=#0f0f0f  ctermbg=232
-        hi VisualNos     guibg=#0f0f0f
+        hi VisualNOS     guibg=#0f0f0f  ctermbg=232
         if exists("g:zenburn_transparent") && g:zenburn_transparent
             hi Visual ctermbg=235
         endif
@@ -377,7 +377,7 @@ if exists("g:zenburn_alternate_Error") && g:zenburn_alternate_Error
     hi Error    guifg=#e37170 guibg=#664040 gui=bold  ctermfg=210 ctermbg=52 cterm=bold
 else
     " default is something more zenburn-compatible
-    hi Error    guifg=#e37170 guibg=#3d3535 gui=none  ctermfg=167 ctermbg=236 cterm=bold
+    hi Error    guifg=#e37170 guibg=#3d3535 gui=bold  ctermfg=167 ctermbg=236 cterm=bold
 endif
 
 if exists("g:zenburn_alternate_Include") && g:zenburn_alternate_Include
