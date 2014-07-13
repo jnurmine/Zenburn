@@ -1,6 +1,5 @@
 " Vim color file
 " Maintainer:   Jani Nurminen <slinky@iki.fi>
-" Version:      v 2.24
 " URL:          http://slinky.imukuppi.org/zenburnpage/
 " License:      GNU GPL <http://www.gnu.org/licenses/gpl.html>
 "
