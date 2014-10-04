@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Jani Nurminen <slinky@iki.fi>
-" URL:          http://slinky.imukuppi.org/zenburnpage/
+" URL:          http://kippura.org/zenburnpage/
 " License:      GNU GPL <http://www.gnu.org/licenses/gpl.html>
 "
 " Nothing too fancy, just some alien fruit salad to keep you in the zone.
