@@ -140,6 +140,10 @@
 "   or 
 "      let g:zenburn_alternate_Include = 0
 "
+" * To remove the backgroind color or to use with terminal 
+"   with transparent background, use
+"
+"      let g:zenburn_terminal_Background = 1
 "
 " That's it, enjoy!
 "
@@ -464,4 +468,11 @@ if exists("g:zenburn_enable_TagHighlight") && g:zenburn_enable_TagHighlight
 endif
 
 " TODO check for more obscure syntax groups that they're ok
+
+if exists("g:zenburn_terminal_Background") && g:zenburn_terminal_Background
+    " no background color for transparent terminals
+        hi Normal ctermbg=none
+        hi statement ctermbg=none
+        hi todo ctermbg=none
+endif
 
