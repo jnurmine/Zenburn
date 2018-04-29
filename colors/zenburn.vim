@@ -463,5 +463,9 @@ if exists("g:zenburn_enable_TagHighlight") && g:zenburn_enable_TagHighlight
         hi link Union             WarningMsg
 endif
 
-" TODO check for more obscure syntax groups that they're ok
+" Terminal support for Vim 8+
+if version >= 800
+    hi Terminal ctermbg=232 guibg=#0f0f0f ctermfg=248 guifg=#a8a8a8
+endif
 
+" TODO check for more obscure syntax groups that they're ok
