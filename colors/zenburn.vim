@@ -357,8 +357,8 @@ else
     " new Visual style
     if exists("g:zenburn_alternate_Visual") && g:zenburn_alternate_Visual
         " brighter than the high/low contrast options below
-        hi Visual        guibg=#304a3d
-        hi VisualNos     guibg=#304a3d
+        hi Visual        guibg=#304a3d  ctermbg=23
+        hi VisualNos     guibg=#304a3d  ctermbg=23
     elseif exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
         " high contrast
         "TODO no nice greenish in console, 65 is closest. use full black instead,
