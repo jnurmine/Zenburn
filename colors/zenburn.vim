@@ -75,12 +75,12 @@
 "
 "      let g:zenburn_color_also_Ignore = 1
 "
-" * To get more contrast to the Visual selection, use
+" * To increase the contrast/brightness of the Visual selection, use
 "
 "      let g:zenburn_alternate_Visual = 1
 "
-"   Note: this is enabled only if the old-style Visual
-"   if used, see g:zenburn_old_Visual
+"   Note: if the old-style Visual is used, this increases the contrast.
+"   Otherwise it chooses a brighter background; see g:zenburn_old_Visual
 "
 " * To use alternate colouring for Error message, use
 "
@@ -355,10 +355,12 @@ if exists("g:zenburn_old_Visual") && g:zenburn_old_Visual
     endif
 else
     " new Visual style
-    if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
+    if exists("g:zenburn_alternate_Visual") && g:zenburn_alternate_Visual
+        " brighter than the high/low contrast options below
+        hi Visual        guibg=#304a3d
+        hi VisualNos     guibg=#304a3d
+    elseif exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
         " high contrast
-        "hi Visual        guibg=#304a3d
-        "hi VisualNos     guibg=#304a3d
         "TODO no nice greenish in console, 65 is closest. use full black instead,
         "although i like the green..!
         hi Visual        guibg=#0f0f0f  ctermbg=232
