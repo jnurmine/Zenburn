@@ -1,4 +1,4 @@
-ZENBURN
+# ZENBURN
 
 Zenburn is a low-contrast color scheme for Vim. It’s easy for your eyes and
 designed to keep you in the zone for long programming sessions.
@@ -6,14 +6,16 @@ designed to keep you in the zone for long programming sessions.
 Zenburn has been ported to many different editors and environments. For more
 information and list of derivatives, visit http://kippura.org/zenburnpage
 
-No:
+### No:
+
   - dayglo vomit
   - black, red, blue and green on screaming white background
   - headache
   - watery, squinting eyes
   - the "I wanna run away" feeling
 
-Yes:
+### Yes:
+
   + alien fruit salad
   + harmonious colors help with concentration
   + improved focus
@@ -25,53 +27,48 @@ Yes:
   + customizeable
   + etc.
 
-
-INSTALLATION
+### INSTALLATION
 
 To use Zenburn in GVim, simply copy the file to colors/ subdirectory under your
-Vim configuration folder (e.g. ~/.vim/colors or C:\vim\colors).
+Vim configuration folder (e.g. `~/.vim/colors` or `C:\vim\colors`).
 
 To use Zenburn in Vim, you must enable the 256-color mode for Vim. This can be
-done with e.g. export TERM=xterm-256color. You might also need to add 
-set t_Co=256 into your .vimrc file, before loading the colorscheme. Note, that
+done with e.g. `export TERM=xterm-256color`. You might also need to add 
+`set t_Co=256` into your `.vimrc` file, before loading the colorscheme. Note, that
 due to limitations of the 256-color mode the color scheme is not exactly like
 it appears in GVim, but very close nevertheless.
 
 To load Zenburn in Vim/GVim:
 
-  :colors zenburn
+  `:colors zenburn`
 
-To automatically load the colors upon startup of Vim, add this to .vimrc:
+To automatically load the colors upon startup of Vim, add this to `.vimrc`:
 
-  colors zenburn
+  `colors zenburn`
 
-
-LICENSE
+### LICENSE
 
 GNU GPL, http://www.gnu.org/licenses/gpl.html
 
+### DEVELOPERS
 
-DEVELOPERS
-
-Captain Obvious says: make a symlink from ~/.vim/colors/zenburn.vim which
-points to the real zenburn.vim. This way you don't need to copy files around
+Captain Obvious says: make a symlink from `~/.vim/colors/zenburn.vim` which
+points to the real `zenburn.vim`. This way you don't need to copy files around
 and making the Vimball is easy!
 
-MAKING A VIMBALL
+### MAKING A VIMBALL
 
-To make a Vimball, open zb-vimball.txt and then :MkVimball zenburn.vba
+To make a Vimball, open `zb-vimball.txt` and then `:MkVimball zenburn.vba`
 
-
-THANKS
+### THANKS
 
   * Creators of "BlackDust", "Camo" and "Desert" themes. I used those to figure out
 how the Vim color schemes work in practise.
-  * All contributors - see zenburn.vim for a list.
+  * All contributors - see `zenburn.vim` for a list.
   * All people who made derivatives and ports.
   * All zenburners worldwide!
 
-
-PARTING WORDS
+### PARTING WORDS
 
 Thank you for enjoying “Just some alien fruit salad to keep you in the zone”!
 
