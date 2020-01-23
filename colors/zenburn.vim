@@ -120,6 +120,18 @@
 "
 "   Default is to use the new Visual.
 "
+"  * Italic comments can be enabled with
+"
+"      let g:zenburn_italic_Comment=1
+"
+"   Note: This requires the terminal to support italics. Try this in your
+"   terminal:
+"
+"      echo -e "\e[3m test \e[23m"
+"
+"   and if the output is not italic, then you should not enable italic comments,
+"   as they will not render correctly.
+"
 "  * EXPERIMENTAL FEATURE: Zenburn would like to support TagHighlight
 "    (an evolved ctags-highlighter) by Al Budden (homepage:
 "    http://www.cgtk.co.uk/vim-scripts/taghighlight).
@@ -197,6 +209,10 @@ if ! exists("g:zenburn_enable_TagHighlight")
     let g:zenburn_enable_TagHighlight = 0
 endif
 
+if ! exists("g:zenburn_italic_Comment")
+    let g:zenburn_italic_Comment = 0
+endif
+
 " -----------------------------------------------
 
 set background=dark
@@ -209,6 +225,11 @@ let g:colors_name="zenburn"
 
 hi Boolean         guifg=#dca3a3                              ctermfg=181
 hi Character       guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
+if exists("g:zenburn_italic_Comment") && g:zenburn_italic_Comment
+    hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108 cterm=italic
+else
+    hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
+endif
 hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
 hi Conditional     guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Constant        guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
