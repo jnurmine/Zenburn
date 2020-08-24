@@ -228,9 +228,9 @@ hi Character       guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=
 if exists("g:zenburn_italic_Comment") && g:zenburn_italic_Comment
     hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108 cterm=italic
 else
-    hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
+    hi Comment         guifg=#7f9f7f                              ctermfg=108
 endif
-hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
+hi Comment         guifg=#7f9f7f                              ctermfg=108
 hi Conditional     guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Constant        guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi Cursor          guifg=#000d18 guibg=#8faf9f gui=bold       ctermfg=233 ctermbg=109 cterm=bold
