@@ -49,7 +49,7 @@ To automatically load the colors upon startup of Vim, add this to `.vimrc`:
 ### SCREENSHOT
 
 <p align="center">
-  <img src="https://kippura.org/images/zenburn.png" alt="Zenburn in normal contrast mode" />
+  <img src="https://github.com/jnurmine/Zenburn/blob/media/zenburn.png" alt="Zenburn in normal contrast mode" />
 </p>
 
 ### LICENSE
