@@ -491,6 +491,19 @@ endif
 " Terminal support for Vim 8+
 if version >= 800
     hi Terminal ctermbg=232 guibg=#0f0f0f ctermfg=248 guifg=#a8a8a8
+
+    if version >= 802
+        let g:terminal_ansi_colors = [
+            \ '#1f1f1f', '#cc9393',
+            \ '#5f7f5f', '#ffd7a7',
+            \ '#8cb0d3', '#8f8f8f',
+            \ '#71d3b4', '#dfe4cf',
+            \ '#6f6f6f', '#ecb3b3',
+            \ '#ffd7a7', '#8cb0d3',
+            \ '#8f8f8f', '#71d3b4',
+            \ '#dfe4cf', '#ffcfaf',
+            \]
+    endif
 endif
 
 " TODO check for more obscure syntax groups that they're ok
