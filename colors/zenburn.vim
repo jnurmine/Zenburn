@@ -138,6 +138,10 @@
 "   and if the output is not italic, then you should not enable italic comments,
 "   as they will not render correctly.
 "
+"  * If you prefer line numbers to be less visible, use
+"
+"      let g:zenburn_subdued_LineNr=1
+"
 "  * EXPERIMENTAL FEATURE: Zenburn would like to support TagHighlight
 "    (an evolved ctags-highlighter) by Al Budden (homepage:
 "    http://www.cgtk.co.uk/vim-scripts/taghighlight).
@@ -221,6 +225,10 @@ endif
 
 if ! exists("g:zenburn_italic_Comment")
     let g:zenburn_italic_Comment = 0
+endif
+
+if ! exists("g:zenburn_subdued_LineNr")
+    let g:zenburn_subdued_LineNr = 0
 endif
 
 " -----------------------------------------------
@@ -328,7 +336,12 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi CursorLineNr  guifg=#f2f3bb guibg=#161616           ctermfg=229 ctermbg=233
     hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
     hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
-    hi LineNr        guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
+
+    if exists("g:zenburn_subdued_LineNr") && g:zenburn_subdued_LineNr
+        hi LineNr        guifg=#424242 guibg=#1b1b1b           ctermfg=238 ctermbg=234
+    else
+        hi LineNr        guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
+    endif
     hi NonText       guifg=#404040 gui=bold                ctermfg=238
     hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
     hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
@@ -352,7 +365,11 @@ else
     endif
     hi FoldColumn    guibg=#333333                         ctermbg=236 ctermfg=109
     hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
-    hi LineNr        guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
+    if exists("g:zenburn_subdued_LineNr") && g:zenburn_subdued_LineNr
+        hi LineNr        guifg=#5d6262 guibg=#353535           ctermfg=240 ctermbg=236
+    else
+        hi LineNr        guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
+    endif
     hi NonText       guifg=#5b605e gui=bold                ctermfg=240
     hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=235
     hi PmenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=187 ctermbg=235 cterm=bold
