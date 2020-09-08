@@ -333,7 +333,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
 
         hi CursorLine    guibg=#121212 gui=bold                ctermbg=233 cterm=bold
     endif
-    hi CursorLineNr  guifg=#f2f3bb guibg=#161616           ctermfg=229 ctermbg=233
+    hi CursorLineNr  guifg=#f2f3bb guibg=#161616           ctermfg=229 ctermbg=233 cterm=none
     hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
     hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
 
@@ -357,7 +357,7 @@ else
     hi Conceal       guifg=#8f8f8f guibg=#484848           ctermfg=246 ctermbg=238
     hi ColorColumn   guibg=#484848                         ctermbg=238
     hi CursorLine    guibg=#434443                         ctermbg=238 cterm=none
-    hi CursorLineNr  guifg=#d2d39b guibg=#262626           ctermfg=230 ctermbg=235
+    hi CursorLineNr  guifg=#d2d39b guibg=#262626           ctermfg=230 ctermbg=235 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn  guibg=#434343                     ctermbg=238 cterm=none
     else
