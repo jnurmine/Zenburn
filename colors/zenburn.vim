@@ -345,7 +345,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi NonText       guifg=#404040 gui=bold                ctermfg=238
     hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
     hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
-    hi MatchParen    guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
+    hi MatchParen    guifg=#f8f893 guibg=#385f38 gui=bold  ctermfg=228 ctermbg=23 cterm=bold
     hi SignColumn    guibg=#181818                         ctermbg=233
     hi SpecialKey    guibg=#242424
     hi TabLine       guifg=#88b090 guibg=#313633 gui=none  ctermbg=236 ctermfg=108 cterm=none
@@ -373,7 +373,7 @@ else
     hi NonText       guifg=#5b605e gui=bold                ctermfg=240
     hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=235
     hi PmenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=187 ctermbg=235 cterm=bold
-    hi MatchParen    guifg=#b2b2a0 guibg=#2e2e2e gui=bold  ctermfg=145 ctermbg=236 cterm=bold
+    hi MatchParen    guifg=#ffffe0 guibg=#284f28 gui=bold  ctermfg=230 ctermbg=22  cterm=bold
     hi SignColumn    guibg=#343434                         ctermbg=236
     hi SpecialKey    guibg=#444444
     hi TabLine       guifg=#d0d0b8 guibg=#222222 gui=none  ctermbg=235 ctermfg=187 cterm=none
