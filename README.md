@@ -69,7 +69,7 @@ To make a Vimball, open `zb-vimball.txt` and then `:MkVimball zenburn.vba`
 ### THANKS
 
   * Creators of "BlackDust", "Camo" and "Desert" themes. I used those to figure out
-how the Vim color schemes work in practise.
+how the Vim color schemes work in practice.
   * All contributors - see `zenburn.vim` for a list.
   * All people who made derivatives and ports.
   * All zenburners worldwide!
